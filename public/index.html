@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contest Scout</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>Contest Scout</h1>
+    <p class="sub">Read contest pages, rank what your team can actually win, and plan it to the deadline.</p>
+  </div>
+  <span id="mode" class="badge">…</span>
+</header>
+
+<main class="grid">
+  <section class="panel" aria-labelledby="add-h">
+    <h2 id="add-h">1. Add a contest</h2>
+    <form id="analyze-form">
+      <label>Contest URL <input id="url" type="url" placeholder="https://…devpost.com/rules"></label>
+      <label>…or paste the page text <textarea id="text" rows="6" placeholder="Paste rules, prizes, eligibility, deadline…"></textarea></label>
+      <div class="row">
+        <label class="inline">Output
+          <select id="lang"><option value="en">English</option><option value="ko">한국어</option></select>
+        </label>
+        <button id="analyze-btn" type="submit">Analyze</button>
+      </div>
+      <p id="analyze-msg" class="msg" role="status"></p>
+    </form>
+
+    <details>
+      <summary>Find contests on the web</summary>
+      <form id="discover-form" class="row">
+        <input id="query" placeholder="AI image contest Korea October 2026">
+        <button type="submit">Search</button>
+      </form>
+      <ul id="discover-list" class="links"></ul>
+    </details>
+
+    <details>
+      <summary>Team profile (used for scoring)</summary>
+      <label>Who we are <textarea id="p-who" rows="2"></textarea></label>
+      <label>Strengths <textarea id="p-strengths" rows="2"></textarea></label>
+      <label>Can't do <textarea id="p-limits" rows="2"></textarea></label>
+      <label>Country / language <input id="p-country"></label>
+      <label>Hours per week <input id="p-hours" type="number" min="0"></label>
+      <button id="profile-save" type="button" class="ghost">Save profile</button>
+    </details>
+  </section>
+
+  <section class="panel wide" aria-labelledby="board-h">
+    <div class="row between">
+      <h2 id="board-h">2. Board</h2>
+      <div class="row">
+        <label class="inline"><input id="hide-skip" type="checkbox" checked> Hide skipped</label>
+        <button id="export-md" class="ghost" type="button">Export .md</button>
+      </div>
+    </div>
+    <ol id="board" class="board"></ol>
+    <p id="board-empty" class="empty">No contests yet. Add one on the left, or <button id="load-sample" class="link" type="button">load the sample board</button>.</p>
+  </section>
+
+  <section id="detail" class="panel wide" hidden aria-labelledby="detail-h">
+    <div class="row between">
+      <h2 id="detail-h">3. Plan</h2>
+      <div class="row">
+        <button id="export-ics" class="ghost" type="button">Add to calendar (.ics)</button>
+        <button id="remove" class="ghost danger" type="button">Remove</button>
+      </div>
+    </div>
+    <div id="detail-body"></div>
+  </section>
+</main>
+
+<footer class="foot">Facts come from the page text with quoted evidence. Always check the official rules before you submit.</footer>
+<script src="app.js"></script>
+</body>
+</html>

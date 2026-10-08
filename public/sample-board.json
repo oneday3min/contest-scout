@@ -1,0 +1,68 @@
+[
+  {
+    "id": "sample-nebius",
+    "mode": "sample",
+    "source": "https://nebiusglobalaihackathon.devpost.com/rules",
+    "contest": {
+      "name": "Nebius x NVIDIA Global AI Hackathon",
+      "organizer": "Nebius B.V. (administered by Devpost)",
+      "url": "https://nebiusglobalaihackathon.devpost.com/",
+      "deadline": { "iso": "2026-10-30T10:00:00-07:00", "as_written": "Friday, October 30, 2026 (10:00 am Pacific Time)", "evidence": "Submission Period: Wednesday, August 26, 2026 (9:00 am Pacific Time) – Friday, October 30, 2026 (10:00 am Pacific Time)" },
+      "eligibility": { "summary": "Individuals at the age of majority, teams or organizations; sanctioned regions excluded", "individuals_ok": true, "online": true, "countries": "All except e.g. Brazil, Quebec, Russia, Crimea, Cuba, Iran, North Korea", "age": "Age of majority where you live", "evidence": "Individuals who are at least the age of majority where they reside as of the time of entry" },
+      "prizes": { "summary": "$20,000 / $10,000 / $6,000 overall, track Jetson Orin Nano, Tavily $3,000, 10 × $100 feedback", "cash": true, "top_amount": "$20,000", "winner_count": 37, "evidence": "Grand Prize $20,000 USD 1" },
+      "deliverables": [
+        { "item": "Working app that calls Nebius Token Factory and uses an NVIDIA open model", "evidence": "the project makes a runtime call to the Token Factory inference API" },
+        { "item": "Public repo with open-source license and README", "evidence": "The repository must be public and open source by including an open source license file" },
+        { "item": "Public YouTube demo under 3 minutes", "evidence": "should be less than three (3) minutes" },
+        { "item": "English description and feedback form", "evidence": "All Submission materials must be in English" }
+      ],
+      "judging": ["Technological implementation", "Design", "Potential impact", "Quality of the idea"],
+      "required_tech": ["Nebius Token Factory or AI Cloud", "NVIDIA Nemotron or other NVIDIA open model"],
+      "language": "English",
+      "red_flags": ["About 19,000 registered participants"]
+    },
+    "score": {
+      "scores": { "win_odds": 2, "deadline": 4, "resources": 3, "cash": 5 },
+      "total": 14,
+      "verdict": "go",
+      "why": ["Online and open to individuals in Korea", "Top prizes are a long shot, but 10 feedback prizes and track awards are reachable", "Three weeks is enough for a focused web app"],
+      "blockers": ["Needs a public GitHub repo and a YouTube video"],
+      "plan": [
+        { "date": "2026-10-09", "task": "Sign up for Devpost and the Nebius Builder Program", "owner": "human-only" },
+        { "date": "2026-10-12", "task": "First working version calling Nemotron", "owner": "team" },
+        { "date": "2026-10-20", "task": "Polish UI, README, license", "owner": "team" },
+        { "date": "2026-10-24", "task": "Record and upload 3-minute demo video", "owner": "human-only" },
+        { "date": "2026-10-27", "task": "Submit on Devpost (3 days of buffer)", "owner": "human-only" }
+      ]
+    }
+  },
+  {
+    "id": "sample-paypal",
+    "mode": "sample",
+    "source": "https://paypalaihackathon.devpost.com/rules",
+    "contest": {
+      "name": "PayPal AI Hackathon",
+      "organizer": "PayPal Inc. (administered by Devpost)",
+      "url": "https://paypalaihackathon.devpost.com/",
+      "deadline": { "iso": "2026-11-12T12:00:00-08:00", "as_written": "Thursday Nov 12, 2026 (12:00 pm Pacific Time)", "evidence": "Thursday Oct 1, 2026 (9:15 am Pacific Time) – Thursday Nov 12, 2026 (12:00 pm Pacific Time)" },
+      "eligibility": { "summary": "Individuals at the age of majority, teams or organizations; sanctioned regions excluded", "individuals_ok": true, "online": true, "countries": null, "age": "Age of majority", "evidence": "Individuals who are at least the age of majority where they reside" },
+      "prizes": { "summary": "Cash prizes (amount not checked on the rules page)", "cash": true, "top_amount": null, "winner_count": null, "evidence": null },
+      "deliverables": [
+        { "item": "App where PayPal sandbox integration is central, plus any AI tool", "evidence": "Any AI tool works, as long as PayPal integration is central to the project." },
+        { "item": "Public repo with license, demo video under 3 minutes", "evidence": "should be less than three (3) minutes" }
+      ],
+      "judging": [],
+      "required_tech": ["PayPal developer platform (sandbox)"],
+      "language": "English",
+      "red_flags": []
+    },
+    "score": {
+      "scores": { "win_odds": 1, "deadline": 5, "resources": 1, "cash": 5 },
+      "total": 12,
+      "verdict": "skip",
+      "why": ["Payments must be the core of the app", "Our products have no payment flow", "Better to focus on one hackathon"],
+      "blockers": ["No payment use case"],
+      "plan": []
+    }
+  }
+]
