@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Nebius x NVIDIA rules (English, PDT)",
+    "url": "https://nebiusglobalaihackathon.devpost.com/rules",
+    "expect": { "deadline_kst": "2026-10-31 02:00", "individuals_ok": true, "online": [true, null] }
+  },
+  {
+    "name": "PayPal AI rules (English, PST)",
+    "url": "https://paypalaihackathon.devpost.com/rules",
+    "expect": { "deadline_kst": "2026-11-13 05:00", "individuals_ok": true }
+  },
+  {
+    "name": "전국민 AI활용 사례 공모전 시즌3 (Korean, KST)",
+    "url": "https://superookie.com/activities/6a97d4a5484fd64fe11240d5",
+    "lang": "ko",
+    "expect": { "deadline_kst": "2026-10-31 23:59", "individuals_ok": [true, null] }
+  },
+  {
+    "name": "Closed contest must be skipped (pasted text)",
+    "text": "SK hynix AI Hackathon 2026. Registration closes September 28, 2026 23:59 KST. Open to everyone regardless of degree. Two online preliminary rounds, final offline at COEX Seoul on November 11. Total prize 100,000,000 KRW.",
+    "expect": { "verdict": "skip" }
+  }
+]
