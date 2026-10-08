@@ -96,6 +96,33 @@ function isPrivateIp(ip) {
   return v === '::1' || v.startsWith('fc') || v.startsWith('fd') || v.startsWith('fe80') || v.startsWith('::ffff:127.') || v === '::';
 }
 
+// Tavily Extract: reads pages that block plain fetches or render with JavaScript.
+async function tavilyExtract(url) {
+  const r = await fetch('https://api.tavily.com/extract', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${TAVILY_KEY}` },
+    signal: AbortSignal.timeout(45000),
+    body: JSON.stringify({ urls: [url], extract_depth: 'basic' }),
+  });
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(`Tavily extract error ${r.status}`);
+  const text = (data.results?.[0]?.raw_content || '').trim();
+  if (!text) throw new Error('Tavily could not read this page');
+  return text.slice(0, MAX_PAGE_CHARS);
+}
+
+// Read a contest page: direct fetch first, Tavily Extract when blocked or nearly empty.
+async function readPage(url) {
+  let direct = '', why = '';
+  try { direct = await fetchPage(url); } catch (e) { why = e.message; }
+  if (direct.length >= 800 || !TAVILY_KEY) {
+    if (!direct) throw new Error(why);
+    return { text: direct, via: 'direct' };
+  }
+  if (why.startsWith('Local') || why.startsWith('Only') || why.startsWith('Not a valid')) throw new Error(why);
+  return { text: await tavilyExtract(url), via: 'tavily-extract' };
+}
+
 // Fetch a public contest page as plain text. Refuses local/private addresses.
 async function fetchPage(url) {
   let u;
@@ -250,14 +277,14 @@ async function analyze(body, ip) {
   const lang = body.lang === 'ko' ? 'Korean' : 'English';
   let text = (body.text || '').trim();
   const url = (body.url || '').trim();
-  let source = 'pasted text';
-  if (!text && url) { text = await fetchPage(url); source = url; }
+  let source = 'pasted text', via = 'pasted';
+  if (!text && url) { ({ text, via } = await readPage(url)); source = url; }
   if (text.length < 40) throw new Error('Paste the contest page text or give a public URL');
   text = text.slice(0, MAX_PAGE_CHARS);
 
   if (!NEBIUS_KEY) {
     const contest = demoExtract(text, url, today);
-    return { mode: 'demo', source, contest, score: demoScore(contest, today), usage: [] };
+    return { mode: 'demo', source, via, contest, score: demoScore(contest, today), usage: [] };
   }
 
   const key = cacheKey({ text, lang, today, profile: body.profile || {} });
@@ -278,7 +305,7 @@ async function analyze(body, ip) {
     8000,
   );
   const score = parseJson(sc.content);
-  const value = { mode: 'live', source, contest, score, usage: [{ step: 'extract', model: ex.model, ...ex.usage }, { step: 'score', model: sc.model, ...sc.usage }] };
+  const value = { mode: 'live', source, via, contest, score, usage: [{ step: 'extract', model: ex.model, ...ex.usage }, { step: 'score', model: sc.model, ...sc.usage }] };
   if (cache.size > 500) cache.delete(cache.keys().next().value);
   cache.set(key, { at: Date.now(), value });
   return value;
@@ -292,11 +319,12 @@ async function discover(body) {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${TAVILY_KEY}` },
     signal: AbortSignal.timeout(30000),
-    body: JSON.stringify({ query, search_depth: 'basic', max_results: 8, include_answer: false }),
+    // Recent pages only: open calls change every month.
+    body: JSON.stringify({ query: `${query} contest OR hackathon OR competition deadline`, search_depth: 'basic', max_results: 8, include_answer: false, time_range: 'month' }),
   });
   const data = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error(`Tavily error ${r.status}: ${data.detail || data.error || ''}`);
-  return { mode: 'live', results: (data.results || []).map((x) => ({ title: x.title, url: x.url, snippet: (x.content || '').slice(0, 220) })) };
+  return { mode: 'live', results: (data.results || []).map((x) => ({ title: x.title, url: x.url, score: x.score, snippet: (x.content || '').slice(0, 220) })) };
 }
 
 const MIME = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png' };
