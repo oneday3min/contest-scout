@@ -2,6 +2,9 @@
 
 **Read contest pages, rank what your team can actually win, and plan it to the deadline.**
 
+- Live demo: https://contest-scout.onrender.com (free instance: the first load after it has been idle can take about a minute)
+- Demo video: https://youtu.be/CN2jn5aj8SU
+
 Small creator teams lose prize money in two ways: they miss contests they could have won, and they spend weeks on contests they never had a chance in. Rules pages are long, deadlines come in different time zones, and the details that decide everything (who can enter, how many winners there are, what you have to hand in) are buried in legal text.
 
 Contest Scout reads the page for you with NVIDIA Nemotron on Nebius Token Factory:
