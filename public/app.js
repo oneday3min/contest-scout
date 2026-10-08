@@ -89,7 +89,8 @@ $('analyze-form').onsubmit = async (e) => {
     state.items.push(item);
     save();
     $('url').value = ''; $('text').value = '';
-    msg.textContent = data.mode === 'demo' ? 'Added (demo mode: rule-based guess).' : `Added. Tokens: ${data.usage.map((u) => u.total_tokens ?? '?').join(' + ')}`;
+    const read = data.via === 'tavily-extract' ? ' · page read with Tavily Extract' : '';
+    msg.textContent = data.mode === 'demo' ? 'Added (demo mode: rule-based guess).' : data.cached ? `Added (cached result)${read}.` : `Added. Tokens: ${data.usage.map((u) => u.total_tokens ?? '?').join(' + ')}${read}`;
     selected = item.id;
     render();
   } catch (err) {
@@ -105,7 +106,7 @@ $('analyze-form').onsubmit = async (e) => {
 $('discover-form').onsubmit = async (e) => {
   e.preventDefault();
   const list = $('discover-list');
-  list.innerHTML = '<li>Searching…</li>';
+  list.innerHTML = '<li>Searching the web with Tavily…</li>';
   try {
     const r = await fetch('/api/discover', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query: $('query').value }) });
     const data = await r.json();
