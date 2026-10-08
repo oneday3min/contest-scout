@@ -1,0 +1,17 @@
+# One-click deploy on Render's free plan (no credit card). Set NEBIUS_API_KEY in the dashboard.
+services:
+  - type: web
+    name: contest-scout
+    runtime: node
+    plan: free
+    buildCommand: echo "no build step"
+    startCommand: node server.js
+    envVars:
+      - key: NEBIUS_API_KEY
+        sync: false
+      - key: TAVILY_API_KEY
+        sync: false
+      - key: DAILY_LIVE_LIMIT
+        value: "40"
+      - key: HOURLY_PER_IP
+        value: "6"
