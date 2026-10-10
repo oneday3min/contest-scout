@@ -274,7 +274,13 @@ function renderPicks() {
     c.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openIt(); } };
   });
 }
-fetch('daily.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then((d) => {
+// The daily job commits daily.json to GitHub every morning; read it from there so the site
+// shows new picks without a redeploy. Falls back to the copy shipped with the site.
+const PICKS_URL = 'https://raw.githubusercontent.com/oneday3min/contest-scout/main/public/daily.json';
+fetch(`${PICKS_URL}?t=${Date.now()}`, { cache: 'no-store' })
+  .then((r) => (r.ok ? r : fetch('daily.json', { cache: 'no-cache' })))
+  .catch(() => fetch('daily.json', { cache: 'no-cache' }))
+  .then((r) => (r.ok ? r.json() : null)).then((d) => {
   if (!d) return;
   picks = d.items || [];
   if (d.updated_at) $('picks-when').textContent = `updated ${new Date(d.updated_at).toLocaleString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}`;
