@@ -1,9 +1,155 @@
 {
- "updated_at": "2026-10-10T07:23:31.421Z",
+ "updated_at": "2026-10-10T07:41:06.168Z",
  "date": "2026-10-10",
- "analyzed": 0,
- "failed": 0,
+ "analyzed": 7,
+ "failed": 1,
  "items": [
+  {
+   "id": "daily-2026-10-10-3",
+   "found_at": "2026-10-10",
+   "query": "숏폼 영상 공모전 2026 상금",
+   "title": "2026 대전온배움 숏폼 영상 공모전! 총상금 330만원! 누구나 ...",
+   "mode": "live",
+   "source": "https://blog.naver.com/PostView.naver?blogId=diledile&logNo=224429085185&redirect=Dlog",
+   "via": "direct",
+   "contest": {
+    "name": "2026 대전온배움 숏폼 영상 공모전",
+    "organizer": "대전평생교육진흥원",
+    "url": "https://blog.naver.com/diledile/224429085185",
+    "deadline": {
+     "iso": "2026-11-13T24:00:00+09:00",
+     "as_written": "2026. 10. 1.(목) ~ 11. 13.(금)",
+     "evidence": "2026. 10. 1.(목) ~ 11. 13.(금)"
+    },
+    "eligibility": {
+     "summary": "영상 제작과 숏폼 콘텐츠에 관심 있는 시민 누구나 참여 가능",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "대한민국",
+     "age": null,
+     "evidence": "영상 제작과 숏폼 콘텐츠에 관심 있는 시민 누구나 참여할 수 있습니다."
+    },
+    "prizes": {
+     "summary": "총상금 330만원",
+     "cash": true,
+     "top_amount": "330만원",
+     "winner_count": null,
+     "evidence": "총상금은 330만원!"
+    },
+    "deliverables": [
+     {
+      "item": "9:16 세로형 / 1,080×1,920px 이상 / 30~90초 / MP4 원본",
+      "evidence": "작품 규격: 9:16 세로형 / 1,080×1,920px 이상 / 30~90초 / MP4 원본"
+     }
+    ],
+    "judging": [
+     "심사 및 시상 관련 내용은 공고문 및 첨부문서를 반드시 확인"
+    ],
+    "required_tech": [
+     "MP4",
+     "1,080×1,920px 이상",
+     "30~90초"
+    ],
+    "language": "한국어",
+    "red_flags": [
+     "내용 변경 불가",
+     "저작자 명시 필수",
+     "영리적 사용 불가"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 4,
+     "deadline": 5,
+     "resources": 5,
+     "cash": 5
+    },
+    "total": 19,
+    "verdict": "go",
+    "why": [
+     "지역 제한(대전/대한민국)과 한국어 숏폼 영상이라는 좁은 풀로 경쟁자 수가 적고 팀의 강점(한국어, 숏폼 영상, AI 이미지, 빠른 제작)과 정확히 일치",
+     "마감까지 34일 여유, 30~90초 단일 영상 1개만 제출하면 되며 주 10시간 투입으로 충분히 완료 가능",
+     "실제 현금 총상금 330만 원, 별도 하드웨어·오프라인 참석 불필요, 팀이 이미 보유한 기술(MP4, 1080×1920px, 세로형)로 제작 가능"
+    ],
+    "blockers": [
+     "수상자 수 미공개로 정확한 당첨 확률 산출 불가",
+     "제출 후 내용 변경 불가·저작자 명시 필수·영리적 사용 불가 조건 준수 필요"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-10",
+      "task": "공고문 및 첨부문서 전체 정독, 접수 방법·필수 서류·유의사항 확인",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-11",
+      "task": "공식 채널(블로그/이메일/구글폼 등)을 통한 참가 신청·본인 인증 완료",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-12",
+      "task": "주제 선정, 30~90초 구성안·대본 작성(AI 활용)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-15",
+      "task": "AI 이미지/영상 소스 생성, 9:16 1080×1920px 이상 포맷으로 편집·MP4 원본 제작",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-20",
+      "task": "자막·저작자 표기·음원 저작권 검토, 영리적 사용 금지 조항 준수 확인",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-25",
+      "task": "최종본 렌더링·파일 규격(코덱·해상도·길이) 재검증",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-06",
+      "task": "최종 제출(파일 업로드/메일 발송) 및 접수 확인증 캡처 보관",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-13",
+      "task": "마감일(2026-11-13 24:00 KST) 전까지 추가 수정·재제출 불가 확인",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 539,
+     "prompt_tokens": 4706,
+     "total_tokens": 5245,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "score",
+     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+     "completion_tokens": 1652,
+     "prompt_tokens": 980,
+     "total_tokens": 2632,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 867,
+      "rejected_prediction_tokens": null
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "multimodal_tokens": null
+     },
+     "prompt_cache_hit_tokens": 0,
+     "prompt_cache_miss_tokens": 980
+    }
+   ]
+  },
   {
    "id": "daily-2026-10-10-1",
    "found_at": "2026-10-10",
@@ -155,6 +301,143 @@
      },
      "prompt_cache_hit_tokens": 0,
      "prompt_cache_miss_tokens": 1099
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-10-7",
+   "found_at": "2026-10-10",
+   "query": "AI 활용 아이디어 공모전 2026",
+   "title": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
+   "mode": "live",
+   "source": "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=view&gp=6&ix=111299",
+   "via": "direct",
+   "contest": {
+    "name": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
+    "organizer": "제천시",
+    "url": "https://www.jecheon.go.kr/www/selectBbsNttView.do?key=5233&id=&&bbsNo=18&nttNo=404261&searchCtgry=&searchCnd=&searchKrwd=&pageIndex=1&integrDeptCode=",
+    "deadline": {
+     "iso": "2026-11-01T24:00:00+09:00",
+     "as_written": "2026-11-01",
+     "evidence": "접수기간 2026-09-28 ~ 2026-11-01"
+    },
+    "eligibility": {
+     "summary": "제천시에 관심 있는 전 국민",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": null,
+     "evidence": "지원 자격  제천시에 관심 있는 전 국민"
+    },
+    "prizes": {
+     "summary": "최우수 150만원, 우수 100만원, 장려 각 50만원",
+     "cash": true,
+     "top_amount": "150만원",
+     "winner_count": 1,
+     "evidence": "최우수: 1개(팀) 상장 및 150만원, 우수: 1개(팀) 상장 및 100만원, 장려: 3개(팀) 상장 및 각 50만원"
+    },
+    "deliverables": [
+     {
+      "item": "AI 기반 데이터 분석 아이디어",
+      "evidence": "공모 주제: 도시발전, 지역경제 등 제천시 현안 해결 및 시정 발전에 기여할 수 있는 자유 주제"
+     }
+    ],
+    "judging": [
+     "최우수, 우수, 장려"
+    ],
+    "required_tech": [
+     "AI",
+     "데이터 분석"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "본 정보의 사실 여부를 보증하지 않습니다."
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 4,
+     "resources": 4,
+     "cash": 5
+    },
+    "total": 16,
+    "verdict": "go",
+    "why": [
+     "전 국민 대상이나 수상팀 5개(최우수·우수·장려×3)로 경쟁 풀 중간 규모, 제천시 현안 한정 주제라 도메인 지식만 확보하면 승산 상승",
+     "마감까지 22일 남음, 아이디어 제안서 수준이라 10시간/주 투입으로 충분히 완료 가능",
+     "현금 상금(최우수 150만 원)이고 팀이 한국어·AI·글쓰기 강점 보유, 별도 하드웨어·출장 불필요"
+    ],
+    "blockers": [
+     "제천시 구체 현안·데이터 소스 파악 필요(공고문 외 추가 조사 필요)"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-11",
+      "task": "제천시 홈페이지·열린데이터포털·보도자료에서 주요 현안(인구감소, 지역경제, 관광, 교통 등) 5~7개 추출",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-12",
+      "task": "각 현안별 공개 데이터셋 존재 여부 확인, AI 분석 가능성 메모",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-13",
+      "task": "아이디어 3개 초안 작성(문제정의·데이터·AI접근·기대효과 1페이지씩)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-14",
+      "task": "초안 검토·보완, 최종 1개 선정 및 제안서 양식에 맞춰 확장(최대 5~10쪽)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-15",
+      "task": "제출용 PDF 변환, 파일명·형식 공고 요건 재확인",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-16",
+      "task": "공고문 상 접수처(이메일·홈페이지 폼) 확인, 필요 시 회원가입·본인인증",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-17",
+      "task": "최종 제출(마감 2주 전 조기 제출 권장)",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 533,
+     "prompt_tokens": 1601,
+     "total_tokens": 2134,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "score",
+     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+     "completion_tokens": 1185,
+     "prompt_tokens": 974,
+     "total_tokens": 2159,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 525,
+      "rejected_prediction_tokens": null
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "multimodal_tokens": null
+     },
+     "prompt_cache_hit_tokens": 0,
+     "prompt_cache_miss_tokens": 974
     }
    ]
   },
@@ -334,10 +617,128 @@
      "prompt_cache_miss_tokens": 1203
     }
    ]
+  },
+  {
+   "id": "daily-2026-10-10-5",
+   "found_at": "2026-10-10",
+   "query": "AI short film competition 2026 deadline",
+   "title": "Tropfest 2027 Returns to Sydney’s Domain With New AI Eligibility Rules - Indie Shorts Mag",
+   "mode": "live",
+   "source": "https://www.indieshortsmag.com/news/2026/10/tropfest-2027-domain-ai-rules-submissions",
+   "via": "direct",
+   "contest": {
+    "name": "Tropfest 2027",
+    "organizer": "Indie Shorts Mag",
+    "url": "https://www.indieshortsmag.com/news/2026/10/tropfest-2027-domain-ai-rules-submissions",
+    "deadline": {
+     "iso": "2026-12-22T22:00:00+11:00",
+     "as_written": "22 December at 10 pm AEDT",
+     "evidence": "early-bird deadline is 22 December at 10 pm AEDT"
+    },
+    "eligibility": {
+     "summary": "Australian citizens or permanent residents must direct; international filmmakers may enter only for out-of-competition screenings.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "Australia",
+     "age": null,
+     "evidence": "Directors must be Australian citizens or permanent residents to compete; international filmmakers may enter for out-of-competition screenings."
+    },
+    "prizes": {
+     "summary": "A$50,000, A$30,000 and A$20,000 for the top three places.",
+     "cash": true,
+     "top_amount": "A$50,000",
+     "winner_count": 3,
+     "evidence": "The CommBank Tropfest Emerging Filmmakers Fund offers A$50,000, A$30,000 and A$20,000 for the top three places."
+    },
+    "deliverables": [
+     {
+      "item": "Maximum seven minutes including credits",
+      "evidence": "Films must run no longer than seven minutes, including credits"
+     },
+     {
+      "item": "Incorporate the 2027 signature item ‘Necklace’",
+      "evidence": "incorporate the 2027 signature item, ‘Necklace’"
+     },
+     {
+      "item": "Premiere publicly at Tropfest",
+      "evidence": "premiere publicly at Tropfest"
+     }
+    ],
+    "judging": [
+     "Not specified in the provided text"
+    ],
+    "required_tech": [
+     "Generative AI tools (if used) must be disclosed"
+    ],
+    "language": "English",
+    "red_flags": [
+     "AI assistance permitted only if not used substantially for core storytelling; entrants must disclose AI use"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 0,
+     "deadline": 5,
+     "resources": 3,
+     "cash": 5
+    },
+    "total": 13,
+    "verdict": "skip",
+    "why": [
+     "팀이 호주 시민권자/영주권자가 아니므로 본선 경쟁 부문 출전 자격이 없으며, 상금 수령 불가능",
+     "트로프페스트 현장 프리미어 요구 사항으로 호주 현지 방문이 필요할 수 있으나 팀은 해외 오프라인 이동 불가",
+     "AI 활용이 핵심 스토리텔링에 실질적으로 쓰이면 안 되고 사용 시 공개해야 해 팀의 강점(AI 영상/이미지) 활용에 제약"
+    ],
+    "blockers": [
+     "본선 출전 자격 미달(호주 시민권/영주권 필수)",
+     "프리미어 현장 참석 시 해외 여행 필요",
+     "AI 실질적 활용 제한 및 공개 의무"
+    ],
+    "plan": []
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 574,
+     "prompt_tokens": 2101,
+     "total_tokens": 2675,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "score",
+     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+     "completion_tokens": 1575,
+     "prompt_tokens": 1015,
+     "total_tokens": 2590,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1336,
+      "rejected_prediction_tokens": null
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "multimodal_tokens": null
+     },
+     "prompt_cache_hit_tokens": 0,
+     "prompt_cache_miss_tokens": 1015
+    }
+   ]
   }
  ],
  "seen": {
   "https://superookie.com/activities/6a97d4a5484fd64fe11240d5": "2026-10-10",
-  "https://nebiusglobalaihackathon.devpost.com/rules": "2026-10-10"
+  "https://nebiusglobalaihackathon.devpost.com/rules": "2026-10-10",
+  "https://www.thedreamkorea.com/contests/be5ed716-45d3-42d6-a5b3-108c9a8e1767": "2026-10-10",
+  "https://artinfoland.com/opportunities/ai-art-award-next-art-ai-2026": "2026-10-10",
+  "https://blog.naver.com/PostView.naver?blogId=diledile&logNo=224429085185&redirect=Dlog": "2026-10-10",
+  "https://aifilmcontests.com/contests/csfcca-intl-ai-film-festival-2026": "2026-10-10",
+  "https://www.indieshortsmag.com/news/2026/10/tropfest-2027-domain-ai-rules-submissions": "2026-10-10",
+  "https://yoill.com/event-efcbd2a967": "2026-10-10",
+  "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=view&gp=6&ix=111299": "2026-10-10",
+  "https://www.linkedin.com/pulse/october-2026-hackathon-list-70-events-deadlines-links-who-ibjgf": "2026-10-10"
  }
 }
