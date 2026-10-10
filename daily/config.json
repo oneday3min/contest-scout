@@ -1,0 +1,25 @@
+{
+  "lang": "ko",
+  "max_new_per_day": 8,
+  "keep_days": 45,
+  "queries": [
+    "AI 영상 공모전 2026 접수",
+    "생성형 AI 공모전 상금 마감",
+    "AI 이미지 그림 공모전 2026",
+    "숏폼 영상 공모전 2026 상금",
+    "AI 활용 아이디어 공모전 2026",
+    "AI hackathon online 2026 prize deadline",
+    "AI art contest open call 2026 prize",
+    "AI short film competition 2026 deadline"
+  ],
+  "skip_url_patterns": [
+    "/list", "/search", "category", "[?&]page=", "/tag/", "/tags/", "youtube\\.com", "instagram\\.com", "facebook\\.com", "(^|//|\\.)x\\.com/", "twitter\\.com"
+  ],
+  "profile": {
+    "who": "A one-person creator studio run with AI agents (X account, blog, short videos).",
+    "strengths": "Writing, AI images, short-form video, Korean + basic English, fast turnaround.",
+    "limits": "No hardware or robotics, no offline travel abroad, small budget, one human for sign-ups.",
+    "country": "South Korea / Korean",
+    "hours": 10
+  }
+}
