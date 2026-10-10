@@ -1,0 +1,343 @@
+{
+ "updated_at": "2026-10-10T07:23:31.421Z",
+ "date": "2026-10-10",
+ "analyzed": 0,
+ "failed": 0,
+ "items": [
+  {
+   "id": "daily-2026-10-10-1",
+   "found_at": "2026-10-10",
+   "query": "(test)",
+   "title": "https://superookie.com/activities/6a97d4a5484fd64fe11240d5",
+   "mode": "live",
+   "source": "https://superookie.com/activities/6a97d4a5484fd64fe11240d5",
+   "via": "direct",
+   "contest": {
+    "name": "2026 전국민 AI활용 사례 공모전 시즌 3",
+    "organizer": "과학기술정보통신부",
+    "url": "https://superookie.com/activities/6a97d4a5484fd64fe11240d5",
+    "deadline": {
+     "iso": "2026-10-31T23:59:00+09:00",
+     "as_written": "10월 31일 23:59",
+     "evidence": "접수기간: 08월 31일 00:00 시작 10월 31일 23:59 마감"
+    },
+    "eligibility": {
+     "summary": "일반 국민 누구나",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "전국민",
+     "age": null,
+     "evidence": "모집대상: 일반 국민 누구나 (개인정보 활용 동의 및 본인인증 필요)"
+    },
+    "prizes": {
+     "summary": "상장 수여",
+     "cash": true,
+     "top_amount": "2인",
+     "winner_count": 2,
+     "evidence": "시상내역: 총 3,400만원 (최우수상: 과기정통부 부총리 겸 장관상 2인, 우수상 12인, 장려상 22인)"
+    },
+    "deliverables": [
+     {
+      "item": "생활 속 AI 활용",
+      "evidence": "공모주제: 생활 속 AI 활용, 지역사회 문제해결를 위한 AI 활용, 교육·학습을 위한 AI 활용, 업무 생산성 개선을 위한 AI 활용"
+     },
+     {
+      "item": "지역사회 문제해결을 위한 AI 활용",
+      "evidence": "공모주제: 지역사회 문제해결를 위한 AI 활용, 교육·학습을 위한 AI 활용, 업무 생산성 개선을 위한 AI 활용"
+     },
+     {
+      "item": "교육·학습을 위한 AI 활용",
+      "evidence": "공모주제: 교육·학습을 위한 AI 활용, 업무 생산성 개선을 위한 AI 활용"
+     },
+     {
+      "item": "업무 생산성 개선을 위한 AI 활용",
+      "evidence": "공모주제: 업무 생산성 개선을 위한 AI 활용"
+     }
+    ],
+    "judging": [
+     "공모전 마이크로 웹사이트에 탑재된 결과물"
+    ],
+    "required_tech": [
+     "스마트폰"
+    ],
+    "language": "한국어",
+    "red_flags": [
+     "마감일은 기업의 사정으로 인해 조기 마감 또는 변경될 수 있습니다"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 4,
+     "deadline": 4,
+     "resources": 5,
+     "cash": 5
+    },
+    "total": 18,
+    "verdict": "go",
+    "why": [
+     "한국 내국인 대상 공모전으로 경쟁 풀 제한적, 36명 수상(최우수 2·우수 12·장려 22) 기회 다수",
+     "주제(생활·지역·교육·업무 AI 활용)가 팀 강점(글쓰기, AI 이미지, 숏폼, 한국어)과 정확히 일치",
+     "상금 총 3,400만 원 현금 지급, 스마트폰만 있으면 제출 가능해 자원 부담 최소"
+    ],
+    "blockers": [
+     "마감일이 주최 측 사정으로 조기 마감·변경 가능(공지 확인 필수)",
+     "본인 인증·개인정보 동의 필요 → 1인 스튜디오의 단일 인간만 처리 가능"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-10",
+      "task": "공모전 마이크로 사이트 회원가입 및 본인 인증(휴대폰 본인확인)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-11",
+      "task": "응모 주제 선정(예: 업무 생산성 개선을 위한 AI 활용) 및 사례 구조 기획",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-12",
+      "task": "사례 초안 작성(문제 정의, AI 도구 적용 과정, 정량/정성 성과)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-13",
+      "task": "AI 이미지·다이어그램 생성으로 시각 자료 보강",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-14",
+      "task": "숏폼 영상(60초 내외) 기획·촬영·편집으로 제출물 다각화",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-15",
+      "task": "전체 제출물 검수·오탈자 교정·파일 포맷·용량 확인",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-16",
+      "task": "마이크로 사이트 제출 페이지에서 최종 업로드 및 제출 완료",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-17",
+      "task": "조기 마감 대비 버퍼 기간: 알림 설정·수시 공지 확인",
+      "owner": "team"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 658,
+     "prompt_tokens": 2547,
+     "total_tokens": 3205,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "score",
+     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+     "completion_tokens": 1690,
+     "prompt_tokens": 1099,
+     "total_tokens": 2789,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 994,
+      "rejected_prediction_tokens": null
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "multimodal_tokens": null
+     },
+     "prompt_cache_hit_tokens": 0,
+     "prompt_cache_miss_tokens": 1099
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-10-2",
+   "found_at": "2026-10-10",
+   "query": "(test)",
+   "title": "https://nebiusglobalaihackathon.devpost.com/rules",
+   "mode": "live",
+   "source": "https://nebiusglobalaihackathon.devpost.com/rules",
+   "via": "direct",
+   "contest": {
+    "name": "Nebius x NVIDIA Global AI Hackathon",
+    "organizer": "Nebius B.V.",
+    "url": "https://nebiusglobalaihackathon.devpost.com/rules",
+    "deadline": {
+     "iso": "2026-10-30T10:00:00-07:00",
+     "as_written": "Oct 30, 2026 @ 10:00am PDT",
+     "evidence": "Deadline: Oct 30, 2026 @ 10:00am PDT"
+    },
+    "eligibility": {
+     "summary": "Open to individuals of majority age, teams, and organizations; prohibited in sanctioned countries and for promotion entities' employees/family.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "Brazil, Quebec, Russia, Crimea, Cuba, Iran, North Korea, and other U.S. sanctioned jurisdictions",
+     "age": "age of majority where they reside",
+     "evidence": "Individuals who are at least the age of majority where they reside as of the time of entry"
+    },
+    "prizes": {
+     "summary": "Grand Prize $20,000, 2nd Place $10,000, 3rd Place $6,000, track winners receive NVIDIA Jetson Orin Nano, plus bonus awards.",
+     "cash": true,
+     "top_amount": "$20,000 USD",
+     "winner_count": 1,
+     "evidence": "Grand Prize\n$20,000 USD\n1\nAll Eligible Submissions"
+    },
+    "deliverables": [
+     {
+      "item": "Working software application running on Nebius Token Factory or Nebius AI Cloud using at least one NVIDIA open source model",
+      "evidence": "Entrants must create a working software application that runs on either Nebius Token Factory or Nebius AI Cloud and uses at least one NVIDIA open source model"
+     },
+     {
+      "item": "Public code repository with open source license, README, and setup instructions",
+      "evidence": "The repository must contain all necessary source code, assets, and instructions required for the project to be functional... The repository must be public and open source by including an open source license file"
+     },
+     {
+      "item": "Demonstration video (max 3 minutes) on YouTube showing project functionality",
+      "evidence": "Include a demonstration video of your Project... must be uploaded to and made publicly visible on YouTube and a link to the video must be provided on the submission form"
+     },
+     {
+      "item": "Project description and track selection",
+      "evidence": "Provide a text description that should explain the features and functionality of your Project... Identify which track you are submitting your Project into."
+     }
+    ],
+    "judging": [
+     "Technological Implementation",
+     "Design",
+     "Potential Impact",
+     "Quality of the Idea"
+    ],
+    "required_tech": [
+     "Nebius Token Factory",
+     "NVIDIA Nemotron models",
+     "Nebius AI Cloud"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Must provide English translation for non-English submissions",
+     "Projects must not have received prior financial support from sponsor",
+     "Prize awards subject to verification and tax compliance"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 2,
+     "deadline": 3,
+     "resources": 2,
+     "cash": 5
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "why": [
+     "글로벌 해커톤에 네비우스+NVIDIA 전용 스택이 필수라 승산이 낮음(팀의 AI/소프트웨어 강점은 부합).",
+     "20일·총 10시간으로 플랫폼 학습·앱 개발·영상·레포 준비는 빠듯함.",
+     "현금 상금($20k 1등) 매력적이나 팀에 네비우스/네모트론 실무 경험 없음."
+    ],
+    "blockers": [
+     "네비우스 토큰 팩토리·AI 클라우드·NVIDIA 네모트론 모델을 처음부터 익혀야 함",
+     "비영어 제출물은 영어 번역 필수(팀 영어 기초 수준)",
+     "가입·본인확인·세무·최종 제출은 1인 인간만 처리 가능"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-10",
+      "task": "DevPost 가입·규칙 숙지·네비우스 계정 생성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-11",
+      "task": "네비우스 토큰 팩토리·AI 클라우드 문서 탐색·네모트론 모델 테스트",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-12",
+      "task": "트랙별 요구사항 분석·앱 컨셉·아키텍처 설계",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-13",
+      "task": "핵심 기능 프로토타입 구현(네비우스 플랫폼 위)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-14",
+      "task": "프로토타입 확장·에러 처리·문서화 시작",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-15",
+      "task": "앱 완성·로컬 테스트·배포 스크립트 정리",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-16",
+      "task": "퍼블릭 GitHub 레포 생성·MIT/Apache 라이선스·README·설치 가이드 작성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-17",
+      "task": "3분 데모 영상 촬영·편집·유튜브 공개 업로드",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-18",
+      "task": "영문 프로젝트 설명·트랙 선택·제출 폼 초안 작성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-19",
+      "task": "전체 통합 테스트·영상 링크·레포 링크·설명 최종 검수",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-20",
+      "task": "마감일(PDT 10:00) 전 최종 제출",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 762,
+     "prompt_tokens": 6770,
+     "total_tokens": 7532,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "score",
+     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
+     "completion_tokens": 1856,
+     "prompt_tokens": 1203,
+     "total_tokens": 3059,
+     "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 1047,
+      "rejected_prediction_tokens": null
+     },
+     "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "multimodal_tokens": null
+     },
+     "prompt_cache_hit_tokens": 0,
+     "prompt_cache_miss_tokens": 1203
+    }
+   ]
+  }
+ ],
+ "seen": {
+  "https://superookie.com/activities/6a97d4a5484fd64fe11240d5": "2026-10-10",
+  "https://nebiusglobalaihackathon.devpost.com/rules": "2026-10-10"
+ }
+}

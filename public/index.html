@@ -16,7 +16,16 @@
 </header>
 
 <main class="grid">
-  <section class="panel" aria-labelledby="add-h">
+  <section id="picks" class="panel full" aria-labelledby="picks-h" hidden>
+    <div class="row between">
+      <h2 id="picks-h">Today's picks <small class="sub">· found and scored automatically every morning</small></h2>
+      <span id="picks-when" class="sub"></span>
+    </div>
+    <ol id="picks-list" class="board"></ol>
+    <p class="sub">No links to paste: Tavily searches for new contests each day, Nemotron reads and scores them. Click one to see the plan.</p>
+  </section>
+
+  <section class="panel add" aria-labelledby="add-h">
     <h2 id="add-h">1. Add a contest</h2>
     <form id="analyze-form">
       <label>Contest URL <input id="url" type="url" placeholder="https://…devpost.com/rules"></label>

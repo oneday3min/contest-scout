@@ -240,6 +240,47 @@ $('export-md').onclick = () => {
   download(`contest-board-${today()}.md`, `# Contest board ${today()}\n\n| Score | Verdict | Contest | Deadline | Prizes | Link |\n|---|---|---|---|---|---|\n${rows.join('\n')}\n`, 'text/markdown');
 };
 
+// ---------- today's picks (written every morning by scripts/daily.js) ----------
+
+let picks = [];
+function renderPicks() {
+  const open = picks.filter((x) => x.score?.verdict !== 'skip');
+  $('picks').hidden = !open.length;
+  $('picks-list').innerHTML = open.map((x, i) => {
+    const d = daysLeft(x.contest?.deadline?.iso);
+    const dd = d == null ? 'deadline ?' : `D-${d}`;
+    const v = x.score?.verdict || 'maybe';
+    const onBoard = state.items.some((it) => it.pickId === x.id);
+    return `<li class="card" tabindex="0" data-i="${i}">
+      <div class="score">${x.score?.total ?? '–'}<small>/20</small></div>
+      <div><div class="name">${esc(x.contest?.name)}</div>
+        <div class="meta"><span class="dday ${d != null && d <= 7 ? 'urgent' : ''}">${dd}</span> · ${esc(x.contest?.prizes?.summary || 'prize ?')}${onBoard ? ' · on your board' : ''}</div></div>
+      <span class="verdict ${v}">${v}</span></li>`;
+  }).join('');
+  $('picks-list').querySelectorAll('.card').forEach((c) => {
+    const openIt = () => {
+      const x = open[c.dataset.i];
+      let item = state.items.find((it) => it.pickId === x.id);
+      if (!item) {
+        item = { ...x, id: crypto.randomUUID ? crypto.randomUUID() : String(Date.now()), pickId: x.id, addedAt: new Date().toISOString(), done: {} };
+        state.items.push(item);
+        save();
+      }
+      selected = item.id;
+      render(); renderPicks();
+      $('detail').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+    c.onclick = openIt;
+    c.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openIt(); } };
+  });
+}
+fetch('daily.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then((d) => {
+  if (!d) return;
+  picks = d.items || [];
+  if (d.updated_at) $('picks-when').textContent = `updated ${new Date(d.updated_at).toLocaleString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}`;
+  renderPicks();
+}).catch(() => { /* no picks yet */ });
+
 // ---------- sample board ----------
 
 $('load-sample').onclick = async () => {
