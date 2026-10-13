@@ -2,6 +2,12 @@
   "lang": "ko",
   "max_new_per_day": 8,
   "keep_days": 45,
+  "budget": {
+    "note": "Free-tier guard: stay under use_ratio of each monthly limit. tavily_monthly = Tavily free plan credits. ai_tokens_monthly is our own cap for the Token Factory promo credit.",
+    "use_ratio": 0.8,
+    "tavily_monthly": 1000,
+    "ai_tokens_monthly": 3000000
+  },
   "queries": [
     "AI 영상 공모전 2026 접수",
     "생성형 AI 공모전 상금 마감",
