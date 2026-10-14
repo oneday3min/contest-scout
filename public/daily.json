@@ -1,8 +1,15 @@
 {
- "updated_at": "2026-10-13T02:50:27.621Z",
- "date": "2026-10-13",
- "analyzed": 7,
- "failed": 1,
+ "updated_at": "2026-10-14T00:51:21.727Z",
+ "date": "2026-10-14",
+ "analyzed": 8,
+ "failed": 0,
+ "usage": {
+  "month": "2026-10",
+  "tavily": 9,
+  "ai_tokens": 44355,
+  "analyses": 8,
+  "runs": 1
+ },
  "items": [
   {
    "id": "daily-2026-10-13-7",
@@ -1357,6 +1364,160 @@
    ]
   },
   {
+   "id": "daily-2026-10-14-3",
+   "found_at": "2026-10-14",
+   "query": "AI 이미지 그림 공모전 2026",
+   "title": "'대한민국 대표 AI 도시’ 화성특례시, 'MARS 2026' 앞두고 '별별화성 Awards’ 사전접수 243명 흥행 청신호:화성일보",
+   "mode": "live",
+   "source": "https://www.hsnews.kr/55998",
+   "via": "tavily-extract",
+   "contest": {
+    "name": "별별화성 Awards",
+    "organizer": "화성특례시",
+    "url": "https://www.hsnews.kr/55998",
+    "deadline": {
+     "iso": "2026-11-18T23:59:59+09:00",
+     "as_written": "10월 18일까지",
+     "evidence": "사전접수 이어 AI CF·숏폼·CM송 본접수 10월 18일까지 진행"
+    },
+    "eligibility": {
+     "summary": "전국에 거주하는 사람이라면 누구나 제한 없이 참여 가능",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "대한민국",
+     "age": null,
+     "evidence": "총상금 6천만 원으로 전국 지방정부 공모전 중 최고 수준을 자랑하는 ‘2026 별별화성 Awards’는 대한민국에 거주하는 사람이라면 누구나 제한 없이 참여할 수 있다."
+    },
+    "prizes": {
+     "summary": "총상금 6천만 원, 시상식 11월 26일에 시상",
+     "cash": true,
+     "top_amount": "6천만 원",
+     "winner_count": null,
+     "evidence": "총상금 6천만 원으로 전국 지방정부 공모전 중 최고 수준을 자랑하는 ‘2026 별별화성 Awards’는 ... △최종 심사 결과는 11월 16일에 공식 홈페이지를 통해 발표되며, △시상식은 11월 26일 개최될 예정이다."
+    },
+    "deliverables": [
+     {
+      "item": "AI CF",
+      "evidence": "▲‘AI CF’, 일상과 추억을 감각적인 세로형 영상으로 표현하는"
+     },
+     {
+      "item": "AI 숏폼",
+      "evidence": "▲‘AI 숏폼’, 화성의 매력을 중독성 있는 멜로디와 가사로 표현하는"
+     },
+     {
+      "item": "AI CM송",
+      "evidence": "▲‘AI CM송’ 등 총 3개 분야"
+     }
+    ],
+    "judging": [
+     "전문가 심사위원단의 엄정한 심사",
+     "최종 심사 결과는 11월 16일에 공식 홈페이지를 통해 발표"
+    ],
+    "required_tech": [
+     "AI",
+     "영상",
+     "음성",
+     "콘텐츠 제작"
+    ],
+    "language": "한국어",
+    "red_flags": [
+     "2026-10-14 is today's date, but deadline is 2026-11-18; ensure correct timezone"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 5,
+     "resources": 4,
+     "cash": 3
+    },
+    "total": 15,
+    "verdict": "go",
+    "scored_by": "rules",
+    "why": [
+     "2026-10-14 현재, 대회 마감일 2026-11-18까지 약 35일이 남아 있어, 충분한 준비 기간이 존재한다.",
+     "팀은 AI 영상 제작에 특화된 강점을 보유하고 있어, AI CF·AI 숏폼·AI CM송 등 3개 분야 모두 제작 가능",
+     "전액 현금(6천만 원) 상금과 11월 26일 시상식으로 높은 인센티브가 제공되며, 한국어 콘텐츠 제작이 요구됨"
+    ],
+    "blockers": [
+     "현재 2026-10-14이 대회 신청 마감일이 아닌 2026-11-18이 실제 마감이므로, 신청·제출 일정을 정확히 관리해야 함",
+     "제출 마감일(2026-11-18)까지 최종 영상·음성 콘텐츠를 완성하고, 공식 홈페이지에 업로드해야 함"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-15",
+      "task": "참가 신청 및 개인정보 확인",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-16",
+      "task": "AI CF 스토리보드 및 촬영 계획 수립",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-17",
+      "task": "AI CF 영상 제작 및 초안 편집",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-18",
+      "task": "AI 숏폼 스토리보드 및 촬영 계획 수립",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-19",
+      "task": "AI 숏폼 영상 제작 및 초안 편집",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-20",
+      "task": "AI CM송 가사·멜로디 기획 및 음성 합성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-21",
+      "task": "AI CM송 음성·영상 제작 및 초안 편집",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-22",
+      "task": "3개 작품 최종 검수 및 파일 포맷 변환",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-23",
+      "task": "공식 홈페이지 업로드 및 제출 확인",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-24",
+      "task": "심사 결과 확인 및 필요 시 보완 준비",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 650,
+     "prompt_tokens": 4635,
+     "total_tokens": 5285,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 706,
+     "prompt_tokens": 945,
+     "total_tokens": 1651,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-12-6",
    "found_at": "2026-10-12",
    "query": "AI 활용 아이디어 공모전 2026",
@@ -1675,6 +1836,122 @@
      },
      "prompt_cache_hit_tokens": 0,
      "prompt_cache_miss_tokens": 1166
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-14-7",
+   "found_at": "2026-10-14",
+   "query": "AI art contest open call 2026 prize",
+   "title": "October Salon Art Prize Online Art Competition",
+   "mode": "live",
+   "source": "https://artdeadline.com/ops/pleinair",
+   "via": "direct",
+   "contest": {
+    "name": "October Salon Art Prize Online Art Competition",
+    "organizer": "PleinAir Magazine",
+    "url": "https://artdeadline.com/ops/pleinair",
+    "deadline": {
+     "iso": "2026-10-31T23:59:59-05:00",
+     "as_written": "October 31, 2026",
+     "evidence": "International Deadline: October 31, 2026"
+    },
+    "eligibility": {
+     "summary": "Open to residents of any state or country where acceptable by law; must be at least 18 years old; entries must be original compositions; paintings/drawings only; no photography, AI, digital, printed or painted over photographs.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "any state or country where acceptable by law",
+     "age": "at least 18 years",
+     "evidence": "Competition is open to residents of any state or country where acceptable by law. All individuals entering must be at least 18 years of age to accept cash prizes."
+    },
+    "prizes": {
+     "summary": "Cash prizes ranging from $50 to $15,000; multiple categories; annual grand prize winners receive $15,000 and cover feature; monthly winners receive $2,250 total per year; additional $11,250 in cash prizes annually.",
+     "cash": true,
+     "top_amount": "$15,000",
+     "winner_count": 2,
+     "evidence": "Grand Prize Winners each receive $15,000—one featured on the cover of PleinAir Magazine and one on the cover of Fine Art Connoisseur."
+    },
+    "deliverables": [
+     {
+      "item": "paintings/drawings",
+      "evidence": "Open to paintings/drawings only: Photography, AI, digital, printed or painted over photographs are prohibitied."
+     }
+    ],
+    "judging": [
+     "jurors include top master artists, museum directors and gallery owners",
+     "August juror is Lance Rehs, a fourth-generation art dealer and director of Rehs Contemporary"
+    ],
+    "required_tech": [
+     "paintings",
+     "drawings"
+    ],
+    "language": "English",
+    "red_flags": [
+     "No participation fee mentioned but early bird discount exists; unclear if fee applies after discount",
+     "Requires submission of resume and cover letter; potential for personal data exposure"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 4,
+     "resources": 3,
+     "cash": 5
+    },
+    "total": 13,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "1. 마감일이 2026-10-31(2026-10-14 기준 17일 남음)이며, 10일 이내에 제출해야 하는 조건이 명시되어 있어 아직 충분한 시간이 있습니다.",
+     "2. 점수 체계에서 'deadline' 항목이 4점(전체 13점)으로 가장 높은 비중을 차지하고 있어, 마감 관리가 핵심 성공 요소입니다.",
+     "3. 'resources' 항목이 3점(전체 13점)이며, 팀이 자체적으로 필요한 자원을 보유하고 있지 않아 외부 자원 확보가 필요합니다."
+    ],
+    "blockers": [
+     "1. 2026-10-31까지 17일 남았지만, 10일 이내 제출이 필요하므로 2026-10-21까지 완료해야 합니다.",
+     "2. 'resources' 점수(3점)는 외부 자원(예: 사진, 영상, 장비)이 필요함을 의미하지만, 팀은 하드웨어나 로봇 기술이 없으므로 외부 자원을 확보하기 어려운 상황입니다.",
+     "3. 'cash' 점수(5점)는 현금 상금이 존재하지만, 제출 조건에 'resume' 및 'cover letter' 제출이 요구되어 개인정보 노출 위험이 있습니다."
+    ],
+    "plan": [
+     {
+      "date": "2026-10-21",
+      "task": "작품 제작 및 제출 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-22",
+      "task": "resume 및 cover letter 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-23",
+      "task": "제출서류 검토 및 결제 확인",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-24",
+      "task": "온라인 제출 완료",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 580,
+     "prompt_tokens": 2917,
+     "total_tokens": 3497,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 493,
+     "prompt_tokens": 875,
+     "total_tokens": 1368,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
     }
    ]
   },
@@ -2535,6 +2812,129 @@
    ]
   },
   {
+   "id": "daily-2026-10-14-2",
+   "found_at": "2026-10-14",
+   "query": "AI short film competition 2026 deadline",
+   "title": "AI Film Festivals 2027: Deadlines and Guides | ScreenWeaver",
+   "mode": "live",
+   "source": "https://www.screenweaver.ai/ai-film-festivals",
+   "via": "direct",
+   "contest": {
+    "name": "AI Film Festivals 2027: Deadlines and Guides",
+    "organizer": null,
+    "url": "https://www.screenweaver.ai/ai-film-festivals",
+    "deadline": {
+     "iso": "2026-10-15T00:00:00+00:00",
+     "as_written": "October 15, 2026",
+     "evidence": "Jaipur IFF World AI Cinema Competition Deadline October 15, 2026"
+    },
+    "eligibility": {
+     "summary": "AI film festivals guide eligibility, rules, and themes.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "global",
+     "age": null,
+     "evidence": "AI film festivals · Guides Every AI film festival. And how to win each one. Deadlines, rules, juries and themes, checked on each festival’s official site."
+    },
+    "prizes": {
+     "summary": "Prizes include cash awards such as the 1 Billion AI Film Award.",
+     "cash": true,
+     "top_amount": "$1,000,000",
+     "winner_count": 1,
+     "evidence": "1 Billion AI Film Award Deadline November 20, 2026"
+    },
+    "deliverables": [
+     {
+      "item": "screenplay",
+      "evidence": "Write the screenplay for free today, storyboard it, then make the film."
+     },
+     {
+      "item": "storyboard",
+      "evidence": "Shot breakdown generated from your screenplay, manual control over every shot (frame, angle, movement, duration), and generative AI previsualization in one click."
+     },
+     {
+      "item": "footage",
+      "evidence": "Footage generation pipelines connected to your screenplay and storyboard. Optimized out of the box, fully editable workflow."
+     }
+    ],
+    "judging": [
+     "Juries",
+     "themes",
+     "past winners",
+     "traps that get a film rejected before anyone watches it"
+    ],
+    "required_tech": [
+     "Seedance 2",
+     "AI storyboard generator",
+     "AI production pipelines"
+    ],
+    "language": "English",
+    "red_flags": [
+     "festivals move their dates",
+     "some festivals demand world premiere or ban prior release",
+     "some festivals require disclosure of AI use or ban generative AI parts"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 1,
+     "resources": 3,
+     "cash": 5
+    },
+    "total": 10,
+    "verdict": "skip",
+    "scored_by": "rules",
+    "why": [
+     "2026-10-14 기준 마감일이 2026-10-15이므로 1일 남음",
+     "총 점수 10점 중 'deadline' 점수 1점만 확보돼 skip verdict",
+     "자원(resource) 점수 3점, 현금(cash) 점수 5점, 기타 점수는 없으므로 전략적 여력 부족"
+    ],
+    "blockers": [
+     "2026-10-15T00:00:00+00:00 마감 시간까지 신청·제출 절차 완료 필요",
+     "신청서 작성, 정체성 확인, 결제, 최종 영상 제출은 human-only 처리",
+     "하드웨어·로봇 없음, 오프라인 여행 불가, 예산·인원 제한적"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-14",
+      "task": "신청서 작성 및 제출 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-15",
+      "task": "정체성 확인 및 결제 수행",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-15",
+      "task": "최종 영상 파일 업로드 및 제출",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 563,
+     "prompt_tokens": 3986,
+     "total_tokens": 4549,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 343,
+     "prompt_tokens": 858,
+     "total_tokens": 1201,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-11-6",
    "found_at": "2026-10-11",
    "query": "AI art contest open call 2026 prize",
@@ -2642,6 +3042,128 @@
      },
      "prompt_cache_hit_tokens": 0,
      "prompt_cache_miss_tokens": 917
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-14-8",
+   "found_at": "2026-10-14",
+   "query": "AI art contest open call 2026 prize",
+   "title": "THE INTERNATIONAL CONTEST 2026 | ITSLIQUID",
+   "mode": "live",
+   "source": "https://www.itsliquid.com/contest-20edition.html",
+   "via": "direct",
+   "contest": {
+    "name": "ITSLIQUID International Contest 20th Edition",
+    "organizer": "ITSLIQUID Group",
+    "url": "https://www.itsliquid.com/contest-20edition.html",
+    "deadline": {
+     "iso": "2026-10-15T23:59:59+00:00",
+     "as_written": "October 15, 2026",
+     "evidence": "Deadline: October 15 , 2026"
+    },
+    "eligibility": {
+     "summary": "Solo artists, architects, and designers can participate as well as groups, after the designation of a group leader useful for registration. Participation is without any limit on age and nationality.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "all over the world",
+     "age": "no limit",
+     "evidence": "Participation is without any limit on age and nationality. Solo artists, architects, and designers can participate in the contest as well as groups, after the designation of a group leader useful for registration."
+    },
+    "prizes": {
+     "summary": "1 year of Exhibitions worldwide, 5 Exhibitions in Venice, 5 Exhibitions in Rome, 5 Exhibitions in London, 5 Exhibitions in Barcelona, and 10 Featured Articles.",
+     "cash": false,
+     "top_amount": "100,000 euros",
+     "winner_count": 5,
+     "evidence": "The winner of the first prize will be awarded with one year of Contemporary Art Exhibitions in our galleries in Venice, Rome and London."
+    },
+    "deliverables": [
+     {
+      "item": "1 year of Exhibitions worldwide",
+      "evidence": "The winner of the first prize will be awarded with one year of Contemporary Art Exhibitions in our galleries in Venice, Rome and London."
+     },
+     {
+      "item": "5 Exhibitions in Venice",
+      "evidence": "Among the participants, 5 winners will be chosen to exhibit their creations during one International Contemporary Art Exhibition in Venice, in one of ITSLIQUID's prestigious locations."
+     },
+     {
+      "item": "5 Exhibitions in Rome",
+      "evidence": "Among the participants, 5 winners will be chosen to exhibit their creations during one International Contemporary Art Exhibition in Rome, at ITSLIQUID Art Space, located in the heart of the city."
+     },
+     {
+      "item": "5 Exhibitions in London",
+      "evidence": "Among the participants, 5 winners will be chosen to exhibit their creations during one International Contemporary Art Exhibition in London, at ELEMENTS Contemporary Art Space."
+     },
+     {
+      "item": "5 Exhibitions in Barcelona",
+      "evidence": "Among the participants, 5 winners will be chosen to exhibit their creations during one International Contemporary Art Exhibition in Barcelona, at ITSLIQUID Art Space, an elegant venue in the heart of the city, surrounded by parks and a few steps from the sea."
+     },
+     {
+      "item": "10 Featured Articles",
+      "evidence": "10 creatives will be interviewed, and their dedicated articles will be published on the official platform of ITSLIQUID Group."
+     }
+    ],
+    "judging": [
+     "Jury of renowned Art, Architecture, Design, and Fashion experts"
+    ],
+    "required_tech": [
+     ".jpg",
+     ".png",
+     "max size of each image 5 Mb",
+     "max size of each image 2500 pixels with a resolution of 72 dpi",
+     "zip/rar folder"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Deadline listed as October 15, 2026 but page says \"Today: 2026-10-14\""
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 1,
+     "resources": 4,
+     "cash": 1
+    },
+    "total": 7,
+    "verdict": "skip",
+    "scored_by": "rules",
+    "why": [
+     "The deadline is October 15, 2026 (one day after today), giving only 1 day to prepare; the required deliverables (multiple high‑resolution images, zip/rar folder) exceed the 10‑hour weekly capacity of the solo human creator.",
+     "The contest requires English language submissions and specific image specifications (max 5 MB, 2500 px, 72 dpi) that must be produced and packaged within the limited time, which is unrealistic for a one‑person team without hardware or offline travel.",
+     "No cash prize is offered and the only rewards are exhibition opportunities; the effort needed to create and submit qualifying artwork outweighs the potential benefit for a solo creator with limited resources."
+    ],
+    "blockers": [
+     "Only 1 day left before the October 15, 2026 deadline.",
+     "Required deliverables include multiple high‑resolution images and a zip/rar folder, exceeding the 10‑hour weekly capacity of the solo human team member.",
+     "No hardware or offline travel is available, and the team cannot meet the technical specifications within the remaining time."
+    ],
+    "plan": [
+     {
+      "date": "2026-10-14",
+      "task": "Evaluate whether any existing artwork meets the image specifications and can be submitted before the deadline.",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 859,
+     "prompt_tokens": 2883,
+     "total_tokens": 3742,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 315,
+     "prompt_tokens": 1153,
+     "total_tokens": 1468,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
     }
    ]
   },
@@ -2809,6 +3331,14 @@
   "https://namu.wiki/w/%EC%A0%84%EA%B5%AD%EB%AF%BCAI%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C": "2026-10-13",
   "https://www.1billionsummit.com/ai-film-award-2026": "2026-10-13",
   "https://www.sparknify.com/human-vs-ai-film-festival": "2026-10-13",
-  "https://blog.naver.com/kcc_press/224420711286?fromRss=true&trackingCode=rss": "2026-10-13"
+  "https://blog.naver.com/kcc_press/224420711286?fromRss=true&trackingCode=rss": "2026-10-13",
+  "https://studentcompetitions.com/competitions/next-art-ai-2026": "2026-10-14",
+  "https://www.screenweaver.ai/ai-film-festivals": "2026-10-14",
+  "https://www.hsnews.kr/55998": "2026-10-14",
+  "https://koisartistaward.com/dreamers-online-art-competition-and-exhibition": "2026-10-14",
+  "https://flextudio.com/blog/2026-fall-erp-idea-contest": "2026-10-14",
+  "https://www.thedreamkorea.com/contests/c2e037dd-16d6-4e78-942b-658d792520d5": "2026-10-14",
+  "https://artdeadline.com/ops/pleinair": "2026-10-14",
+  "https://www.itsliquid.com/contest-20edition.html": "2026-10-14"
  }
 }
