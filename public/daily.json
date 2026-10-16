@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-10-15T00:17:53.830Z",
- "date": "2026-10-15",
- "analyzed": 5,
- "failed": 3,
+ "updated_at": "2026-10-16T00:02:48.180Z",
+ "date": "2026-10-16",
+ "analyzed": 6,
+ "failed": 2,
  "usage": {
   "month": "2026-10",
-  "tavily": 18,
-  "ai_tokens": 60603,
-  "analyses": 13,
-  "runs": 2
+  "tavily": 27,
+  "ai_tokens": 89547,
+  "analyses": 19,
+  "runs": 3
  },
  "items": [
   {
@@ -1501,6 +1501,163 @@
    ]
   },
   {
+   "id": "daily-2026-10-16-2",
+   "found_at": "2026-10-16",
+   "query": "AI 활용 아이디어 공모전 2026",
+   "title": "시나리오·영상으로 도전! 2026 조달청 AI 게임·콘텐츠 공모전 ...",
+   "mode": "live",
+   "source": "https://blog.naver.com/ppspr/224440256164?fromRss=true&trackingCode=rss",
+   "via": "tavily-extract",
+   "contest": {
+    "name": "2026 조달청 AI 게임·콘텐츠 공모전",
+    "organizer": "조달청",
+    "url": "https://blog.naver.com/ppspr/224440256164",
+    "deadline": {
+     "iso": "2026-11-22T23:59:59+09:00",
+     "as_written": "2026년 10월 13일 14:43",
+     "evidence": "접수기간  2026년 10월 12일(월) ~ 11월 22일(일)"
+    },
+    "eligibility": {
+     "summary": "대한민국 국민 누구나 (개인/팀)",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "대한민국",
+     "age": null,
+     "evidence": "참가대상  대한민국 국민 누구나 (개인/팀)"
+    },
+    "prizes": {
+     "summary": "총 20점 선정, 총상금 550만 원",
+     "cash": true,
+     "top_amount": "200만 원",
+     "winner_count": 1,
+     "evidence": "대상  전 부문 통합 1점  조달청장상 및 상금 200만 원"
+    },
+    "deliverables": [
+     {
+      "item": "게임 실행 파일 (exe, html)",
+      "evidence": "게임 실행 파일: exe, html"
+     },
+     {
+      "item": "게임 시연영상 (1분 내외, MP4, 1080p 이상)",
+      "evidence": "게임 시연영상: 1분 내외 / MP4 / 1080p 이상"
+     },
+     {
+      "item": "AI 시나리오 (장편 60분 이상, 단편 60분 미만)",
+      "evidence": "장편: 러닝타임 60분 이상  • 단편: 러닝타임 60분 미만"
+     },
+     {
+      "item": "AI 영상 (3분 내외, MP4, 1080p 이상)",
+      "evidence": "영상 길이: 3분 내외  • 파일 형식: MP4  • 해상도: 1080p 이상"
+     }
+    ],
+    "judging": [
+     "AI 게임",
+     "AI 시나리오",
+     "AI 영상"
+    ],
+    "required_tech": [
+     "AI",
+     "게임 개발",
+     "시나리오 작성",
+     "영상 제작"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "악성코드 포함 파일 경고",
+     "글보내기 제한",
+     "주제 분류 제한",
+     "스팸 게시물 신고"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 5,
+     "resources": 4,
+     "cash": 4
+    },
+    "total": 16,
+    "verdict": "go",
+    "scored_by": "rules",
+    "why": [
+     "2026-11-22 마감까지 37일 남았고, 10시간/주 투입으로 370시간 가능해 각 항목에 충분히 할당 가능",
+     "AI 이미지·영상 제작 역량과 한국어·기본 영어 능력이 있어 게임·시나리오·영상 모두 커버 가능",
+     "단일 인원으로 서류·제출 모두 처리해야 하므로, human-only인 서명·결제·최종 제출을 제외한 모든 작업을 AI 에이전트와 협업해 수행"
+    ],
+    "blockers": [
+     "AI 에이전트와 실시간 협업이 제한된 환경(예: 외부 API 호출 제한) → 정확한 파일 생성·업로드 일정 조율 필요",
+     "최종 제출 시점에 서명·결제·인증 등 human-only 단계가 남아 있어, 일정 지연 가능성 존재"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-17",
+      "task": "게임 아이디어·컨셉 기획 및 기본 시나리오 초안 작성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-20",
+      "task": "AI 이미지·영상 생성 및 게임 내 그래픽 자원 제작",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-25",
+      "task": "게임 프로토타입 개발 (코딩·스프라이트·사운드 포함)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-30",
+      "task": "게임 실행 파일( exe, html ) 및 시연 영상(1분) 제작",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-05",
+      "task": "AI 장편 시나리오(60분 이상) 작성 및 검수",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-10",
+      "task": "AI 영상(3분) 제작 및 편집",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-15",
+      "task": "전체 자료 검수 및 파일 포맷 확인",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-18",
+      "task": "서명·결제·인증 등 human-only 절차 수행",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-20",
+      "task": "최종 제출 파일 업로드 및 확인",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 679,
+     "prompt_tokens": 4854,
+     "total_tokens": 5533,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 654,
+     "prompt_tokens": 974,
+     "total_tokens": 1628,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-14-3",
    "found_at": "2026-10-14",
    "query": "AI 이미지 그림 공모전 2026",
@@ -1918,6 +2075,120 @@
    ]
   },
   {
+   "id": "daily-2026-10-16-3",
+   "found_at": "2026-10-16",
+   "query": "AI 활용 아이디어 공모전 2026",
+   "title": "[한국탄소산업진흥원]2026AI영상콘텐츠공모전「탄소,다시보다」|공모전 서포터즈 대외활동 플랫폼 A.Innov 에이이노브",
+   "mode": "live",
+   "source": "https://ainnov.co.kr/event/view/2759",
+   "via": "direct",
+   "contest": {
+    "name": "2026 AI 영상 콘텐츠 공모전 「탄소, 다시 보다」",
+    "organizer": "한국탄소산업진흥원",
+    "url": "http://carbon-c.co.kr/",
+    "deadline": {
+     "iso": "2026-10-19T23:59:59+09:00",
+     "as_written": "2026.10.19 (00:00)까지",
+     "evidence": "2026.09.29.(화) ~ 10.19.(월) 자정까지"
+    },
+    "eligibility": {
+     "summary": "대학(원)생 및 일반인, 개인 또는 팀 가능",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "한국",
+     "age": null,
+     "evidence": "참가 대상: 대학(원)생 및 일반인, 개인 또는 팀 가능"
+    },
+    "prizes": {
+     "summary": "총 400만원, 각 부문별 시상",
+     "cash": true,
+     "top_amount": "100만원",
+     "winner_count": 14,
+     "evidence": "총상금 400만원, 각 부문별 100만원, 최우수상 각 부문별 50만원, 우수상 각 부문별 10만원, 총 14명(팀) 시상"
+    },
+    "deliverables": [
+     {
+      "item": "이미지 (포스터, 웹툰 등)",
+      "evidence": "이미지 부문 / 포스터·광고 이미지, 카드뉴스·인포그래픽, 웹툰·인스타툰, 일러스트·키비주얼"
+     },
+     {
+      "item": "영상 (짧은 광고, 애니메이션 등)",
+      "evidence": "영상 부문 / 숏폼, 광고·캠페인 영상, 애니메이션·모션그래픽, 스토리텔링·설명 영상"
+     }
+    ],
+    "judging": [
+     "대중성 30%",
+     "완성도 30%",
+     "주제적합성 20%",
+     "독창성 20%"
+    ],
+    "required_tech": [
+     "생성형 AI"
+    ],
+    "language": "한국어",
+    "red_flags": [
+     "제출 시 AI 활용 설명서 및 기록 보관 의무"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 2,
+     "resources": 5,
+     "cash": 4
+    },
+    "total": 14,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총점 14점은 'maybe' verdict이므로 제출이 가능하나, 14점이 10점 기준을 크게 초과하지 않아 경쟁력이 낮음",
+     "주어진 강점(글쓰기, AI 이미지, 영상 제작)과 제한사항(하드웨어 없음, 해외 여행 불가, 소규모 예산)을 고려해 이미지·영상 부문에 집중하는 것이 현실적",
+     "제출 시 AI 활용 설명서와 기록 보관 의무가 필요하므로, 인적 자원(human-only)이 필요한 부분은 신청·결제·최종 제출에 한정"
+    ],
+    "blockers": [
+     "AI 활용 설명서와 기록 보관 의무를 제출해야 하므로, 해당 문서를 작성하고 보관할 인력이 필요함(인간 전용)",
+     "결제와 최종 제출은 human-only로 지정되어 있어, 실제 결제와 파일 업로드 작업을 수행해야 함"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-17",
+      "task": "참가 신청 및 결제 (human-only)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-18",
+      "task": "AI 활용 설명서 작성 및 기록 보관 준비 (human-only)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-19",
+      "task": "최종 작품(이미지·영상) 제작 및 제출 (team)",
+      "owner": "team"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 602,
+     "prompt_tokens": 3402,
+     "total_tokens": 4004,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 372,
+     "prompt_tokens": 897,
+     "total_tokens": 1269,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-13-4",
    "found_at": "2026-10-13",
    "query": "AI 활용 아이디어 공모전 2026",
@@ -2200,6 +2471,136 @@
    ]
   },
   {
+   "id": "daily-2026-10-16-4",
+   "found_at": "2026-10-16",
+   "query": "AI art contest open call 2026 prize",
+   "title": "2nd Aion Digital Art Prize 2026–2027 — AI-Assisted ...",
+   "mode": "live",
+   "source": "https://aicontestlist.com/contests/aion-digital-art-prize-2026-2027-ai-assisted",
+   "via": "direct",
+   "contest": {
+    "name": "2nd Aion Digital Art Prize 2026–2027 — AI-Assisted Digital Art",
+    "organizer": "Aion Laboratory / Ise-Shima Art Company",
+    "url": "https://aicontestlist.com/contests/aion-digital-art-prize-2026-2027-ai-assisted",
+    "deadline": {
+     "iso": "2027-03-01T23:59:59+00:00",
+     "as_written": "March 1, 2027 (UTC)",
+     "evidence": "Deadline Mar 1 2027 UTC March 1, 2027 UTC"
+    },
+    "eligibility": {
+     "summary": "Open to artists of any nationality and age, worldwide, individual and collaborative works accepted.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "worldwide",
+     "age": null,
+     "evidence": "Eligibility details: Open to artists of any nationality and age. Individual and collaborative works are accepted; previously exhibited or awarded works are eligible and multiple entries are allowed."
+    },
+    "prizes": {
+     "summary": "Grand Prize of JPY 50,000 plus up to 35 certificates.",
+     "cash": true,
+     "top_amount": "JPY 50,000",
+     "winner_count": 1,
+     "evidence": "The organizer lists: One Grand Prize of JPY 50,000 plus a printed certificate; up to 35 Aion Digital Art Prizes receive certificates."
+    },
+    "deliverables": [
+     {
+      "item": "AI-assisted artwork",
+      "evidence": "AI-assisted work is accepted, but works made solely by AI are not accepted."
+     },
+     {
+      "item": "Work description and link to uploaded file",
+      "evidence": "Upload the work to a file-hosting or media-sharing service, keep it accessible to judges, and submit its link plus work description through the official application form."
+     }
+    ],
+    "judging": [
+     "Review of submitted works by judges",
+     "Evaluation based on creativity and appropriate use of AI assistance"
+    ],
+    "required_tech": [
+     "AI tool or model for assistance",
+     "File‑hosting or media‑sharing service for upload"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Entry fee of JPY 3,000 per work, non‑refundable",
+     "Requirement to disclose AI usage"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 5,
+     "resources": 4,
+     "cash": 3
+    },
+    "total": 13,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총점 13점 중 13점이지만 심사 기준에 부합하는 AI 보조 작품을 제작할 수 있는 역량이 아직 충분히 확보되지 않았습니다.",
+     "입상작은 JPY 50,000 현금과 인증서이며, 이는 현지 환율·수입 절차로 인해 실제 현금 수령이 불확실합니다.",
+     "입금비 JPY 3,000은 환전·송금 비용이 추가되어 실제 비용이 더 높아질 수 있어, 예산이 충분하지 않습니다."
+    ],
+    "blockers": [
+     "입금비 결제와 환전 절차가 필요하여 실제 현금 수령이 어려울 수 있습니다.",
+     "AI 보조 작품 제작에 필요한 기술·리소스가 현재 팀에 부족합니다.",
+     "작품 제출 후審査 결과가 불확실하여 최종 수상 가능성을 보장받을 수 없습니다."
+    ],
+    "plan": [
+     {
+      "date": "2026-10-17",
+      "task": "입금비 JPY 3,000 결제 및 환전 확인",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-20",
+      "task": "AI 보조 작품 아이디어 기획 및 스케치",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-25",
+      "task": "AI 이미지·영상 생성 도구 테스트 및 선택",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-01",
+      "task": "작품 제작 (AI 보조) 및 파일 업로드 준비",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-10",
+      "task": "작품 설명문 작성 및 공식 신청서 제출",
+      "owner": "human-only"
+     },
+     {
+      "date": "2027-02-28",
+      "task": "최종 작품 검토 및 필요 시 수정",
+      "owner": "team"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 587,
+     "prompt_tokens": 2184,
+     "total_tokens": 2771,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 498,
+     "prompt_tokens": 882,
+     "total_tokens": 1380,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-10-2",
    "found_at": "2026-10-10",
    "query": "(test)",
@@ -2373,6 +2774,117 @@
      },
      "prompt_cache_hit_tokens": 0,
      "prompt_cache_miss_tokens": 1203
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-16-5",
+   "found_at": "2026-10-16",
+   "query": "AI art contest open call 2026 prize",
+   "title": "International AI Awards — Winter 2026 - aicontestlist.com",
+   "mode": "live",
+   "source": "https://aicontestlist.com/contests/international-ai-awards-winter-2026",
+   "via": "direct",
+   "contest": {
+    "name": "International AI Awards 2026 — Autumn Season",
+    "organizer": "International AI Awards / Sofoly Cultural Limited",
+    "url": "https://aicontestlist.com/contests/international-ai-awards-winter-2026",
+    "deadline": {
+     "iso": "2026-10-30T23:59:59+00:00",
+     "as_written": "October 30, 2026",
+     "evidence": "Deadline October 30, 2026"
+    },
+    "eligibility": {
+     "summary": "Open worldwide to creators, developers, startups and companies.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "worldwide",
+     "age": null,
+     "evidence": "Open to participants worldwide."
+    },
+    "prizes": {
+     "summary": "Not specified",
+     "cash": null,
+     "top_amount": null,
+     "winner_count": null,
+     "evidence": "Prize Not specified"
+    },
+    "deliverables": [
+     {
+      "item": "project title, project links and description, upload a project cover image and candidate photo, optionally add supporting documentation links",
+      "evidence": "Choose one category; provide project title, project links and description, upload a project cover image and candidate photo, and optionally add supporting documentation links."
+     }
+    ],
+    "judging": [
+     "Award"
+    ],
+    "required_tech": [
+     "AI Studio"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Prize not specified",
+     "Entry fee not specified"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 4,
+     "resources": 5,
+     "cash": 2
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "Fixed scores: win_odds=1, deadline=4, resources=5, cash=2, total=12, verdict=maybe, scored_by=rules",
+     "Team profile: strengths include writing, AI images, short-form video, Korean+basic English, fast turnaround; limits include no hardware, no offline travel abroad, small budget, one human for sign-ups",
+     "Contest facts: deadline October 30, 2026; eligibility open worldwide to individuals; deliverables require project title, links, description, cover image, candidate photo, optional docs; language English; red flags: prize not specified, entry fee not specified"
+    ],
+    "blockers": [
+     "Prize not specified",
+     "Entry fee not specified",
+     "Language requirement English for deliverables",
+     "Need candidate photo and project cover image",
+     "One human required for sign-ups"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-17",
+      "task": "Draft project title, description, and links",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-18",
+      "task": "Create AI-generated cover image and candidate photo",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-19",
+      "task": "Submit entry with required documentation",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 387,
+     "prompt_tokens": 1885,
+     "total_tokens": 2272,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 328,
+     "prompt_tokens": 682,
+     "total_tokens": 1010,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
     }
    ]
   },
@@ -3056,6 +3568,141 @@
    ]
   },
   {
+   "id": "daily-2026-10-16-6",
+   "found_at": "2026-10-16",
+   "query": "AI hackathon online 2026 prize deadline",
+   "title": "Model Context Protocol Server and AI Agent Government Hackathon | GSA",
+   "mode": "live",
+   "source": "https://www.gsa.gov/artificial-intelligence/ai-community-of-practice/events-and-training/mcp-server-and-ai-agent-government-hackathon",
+   "via": "direct",
+   "contest": {
+    "name": "Model Context Protocol Server and AI Agent Government Hackathon",
+    "organizer": "GSA AI Community of Practice",
+    "url": "https://www.gsa.gov/artificial-intelligence/ai-community-of-practice/events-and-training/mcp-server-and-ai-agent-government-hackathon",
+    "deadline": {
+     "iso": null,
+     "as_written": null,
+     "evidence": null
+    },
+    "eligibility": {
+     "summary": "All government employees with a .gov or .mil email address are eligible to participate.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "United States",
+     "age": null,
+     "evidence": "Open to all government employees with a .gov or .mil email address (federal, state, local, territorial, or tribal)."
+    },
+    "prizes": {
+     "summary": "Winners will be recognized in an awards ceremony by senior government officials; no monetary prizes are offered.",
+     "cash": false,
+     "top_amount": null,
+     "winner_count": null,
+     "evidence": "Due to federal legal requirements, we cannot offer cross-agency monetary prizes, but winners will be recognized in an awards ceremony by senior government officials."
+    },
+    "deliverables": [
+     {
+      "item": "GitHub repository (template)",
+      "evidence": "GitHub repository ( template ) : Complete, documented code for your MCP server."
+     },
+     {
+      "item": "Presentation slide deck",
+      "evidence": "Presentation slide deck ( presentation template [PPTX - 102 KB] ) : Problem statement — What challenge does your server address?"
+     },
+     {
+      "item": "Evaluation documentation",
+      "evidence": "Evaluation documentation ( sample documentation [DOCX - 11 KB] ) : Testing methodology"
+     }
+    ],
+    "judging": [
+     "Technical Quality",
+     "Innovation",
+     "Mission alignment",
+     "Presentation"
+    ],
+    "required_tech": [
+     "Python (3.10+)",
+     "Node.js (18+)",
+     "Git",
+     "MCP SDK",
+     "REST API concepts"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "Deadline not specified",
+     "Registration is now closed",
+     "No monetary prizes"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 2,
+     "resources": 3,
+     "cash": 1
+    },
+    "total": 9,
+    "verdict": "skip",
+    "scored_by": "rules",
+    "why": [
+     "총 상금이 없고, 정부 직원 전용 행사라서 신규 팀이 참여하기 어려운 환경",
+     "데드라인이 명시되지 않아 일정 관리가 어렵고, 등록이 이미 마감된 것으로 보임",
+     "필요한 기술 스택(Python, Node.js, MCP SDK 등)을 혼자서 구현·제출하기 어려운 부담"
+    ],
+    "blockers": [
+     "등록이 이미 종료된 것으로 보임",
+     "데드라인 정보가 없으므로 일정 수립이 불확실",
+     "하드웨어·여행 제한 없이 온라인으로만 구현해야 함"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-16",
+      "task": "참가 자격 및 등록 마감 여부 확인",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-17",
+      "task": "MCP 서버 기본 템플릿 구축 및 문서화",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-18",
+      "task": "제출용 GitHub 레포지토리 준비 및 프레젠테이션 슬라이드 제작",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-19",
+      "task": "평가 문서 초안 작성 및 전체 검토",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-20",
+      "task": "최종 검증 및 제출 준비 (human-only)",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 524,
+     "prompt_tokens": 4149,
+     "total_tokens": 4673,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 393,
+     "prompt_tokens": 818,
+     "total_tokens": 1211,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-11-6",
    "found_at": "2026-10-11",
    "query": "AI art contest open call 2026 prize",
@@ -3163,128 +3810,6 @@
      },
      "prompt_cache_hit_tokens": 0,
      "prompt_cache_miss_tokens": 917
-    }
-   ]
-  },
-  {
-   "id": "daily-2026-10-14-8",
-   "found_at": "2026-10-14",
-   "query": "AI art contest open call 2026 prize",
-   "title": "THE INTERNATIONAL CONTEST 2026 | ITSLIQUID",
-   "mode": "live",
-   "source": "https://www.itsliquid.com/contest-20edition.html",
-   "via": "direct",
-   "contest": {
-    "name": "ITSLIQUID International Contest 20th Edition",
-    "organizer": "ITSLIQUID Group",
-    "url": "https://www.itsliquid.com/contest-20edition.html",
-    "deadline": {
-     "iso": "2026-10-15T23:59:59+00:00",
-     "as_written": "October 15, 2026",
-     "evidence": "Deadline: October 15 , 2026"
-    },
-    "eligibility": {
-     "summary": "Solo artists, architects, and designers can participate as well as groups, after the designation of a group leader useful for registration. Participation is without any limit on age and nationality.",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "all over the world",
-     "age": "no limit",
-     "evidence": "Participation is without any limit on age and nationality. Solo artists, architects, and designers can participate in the contest as well as groups, after the designation of a group leader useful for registration."
-    },
-    "prizes": {
-     "summary": "1 year of Exhibitions worldwide, 5 Exhibitions in Venice, 5 Exhibitions in Rome, 5 Exhibitions in London, 5 Exhibitions in Barcelona, and 10 Featured Articles.",
-     "cash": false,
-     "top_amount": "100,000 euros",
-     "winner_count": 5,
-     "evidence": "The winner of the first prize will be awarded with one year of Contemporary Art Exhibitions in our galleries in Venice, Rome and London."
-    },
-    "deliverables": [
-     {
-      "item": "1 year of Exhibitions worldwide",
-      "evidence": "The winner of the first prize will be awarded with one year of Contemporary Art Exhibitions in our galleries in Venice, Rome and London."
-     },
-     {
-      "item": "5 Exhibitions in Venice",
-      "evidence": "Among the participants, 5 winners will be chosen to exhibit their creations during one International Contemporary Art Exhibition in Venice, in one of ITSLIQUID's prestigious locations."
-     },
-     {
-      "item": "5 Exhibitions in Rome",
-      "evidence": "Among the participants, 5 winners will be chosen to exhibit their creations during one International Contemporary Art Exhibition in Rome, at ITSLIQUID Art Space, located in the heart of the city."
-     },
-     {
-      "item": "5 Exhibitions in London",
-      "evidence": "Among the participants, 5 winners will be chosen to exhibit their creations during one International Contemporary Art Exhibition in London, at ELEMENTS Contemporary Art Space."
-     },
-     {
-      "item": "5 Exhibitions in Barcelona",
-      "evidence": "Among the participants, 5 winners will be chosen to exhibit their creations during one International Contemporary Art Exhibition in Barcelona, at ITSLIQUID Art Space, an elegant venue in the heart of the city, surrounded by parks and a few steps from the sea."
-     },
-     {
-      "item": "10 Featured Articles",
-      "evidence": "10 creatives will be interviewed, and their dedicated articles will be published on the official platform of ITSLIQUID Group."
-     }
-    ],
-    "judging": [
-     "Jury of renowned Art, Architecture, Design, and Fashion experts"
-    ],
-    "required_tech": [
-     ".jpg",
-     ".png",
-     "max size of each image 5 Mb",
-     "max size of each image 2500 pixels with a resolution of 72 dpi",
-     "zip/rar folder"
-    ],
-    "language": "English",
-    "red_flags": [
-     "Deadline listed as October 15, 2026 but page says \"Today: 2026-10-14\""
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 1,
-     "deadline": 1,
-     "resources": 4,
-     "cash": 1
-    },
-    "total": 7,
-    "verdict": "skip",
-    "scored_by": "rules",
-    "why": [
-     "The deadline is October 15, 2026 (one day after today), giving only 1 day to prepare; the required deliverables (multiple high‑resolution images, zip/rar folder) exceed the 10‑hour weekly capacity of the solo human creator.",
-     "The contest requires English language submissions and specific image specifications (max 5 MB, 2500 px, 72 dpi) that must be produced and packaged within the limited time, which is unrealistic for a one‑person team without hardware or offline travel.",
-     "No cash prize is offered and the only rewards are exhibition opportunities; the effort needed to create and submit qualifying artwork outweighs the potential benefit for a solo creator with limited resources."
-    ],
-    "blockers": [
-     "Only 1 day left before the October 15, 2026 deadline.",
-     "Required deliverables include multiple high‑resolution images and a zip/rar folder, exceeding the 10‑hour weekly capacity of the solo human team member.",
-     "No hardware or offline travel is available, and the team cannot meet the technical specifications within the remaining time."
-    ],
-    "plan": [
-     {
-      "date": "2026-10-14",
-      "task": "Evaluate whether any existing artwork meets the image specifications and can be submitted before the deadline.",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 859,
-     "prompt_tokens": 2883,
-     "total_tokens": 3742,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 315,
-     "prompt_tokens": 1153,
-     "total_tokens": 1468,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
     }
    ]
   },
@@ -3468,6 +3993,14 @@
   "https://www.contestindex.co.kr/index/61382": "2026-10-15",
   "https://www.all-con.co.kr/view/contest/543262": "2026-10-15",
   "https://www.contestindex.co.kr/index/61358": "2026-10-15",
-  "https://hackathon.odoo.com/event/odoo-hackathon-2026-33/register": "2026-10-15"
+  "https://hackathon.odoo.com/event/odoo-hackathon-2026-33/register": "2026-10-15",
+  "https://schubki.com/hackathons/national-ai-hackathon-2026": "2026-10-16",
+  "https://www.for9a.com/en/opportunity/international-next-art-ai-competition-art-artificial-intelligence-with-prizes-worth-krw": "2026-10-16",
+  "https://blog.naver.com/ppspr/224440256164?fromRss=true&trackingCode=rss": "2026-10-16",
+  "https://ainnov.co.kr/event/view/2759": "2026-10-16",
+  "https://holaworld.io/hola-it": "2026-10-16",
+  "https://aicontestlist.com/contests/aion-digital-art-prize-2026-2027-ai-assisted": "2026-10-16",
+  "https://aicontestlist.com/contests/international-ai-awards-winter-2026": "2026-10-16",
+  "https://www.gsa.gov/artificial-intelligence/ai-community-of-practice/events-and-training/mcp-server-and-ai-agent-government-hackathon": "2026-10-16"
  }
 }
