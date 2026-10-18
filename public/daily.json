@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-10-17T23:44:05.555Z",
- "date": "2026-10-18",
- "analyzed": 7,
- "failed": 1,
+ "updated_at": "2026-10-18T23:53:55.555Z",
+ "date": "2026-10-19",
+ "analyzed": 6,
+ "failed": 2,
  "usage": {
   "month": "2026-10",
-  "tavily": 45,
-  "ai_tokens": 169006,
-  "analyses": 34,
-  "runs": 5
+  "tavily": 55,
+  "ai_tokens": 202594,
+  "analyses": 40,
+  "runs": 6
  },
  "items": [
   {
@@ -3738,6 +3738,394 @@
    ]
   },
   {
+   "id": "daily-2026-10-19-1",
+   "found_at": "2026-10-19",
+   "query": "AI hackathon online 2026 prize deadline",
+   "title": "AI Agents Hackathon - AgentVerse 2026 (Supported by OpenAI) | HackIndia | HackIndia",
+   "mode": "live",
+   "source": "https://hackindia.org/2026/ai-agents-hackathon-agentverse-2026-supported-by-openai",
+   "via": "tavily-extract",
+   "contest": {
+    "name": "AI Agents Hackathon - AgentVerse 2026 (Supported by OpenAI)",
+    "organizer": "HackIndia",
+    "url": "https://hackindia.org/2026/ai-agents-hackathon-agentverse-2026-supported-by-openai",
+    "deadline": {
+     "iso": "2026-10-23T00:10:00+05:30",
+     "as_written": "Closes Oct 23, 2026 · 00:10 IST",
+     "evidence": "Closes Oct 23, 2026 · 00:10 IST"
+    },
+    "eligibility": {
+     "summary": "Online hackathon open to teams; no explicit age or country restrictions mentioned.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": null,
+     "evidence": "Online"
+    },
+    "prizes": {
+     "summary": "₹5000 INR + 30,000 Sharp Tokens + $50 OpenAI API Credits prize pool; Grand prize $12,500.",
+     "cash": true,
+     "top_amount": "$12,500",
+     "winner_count": null,
+     "evidence": "₹5000 INR + 30,000 Sharp Tokens (Cryptocurrency) + $50 OpenAI API Credits prize pool · ₹100 · Online"
+    },
+    "deliverables": [
+     {
+      "item": "AI agents that can reason, use tools, access knowledge, automate workflows and solve real-world problems",
+      "evidence": "create real, action-oriented AI agents that can reason, use tools, access knowledge, automate workflows and solve real-world problems"
+     }
+    ],
+    "judging": [
+     "Mahesh Chand",
+     "Avneesh Aryan",
+     "Saumya Smriti"
+    ],
+    "required_tech": [
+     "AI models",
+     "APIs",
+     "MCP",
+     "RAG",
+     "memory",
+     "tools",
+     "databases",
+     "cloud infrastructure",
+     "modern agent frameworks"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "Deadline is 4 days from today (Oct 18) but the page says \"Closes Oct 23, 2026\" which is far in the future; possible inconsistency."
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 2,
+     "resources": 3,
+     "cash": 5
+    },
+    "total": 13,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "Fixed scores: win_odds=3, deadline=2, resources=3, cash=5, total=13, verdict=maybe",
+     "Team profile: one human creator, strengths in writing, AI images, short videos, Korean+basic English, 10 hours available",
+     "Contest deadline is Oct 23, 2026 (4 days from today) but page says \"Closes Oct 23, 2026\" which is far in the future; possible inconsistency",
+     "Eligibility allows individuals, online, no country restrictions",
+     "Prize includes cash ₹5000 INR, 30,000 Sharp Tokens, $50 OpenAI API Credits, and $12,500 grand prize",
+     "Deliverable requires AI agents that can reason, use tools, access knowledge, automate workflows and solve real-world problems",
+     "Required tech includes AI models, APIs, MCP, RAG, memory, tools, databases, cloud infrastructure, modern agent frameworks",
+     "Red flag: deadline inconsistency"
+    ],
+    "blockers": [
+     "Deadline inconsistency",
+     "Limited hours (10) and no hardware or offline travel abroad",
+     "One human for sign-ups and payments",
+     "Need to create AI agents with required tech stack",
+     "Language of contest is Korean but team has basic English"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-20",
+      "task": "Verify deadline date and clarify inconsistency",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-20",
+      "task": "Draft AI agent concept using writing and AI image strengths",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-21",
+      "task": "Create short video pitch for agent idea",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-22",
+      "task": "Submit registration and payment",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-23",
+      "task": "Finalize and submit AI agent deliverable",
+      "owner": "team"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 577,
+     "prompt_tokens": 2067,
+     "total_tokens": 2644,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 519,
+     "prompt_tokens": 872,
+     "total_tokens": 1391,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-19-4",
+   "found_at": "2026-10-19",
+   "query": "숏폼 영상 공모전 2026 상금",
+   "title": "요즘 대세 숏폼 공모전 추천! 「2026 양주 나리농원 ...",
+   "mode": "live",
+   "source": "http://blog.naver.com/yangju619/224418675312",
+   "via": "tavily-extract",
+   "contest": {
+    "name": "2026 양주 나리농원 숏폼 영상 공모전",
+    "organizer": "양주시청",
+    "url": "https://blog.naver.com/yangju619/224418675312",
+    "deadline": {
+     "iso": "2026-10-25T23:59:59+09:00",
+     "as_written": "2026. 9. 18.(금) ~ 10. 25.(일)",
+     "evidence": "접수기간 | 2026. 9. 18.(금) ~ 10. 25.(일)"
+    },
+    "eligibility": {
+     "summary": "전 국민 누구나(개인·팀)",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "전 국민",
+     "age": null,
+     "evidence": "참가대상 | 전 국민 누구나(개인·팀)"
+    },
+    "prizes": {
+     "summary": "대상 200만원 / 최우수 2명 각 100만원 / 우수 3명 각 50만원",
+     "cash": true,
+     "top_amount": "200만원",
+     "winner_count": 2,
+     "evidence": "시상규모 | 대상 200만원 / 최우수 2명 각 100만원 / 우수 3명 각 50만원"
+    },
+    "deliverables": [
+     {
+      "item": "60초 이내 숏폼 영상",
+      "evidence": "공모주제 | 나리농원 및 천일홍 가을 페스타의 매력을 알릴 수 있는 60초 이내 숏폼 영상"
+     },
+     {
+      "item": "MP4 파일 형식",
+      "evidence": "출품규격 | 파일형식 : MP4"
+     }
+    ],
+    "judging": [
+     "심사 기준은 명시되지 않음"
+    ],
+    "required_tech": [
+     "MP4",
+     "FHD(1080p) 이상",
+     "가로·세로 영상 제한 없음"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "파일 다운로드 시 바이러스 경고 표시",
+     "글보내기 제한 및 신고 시스템 존재"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 2,
+     "resources": 4,
+     "cash": 4
+    },
+    "total": 13,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "2026-10-25 마감까지 6일 남았고, 10시간 작업 가능",
+     "1인 스튜디오이지만 영상 제작·업로드·설명 모두 가능",
+     "수상 가능성(200만원) 대비 리소스 점수 4가 합리적",
+     "심사 기준 미공개·평균 경쟁력(3)보다 높은 잠재력 존재",
+     "기한·자격·형식 모두 충족, 제출만 필요"
+    ],
+    "blockers": [
+     "파일 다운로드 시 바이러스 경고 표시",
+     "글 보내기 제한·신고 시스템 존재",
+     "제출 절차와 파일 업로드 보안 위험"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-20",
+      "task": "초안 스크립트 작성 및 촬영 준비",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-21",
+      "task": "영상 촬영 및 편집",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-22",
+      "task": "파일 검수·MP4 포맷 변환",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-23",
+      "task": "공모전 페이지 접속·파일 업로드",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-24",
+      "task": "업로드 확인·필요 시 재업로드",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-25",
+      "task": "최종 제출 확인·수상 여부 대기",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 577,
+     "prompt_tokens": 5037,
+     "total_tokens": 5614,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 450,
+     "prompt_tokens": 872,
+     "total_tokens": 1322,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-19-5",
+   "found_at": "2026-10-19",
+   "query": "AI 이미지 그림 공모전 2026",
+   "title": "2026 달빛어린이병원 초등학생 그림 공모전 | 요즘것들",
+   "mode": "live",
+   "source": "https://www.allforyoung.com/posts/87969",
+   "via": "direct",
+   "contest": {
+    "name": "2026 달빛어린이병원 초등학생 그림 공모전",
+    "organizer": "보건복지부, 국립중앙의료원, 중앙응급센터",
+    "url": "https://www.allforyoung.com/posts/87969",
+    "deadline": {
+     "iso": "2026-10-30T23:59:59+09:00",
+     "as_written": "2026년 10월 30일",
+     "evidence": "접수 기간: 2026. 9. 21.(월) ~ 10. 30.(금)"
+    },
+    "eligibility": {
+     "summary": "전국 초등학생 및 동 연령대 어린이 (진료 경험이 없어도 참여 가능)",
+     "individuals_ok": true,
+     "online": false,
+     "countries": "전국",
+     "age": "2014~2019년생 (4~6학년 및 1~3학년)",
+     "evidence": "참가 대상: 전국 초등학생 및 동 연령대 어린이 (진료 경험이 없어도 참여 가능)"
+    },
+    "prizes": {
+     "summary": "총 19인 선정, 상금 제공",
+     "cash": true,
+     "top_amount": "50만 원",
+     "winner_count": 1,
+     "evidence": "대상 (1인): 보건복지부 장관상, 상금 50만 원"
+    },
+    "deliverables": [
+     {
+      "item": "그림",
+      "evidence": "규격: 8절 도화지 (1인당 1점 제출)"
+     }
+    ],
+    "judging": [
+     "수상작은 원본 작품 추후 우편 제출 필요 (발표 시까지 원본 보관 필수)"
+    ],
+    "required_tech": [
+     "물감",
+     "색연필",
+     "크레파스",
+     "싸인펜"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "제출처에 두 개의 이메일이 나열되어 있으나, 실제 운영 측에서는 하나만 사용하도록 안내하지 않음"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 3,
+     "resources": 4,
+     "cash": 3
+    },
+    "total": 13,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총 점수 13점 중 3점이 win_odds에 할당돼 있어, 당첨 가능성은 낮아 보이지만 아직 가능성은 존재합니다.",
+     "제출 기한이 2026-10-30까지 남아 있어, 아직 참여 기회가 있습니다.",
+     "그림 공모전은 온라인 제출이 불가능하고 오프라인 제출이 필요하므로, 현재 제한된 시간과 자원(10시간, 1인)으로 완성하기 어려운 점이 있습니다."
+    ],
+    "blockers": [
+     "제출처에 두 개의 이메일이 나열되어 있으나, 실제 운영 측에서는 하나만 사용하도록 안내하지 않아 혼동 가능성이 있습니다.",
+     "온라인 제출이 불가능하고 원본 작품을 우편으로 제출해야 하므로, 물류 및 우편 비용이 발생합니다.",
+     "제출 기한(2026-10-30)까지 그림을 제작하고 우편으로 발송해야 하는 시간이 제한되어 있습니다."
+    ],
+    "plan": [
+     {
+      "date": "2026-10-19",
+      "task": "참가 신청 및 제출처 이메일 확인",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-20",
+      "task": "그림 제작 (8절 도화지 1점)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-21",
+      "task": "작품 우편 발송 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-22",
+      "task": "우편 발송",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-23",
+      "task": "발송 확인 및 원본 보관",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 530,
+     "prompt_tokens": 1586,
+     "total_tokens": 2116,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 451,
+     "prompt_tokens": 825,
+     "total_tokens": 1276,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-10-2",
    "found_at": "2026-10-10",
    "query": "(test)",
@@ -4144,6 +4532,128 @@
      "completion_tokens": 404,
      "prompt_tokens": 1077,
      "total_tokens": 1481,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-19-6",
+   "found_at": "2026-10-19",
+   "query": "AI 이미지 그림 공모전 2026",
+   "title": "2026년 10월 1주 이주의 주목할 공모전 | AI 광고, 영상, 웹툰 ...",
+   "mode": "live",
+   "source": "https://blog.naver.com/PostView.naver?blogId=thinku1125&logNo=224433197498&redirect=Dlog",
+   "via": "direct",
+   "contest": {
+    "name": "2026년 10월 1주 이주의 주목할 공모전 | AI 광고, 영상, 웹툰 공모전",
+    "organizer": "씽유(thinkyou)",
+    "url": "https://thinkyou.co.kr/contest/66055",
+    "deadline": {
+     "iso": "2026-10-23T23:59:59+09:00",
+     "as_written": "2026년 10월 1주",
+     "evidence": "접수기간 2026년 9월 14일 ~ 10월 23일"
+    },
+    "eligibility": {
+     "summary": "일반인·중고등학생·초등학생",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "대한민국",
+     "age": "전 연령",
+     "evidence": "참여 대상 일반인·중고등학생·초등학생"
+    },
+    "prizes": {
+     "summary": "총 21명 / 총상금 520만원",
+     "cash": true,
+     "top_amount": "100만원",
+     "winner_count": 1,
+     "evidence": "대상: 일반부 100만원"
+    },
+    "deliverables": [
+     {
+      "item": "풍경화",
+      "evidence": "일반부: 규격 제한 없음"
+     },
+     {
+      "item": "수채화·유화·아크릴화·산수화·수묵화·세밀화",
+      "evidence": "수채화, 유화, 아크릴화, 산수화, 수묵화, 세밀화 등"
+     },
+     {
+      "item": "온라인 접수 후 우편 또는 방문 제출",
+      "evidence": "온라인 접수 후 작품을 우편 또는 방문 제출"
+     }
+    ],
+    "judging": [
+     "일반부",
+     "중·고등부",
+     "초등부"
+    ],
+    "required_tech": [
+     "수채화",
+     "유화",
+     "아크릴화",
+     "산수화",
+     "수묵화",
+     "세밀화"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "제출작은 반드시 우편 또는 방문 제출이 필요함"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 2,
+     "resources": 3,
+     "cash": 4
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "2026-10-19 기준 4일 남음, 2026-10-23 23:59:59까지 제출 가능",
+     "수상작은 우편 또는 방문 제출이 필요하므로, 작품을 직접 우편으로 보낼 수 있는 인력이 필요함",
+     "수상작은 수채화·유화·아크릴화·산수화·수묵화·세밀화 중 하나여야 함"
+    ],
+    "blockers": [
+     "작품을 직접 우편으로 보낼 수 있는 인력이 없음",
+     "수상작을 만들기 위한 충분한 시간과 자원이 아직 확보되지 않음"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-20",
+      "task": "작품 제작 및 우편 발송 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-22",
+      "task": "우편 발송 및 확인",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-23",
+      "task": "제출 마감 확인 및 최종 점검",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 574,
+     "prompt_tokens": 6838,
+     "total_tokens": 7412,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 300,
+     "prompt_tokens": 869,
+     "total_tokens": 1169,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     }
@@ -4828,80 +5338,78 @@
    ]
   },
   {
-   "id": "daily-2026-10-10-5",
-   "found_at": "2026-10-10",
-   "query": "AI short film competition 2026 deadline",
-   "title": "Tropfest 2027 Returns to Sydney’s Domain With New AI Eligibility Rules - Indie Shorts Mag",
+   "id": "daily-2026-10-19-3",
+   "found_at": "2026-10-19",
+   "query": "AI 활용 아이디어 공모전 2026",
+   "title": "서강대, 생성형 AI 아이디어 공모전…10개 팀 수상 | 중앙일보",
    "mode": "live",
-   "source": "https://www.indieshortsmag.com/news/2026/10/tropfest-2027-domain-ai-rules-submissions",
+   "source": "https://www.joongang.co.kr/article/25467474",
    "via": "direct",
    "contest": {
-    "name": "Tropfest 2027",
-    "organizer": "Indie Shorts Mag",
-    "url": "https://www.indieshortsmag.com/news/2026/10/tropfest-2027-domain-ai-rules-submissions",
+    "name": "2026 서강대학교 생성형 AI 기반 아이디어 공모전",
+    "organizer": "서강대학교",
+    "url": "https://www.joongang.co.kr/article/25467474",
     "deadline": {
-     "iso": "2026-12-22T22:00:00+11:00",
-     "as_written": "22 December at 10 pm AEDT",
-     "evidence": "early-bird deadline is 22 December at 10 pm AEDT"
+     "iso": null,
+     "as_written": null,
+     "evidence": null
     },
     "eligibility": {
-     "summary": "Australian citizens or permanent residents must direct; international filmmakers may enter only for out-of-competition screenings.",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "Australia",
+     "summary": "학부·대학원생과 교직원이 1~5명 규모의 팀으로 참여",
+     "individuals_ok": false,
+     "online": false,
+     "countries": null,
      "age": null,
-     "evidence": "Directors must be Australian citizens or permanent residents to compete; international filmmakers may enter for out-of-competition screenings."
+     "evidence": "학부·대학원생과 교직원이 1~5명 규모의 팀으로 참여했으며, 아이디어 기획 중심의 예선과 AI 서비스 개발 중심의 본선으로 진행됐다."
     },
     "prizes": {
-     "summary": "A$50,000, A$30,000 and A$20,000 for the top three places.",
+     "summary": "대상 1팀, 최우수상 1팀, 우수상 2팀, 현업 전문가 멘토링 및 개발지원비 제공",
      "cash": true,
-     "top_amount": "A$50,000",
-     "winner_count": 3,
-     "evidence": "The CommBank Tropfest Emerging Filmmakers Fund offers A$50,000, A$30,000 and A$20,000 for the top three places."
+     "top_amount": "30만원",
+     "winner_count": 10,
+     "evidence": "대상은 ‘비버(Beaver)’팀이 받았으며, 최우수상은 ‘마이에이아이레주메’팀, 우수상은 ‘renAIssance’팀과 ‘Haksa's Insight Lab’팀이 공동 수상했다. 현업 전문가의 일대일 멘토링과 중간 점검 등을 통해 아이디어를 실제 서비스로 구현하도록 지원했으며, 본선 진출팀에는 AI 개발 도구와 30만원 상당의 개발지원비를 제공했다."
     },
     "deliverables": [
      {
-      "item": "Maximum seven minutes including credits",
-      "evidence": "Films must run no longer than seven minutes, including credits"
+      "item": "AI 기반 서비스 기획 및 구현",
+      "evidence": "AI 서비스 개발 중심의 본선으로 진행됨"
      },
      {
-      "item": "Incorporate the 2027 signature item ‘Necklace’",
-      "evidence": "incorporate the 2027 signature item, ‘Necklace’"
-     },
-     {
-      "item": "Premiere publicly at Tropfest",
-      "evidence": "premiere publicly at Tropfest"
+      "item": "멘토링 및 피드백",
+      "evidence": "현업 전문가의 일대일 멘토링과 중간 점검 제공"
      }
     ],
     "judging": [
-     "Not specified in the provided text"
+     "AI 기반 아이디어 기획",
+     "서비스 구현 가능성",
+     "실제 적용 가치"
     ],
     "required_tech": [
-     "Generative AI tools (if used) must be disclosed"
+     "생성형 AI",
+     "AI 개발 도구"
     ],
-    "language": "English",
+    "language": "한국어",
     "red_flags": [
-     "AI assistance permitted only if not used substantially for core storytelling; entrants must disclose AI use"
+     "공모전 명칭에 '2026' 표기되어 있으나 현재는 2026년을 가리키는 것이 아니라 과거 보도 자료임"
     ]
    },
    "score": {
     "scores": {
-     "win_odds": 0,
-     "deadline": 5,
-     "resources": 3,
-     "cash": 5
+     "win_odds": 3,
+     "deadline": 2,
+     "resources": 4,
+     "cash": 3
     },
-    "total": 13,
+    "total": 12,
     "verdict": "skip",
+    "scored_by": "rules",
     "why": [
-     "팀이 호주 시민권자/영주권자가 아니므로 본선 경쟁 부문 출전 자격이 없으며, 상금 수령 불가능",
-     "트로프페스트 현장 프리미어 요구 사항으로 호주 현지 방문이 필요할 수 있으나 팀은 해외 오프라인 이동 불가",
-     "AI 활용이 핵심 스토리텔링에 실질적으로 쓰이면 안 되고 사용 시 공개해야 해 팀의 강점(AI 영상/이미지) 활용에 제약"
+     "Individuals are not eligible",
+     "Deadline unknown",
+     "Scored by fixed rules (no AI call)"
     ],
     "blockers": [
-     "본선 출전 자격 미달(호주 시민권/영주권 필수)",
-     "프리미어 현장 참석 시 해외 여행 필요",
-     "AI 실질적 활용 제한 및 공개 의무"
+     "Individuals are not eligible"
     ],
     "plan": []
    },
@@ -4909,31 +5417,11 @@
     {
      "step": "extract",
      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 574,
-     "prompt_tokens": 2101,
-     "total_tokens": 2675,
+     "completion_tokens": 587,
+     "prompt_tokens": 4804,
+     "total_tokens": 5391,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
-    },
-    {
-     "step": "score",
-     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-     "completion_tokens": 1575,
-     "prompt_tokens": 1015,
-     "total_tokens": 2590,
-     "completion_tokens_details": {
-      "accepted_prediction_tokens": null,
-      "audio_tokens": null,
-      "reasoning_tokens": 1336,
-      "rejected_prediction_tokens": null
-     },
-     "prompt_tokens_details": {
-      "audio_tokens": null,
-      "cached_tokens": 0,
-      "multimodal_tokens": null
-     },
-     "prompt_cache_hit_tokens": 0,
-     "prompt_cache_miss_tokens": 1015
     }
    ]
   },
@@ -5498,6 +5986,14 @@
   "https://linkareer.com/activity/356767": "2026-10-18",
   "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609280004": "2026-10-18",
   "https://thinkyou.co.kr/contest/66745": "2026-10-18",
-  "https://www.all-con.co.kr/view/contest/543177": "2026-10-18"
+  "https://www.all-con.co.kr/view/contest/543177": "2026-10-18",
+  "https://hackindia.org/2026/ai-agents-hackathon-agentverse-2026-supported-by-openai": "2026-10-19",
+  "https://www.all-con.co.kr/view/contest/541842?device=mobile": "2026-10-19",
+  "https://kcmf.or.kr/KCMF/contents/KCMF051009.do?schM=view&id=20260923155704806139&schBcid=chungbukTTTfree": "2026-10-19",
+  "https://www.all-con.co.kr/view/contest/543081": "2026-10-19",
+  "https://www.joongang.co.kr/article/25467474": "2026-10-19",
+  "http://blog.naver.com/yangju619/224418675312": "2026-10-19",
+  "https://www.allforyoung.com/posts/87969": "2026-10-19",
+  "https://blog.naver.com/PostView.naver?blogId=thinku1125&logNo=224433197498&redirect=Dlog": "2026-10-19"
  }
 }
