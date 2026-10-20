@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-10-18T23:53:55.555Z",
- "date": "2026-10-19",
- "analyzed": 6,
- "failed": 2,
+ "updated_at": "2026-10-20T00:55:26.861Z",
+ "date": "2026-10-20",
+ "analyzed": 8,
+ "failed": 0,
  "usage": {
   "month": "2026-10",
-  "tavily": 55,
-  "ai_tokens": 202594,
-  "analyses": 40,
-  "runs": 6
+  "tavily": 66,
+  "ai_tokens": 235770,
+  "analyses": 48,
+  "runs": 7
  },
  "items": [
   {
@@ -1200,151 +1200,6 @@
    ]
   },
   {
-   "id": "daily-2026-10-12-2",
-   "found_at": "2026-10-12",
-   "query": "AI 영상 공모전 2026 접수",
-   "title": "대회·공모전 > 사진•영상•영화제 - 콘테스트코리아",
-   "mode": "live",
-   "source": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202607200008",
-   "via": "direct",
-   "contest": {
-    "name": "2026 고성 해양심층수 브랜드 AI 영상 공모전",
-    "organizer": "(재)해양심층수산업고성진흥원",
-    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202607200008",
-    "deadline": {
-     "iso": "2026-10-19T23:59:59+09:00",
-     "as_written": "2026. 9. 17(목) -10. 19(월)",
-     "evidence": "접수기간 2026.09.17 ~ 2026.10.19"
-    },
-    "eligibility": {
-     "summary": "AI 기술을 활용하여 영상을 만들 수 있는 18세 이상 누구나 (고등학교 2학년 이상)",
-     "individuals_ok": true,
-     "online": true,
-     "countries": null,
-     "age": "18세 이상",
-     "evidence": "참가자격  AI 기술을 활용하여 영상을 만들 수 있는 18세 이상 누구나 (고등학교 2학년 이상)"
-    },
-    "prizes": {
-     "summary": "총 10편 선정, 총상금 6,700,000원",
-     "cash": true,
-     "top_amount": "200만원",
-     "winner_count": 10,
-     "evidence": "시상내역 총 10편 선정, 총상금 6,700,000원 - 대상: 1편 200만원"
-    },
-    "deliverables": [
-     {
-      "item": "영상",
-      "evidence": "작품규격 - 러닝타임 30초 ~ 60초"
-     },
-     {
-      "item": "MP4",
-      "evidence": "FHD (1920*1080) / 24p 또는 30p / MP4 권장"
-     }
-    ],
-    "judging": [
-     "심사기간 2026.09.17 ~ 2026.10.19"
-    ],
-    "required_tech": [
-     "AI"
-    ],
-    "language": "Korean",
-    "red_flags": [
-     "중복 응모 가능"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 4,
-     "deadline": 3,
-     "resources": 5,
-     "cash": 5
-    },
-    "total": 17,
-    "verdict": "go",
-    "why": [
-     "국내 한국어 대회이자 AI 영상 특화로, 팀의 강점(한국어, AI 이미지, 숏폼 영상)과 정확히 일치",
-     "총 10편 시상·총상금 670만 원(대상 200만 원) 실현금 상금, 토큰·경품 아님",
-     "30~60초 MP4 1편 제출물이 7일·10시간 내 기존 AI 도구로 완결 가능"
-    ],
-    "blockers": [
-     "단 1명의 사람만 신청·본인인증·최종 제출 가능(인간 전용 단계)"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-12",
-      "task": "공모전 사이트 회원가입·본인인증·참가신청",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-13",
-      "task": "브랜드 핵심 메시지·30~60초 시나리오·콘티 작성",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-14",
-      "task": "AI 이미지/영상 클립 생성(장면별), 필요시 TTS 나레이션 제작",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-15",
-      "task": "편집·자막·음악 합성, FHD(1920×1080) 24p/30p MP4 내보내기",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-16",
-      "task": "규격·러닝타임·파일 무결성 최종 검수",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-17",
-      "task": "공모전 플랫폼 통해 최종 제출·접수증 저장",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-18",
-      "task": "접수 확인·보완 요청 대비 버퍼일",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-19",
-      "task": "마감일 23:59 전까지 최종 상태 재확인",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 584,
-     "prompt_tokens": 7375,
-     "total_tokens": 7959,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "score",
-     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-     "completion_tokens": 1734,
-     "prompt_tokens": 1025,
-     "total_tokens": 2759,
-     "completion_tokens_details": {
-      "accepted_prediction_tokens": null,
-      "audio_tokens": null,
-      "reasoning_tokens": 1084,
-      "rejected_prediction_tokens": null
-     },
-     "prompt_tokens_details": {
-      "audio_tokens": null,
-      "cached_tokens": 0,
-      "multimodal_tokens": null
-     },
-     "prompt_cache_hit_tokens": 0,
-     "prompt_cache_miss_tokens": 1025
-    }
-   ]
-  },
-  {
    "id": "daily-2026-10-15-1",
    "found_at": "2026-10-15",
    "query": "숏폼 영상 공모전 2026 상금",
@@ -1889,6 +1744,114 @@
      "completion_tokens": 374,
      "prompt_tokens": 1019,
      "total_tokens": 1393,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-20-7",
+   "found_at": "2026-10-20",
+   "query": "생성형 AI 공모전 상금 마감",
+   "title": "Post by YJ2 (@yoonjang.2)",
+   "mode": "live",
+   "source": "https://www.threads.com/@yoonjang.2/post/DepWuccgciT/yj2%EB%8B%98yoonjang2%EC%9D%98-%EA%B2%8C%EC%8B%9C%EB%AC%BC",
+   "via": "tavily-extract",
+   "contest": {
+    "name": "대국민 쌀먹 프로그램 AI 정부 공모전 시즌3",
+    "organizer": "미래부문",
+    "url": "https://www.threads.com/@yoonjang.2/post/DepWuccgciT/yj2%EB%8B%98yoonjang2%EC%9D%98-%EA%B2%8C%EC%8B%9C%EB%AC%BC",
+    "deadline": {
+     "iso": "2026-10-31T23:59:59+09:00",
+     "as_written": "10월31일까지",
+     "evidence": "10월31일까지 전국민 AI활용 사례 공모전 시즌3 신청 받는다고함"
+    },
+    "eligibility": {
+     "summary": "전국민 AI활용 사례를 블로그나 숏폼으로 만든 후 제출",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "전국민",
+     "age": null,
+     "evidence": "전국민 AI활용 사례 공모전 시즌3"
+    },
+    "prizes": {
+     "summary": "총 상금 3,400만원",
+     "cash": true,
+     "top_amount": "3,400만원",
+     "winner_count": 1,
+     "evidence": "상금 총 3,400만원"
+    },
+    "deliverables": [
+     {
+      "item": "AI활용 사례 블로그 또는 숏폼 영상",
+      "evidence": "AI활용 사례를 블로그나 숏폼으로 만들어서 공모전사이트에 제출"
+     }
+    ],
+    "judging": [
+     "심사 기준은 unspecified"
+    ],
+    "required_tech": [
+     "AI"
+    ],
+    "language": "한국어",
+    "red_flags": [
+     "심사 기준 미공개",
+     "수상자 발표 일정 미공개"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 3,
+     "resources": 5,
+     "cash": 5
+    },
+    "total": 16,
+    "verdict": "go",
+    "scored_by": "rules",
+    "why": [
+     "2026-10-20 현재 11일 남았고, 2026-10-31까지 11일 남음",
+     "총 점수 16점 중 16점이므로 'go' 판정",
+     "한국어 지원 가능, AI 활용 사례 블로그/숏폼 제작 가능"
+    ],
+    "blockers": [
+     "심사 기준 미공개",
+     "수상자 발표 일정 미공개"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-21",
+      "task": "AI 활용 사례 블로그 초안 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-22",
+      "task": "AI 이미지 및 영상 콘텐츠 제작",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-23",
+      "task": "블로그 콘텐츠 최종 검수 및 제출",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 467,
+     "prompt_tokens": 614,
+     "total_tokens": 1081,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 260,
+     "prompt_tokens": 762,
+     "total_tokens": 1022,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     }
@@ -2444,120 +2407,6 @@
      "completion_tokens": 409,
      "prompt_tokens": 630,
      "total_tokens": 1039,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
-   "id": "daily-2026-10-16-3",
-   "found_at": "2026-10-16",
-   "query": "AI 활용 아이디어 공모전 2026",
-   "title": "[한국탄소산업진흥원]2026AI영상콘텐츠공모전「탄소,다시보다」|공모전 서포터즈 대외활동 플랫폼 A.Innov 에이이노브",
-   "mode": "live",
-   "source": "https://ainnov.co.kr/event/view/2759",
-   "via": "direct",
-   "contest": {
-    "name": "2026 AI 영상 콘텐츠 공모전 「탄소, 다시 보다」",
-    "organizer": "한국탄소산업진흥원",
-    "url": "http://carbon-c.co.kr/",
-    "deadline": {
-     "iso": "2026-10-19T23:59:59+09:00",
-     "as_written": "2026.10.19 (00:00)까지",
-     "evidence": "2026.09.29.(화) ~ 10.19.(월) 자정까지"
-    },
-    "eligibility": {
-     "summary": "대학(원)생 및 일반인, 개인 또는 팀 가능",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "한국",
-     "age": null,
-     "evidence": "참가 대상: 대학(원)생 및 일반인, 개인 또는 팀 가능"
-    },
-    "prizes": {
-     "summary": "총 400만원, 각 부문별 시상",
-     "cash": true,
-     "top_amount": "100만원",
-     "winner_count": 14,
-     "evidence": "총상금 400만원, 각 부문별 100만원, 최우수상 각 부문별 50만원, 우수상 각 부문별 10만원, 총 14명(팀) 시상"
-    },
-    "deliverables": [
-     {
-      "item": "이미지 (포스터, 웹툰 등)",
-      "evidence": "이미지 부문 / 포스터·광고 이미지, 카드뉴스·인포그래픽, 웹툰·인스타툰, 일러스트·키비주얼"
-     },
-     {
-      "item": "영상 (짧은 광고, 애니메이션 등)",
-      "evidence": "영상 부문 / 숏폼, 광고·캠페인 영상, 애니메이션·모션그래픽, 스토리텔링·설명 영상"
-     }
-    ],
-    "judging": [
-     "대중성 30%",
-     "완성도 30%",
-     "주제적합성 20%",
-     "독창성 20%"
-    ],
-    "required_tech": [
-     "생성형 AI"
-    ],
-    "language": "한국어",
-    "red_flags": [
-     "제출 시 AI 활용 설명서 및 기록 보관 의무"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 2,
-     "resources": 5,
-     "cash": 4
-    },
-    "total": 14,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "총점 14점은 'maybe' verdict이므로 제출이 가능하나, 14점이 10점 기준을 크게 초과하지 않아 경쟁력이 낮음",
-     "주어진 강점(글쓰기, AI 이미지, 영상 제작)과 제한사항(하드웨어 없음, 해외 여행 불가, 소규모 예산)을 고려해 이미지·영상 부문에 집중하는 것이 현실적",
-     "제출 시 AI 활용 설명서와 기록 보관 의무가 필요하므로, 인적 자원(human-only)이 필요한 부분은 신청·결제·최종 제출에 한정"
-    ],
-    "blockers": [
-     "AI 활용 설명서와 기록 보관 의무를 제출해야 하므로, 해당 문서를 작성하고 보관할 인력이 필요함(인간 전용)",
-     "결제와 최종 제출은 human-only로 지정되어 있어, 실제 결제와 파일 업로드 작업을 수행해야 함"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-17",
-      "task": "참가 신청 및 결제 (human-only)",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-18",
-      "task": "AI 활용 설명서 작성 및 기록 보관 준비 (human-only)",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-19",
-      "task": "최종 작품(이미지·영상) 제작 및 제출 (team)",
-      "owner": "team"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 602,
-     "prompt_tokens": 3402,
-     "total_tokens": 4004,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 372,
-     "prompt_tokens": 897,
-     "total_tokens": 1269,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     }
@@ -4769,111 +4618,99 @@
    ]
   },
   {
-   "id": "daily-2026-10-12-1",
-   "found_at": "2026-10-12",
+   "id": "daily-2026-10-20-8",
+   "found_at": "2026-10-20",
    "query": "AI short film competition 2026 deadline",
-   "title": "IA en Corto 2026: AI Short Film Competition | Submit Now",
+   "title": "AIMF - AI Media Festival",
    "mode": "live",
-   "source": "https://alphaavenue.ai/en/magazine/event/ia-en-corto-2026-ai-short-film-competition",
-   "via": "direct",
+   "source": "https://filmfreeway.com/AIMF",
+   "via": "tavily-extract",
    "contest": {
-    "name": "IA en Corto 2026: AI Short Film Competition",
-    "organizer": "IA en Corto",
-    "url": "https://alphaavenue.ai/en/magazine/event/ia-en-corto-2026-ai-short-film-competition",
+    "name": "AIMF - AI Media Festival",
+    "organizer": "Jeff Rector, David Millbern, Andre St. Claire, Larry Layfield, Relani Belous",
+    "url": "https://filmfreeway.com/AIMF",
     "deadline": {
-     "iso": "2026-10-18T23:59:59+00:00",
-     "as_written": "October 18, 2026",
-     "evidence": "Submission deadline for IA en Corto 2026: October 18, 2026."
+     "iso": "2027-01-31T23:59:59-05:00",
+     "as_written": "January 31, 2027",
+     "evidence": "January 31, 2027"
     },
     "eligibility": {
-     "summary": "Open to individuals and teams alike, the competition centers on the short film format, with one key condition: AI tools must play a substantial role in the production process.",
+     "summary": "AI Requirement: All submissions must incorporate Artificial Intelligence in the creative process. Original Work: Must be original and not infringe copyright. Submission Format: Online screener via FilmFreeway only. Non-English entries require English subtitles. Duration: Must meet category-specific time limits. Multiple Entries: Each requires separate fee. Student Category: Must be created while enrolled in accredited program with proof of status.",
      "individuals_ok": true,
      "online": true,
-     "countries": "international",
-     "age": null,
-     "evidence": "Open to individuals and teams alike, the competition centers on the short film format, with one key condition: AI tools must play a substantial role in the production process."
+     "countries": null,
+     "age": "17 or younger (for Student Showcase)",
+     "evidence": "All submissions must be provided via FilmFreeway with a secure online screener. We do not accept physical submissions. Works must be final versions — rough cuts are not accepted. If accepted, a DCP version of the project may be requested for screening purposes. To qualify for the Student Film category, the project must have been completed while enrolled in an accredited educational program. Proof of student status is required."
     },
     "prizes": {
-     "summary": "The first-place winner receives 10,000 credits for the AI film production platform FilmSpark as part of their prize package.",
+     "summary": "Awards include Best International AI Short, Best US AI Short, Best AI Science Fiction Short, Best AI Fantasy Short, Best AI Horror Short, Best AI Animated Short, Best AI Music Video, Best AI Movie Trailer/Promo/PSA, Best AI or computer generated Digital Art, and Best AI Student Film (17 and younger). Winners receive a handcrafted crystal trophy engraved with their title and category.",
      "cash": false,
-     "top_amount": "10,000 credits",
-     "winner_count": 1,
-     "evidence": "New for 2026: IA en Corto will also present the FilmSpark Technology Award . The first-place winner receives 10,000 credits for the AI film production platform FilmSpark as part of their prize package."
+     "top_amount": null,
+     "winner_count": null,
+     "evidence": "AIMF honors excellence in AI-powered storytelling, recognizing visionary creators with custom-crafted awards and international acclaim. AIMF honors excellence in AI-powered storytelling, recognizing visionary creators with custom-crafted awards and international acclaim."
     },
     "deliverables": [
      {
-      "item": "short film",
-      "evidence": "The competition centers on the short film format, with one key condition: AI tools must play a substantial role in the production process."
+      "item": "DCP version of the project",
+      "evidence": "If accepted, a DCP version of the project may be requested for screening purposes."
+     },
+     {
+      "item": "English subtitles for non-English entries",
+      "evidence": "All non-English language entries must include English subtitles."
      }
     ],
     "judging": [
-     "AI-generated filmmaking is not imitation. It is a distinct creative form with its own grammar, its own constraints, and its own expressive possibilities."
+     "Selections are made by the AIMF programming team and/or appointed jury. Decisions are final."
     ],
     "required_tech": [
-     "AI tools",
-     "text-to-video generation",
-     "AI-assisted image processing",
-     "generative audio composition"
+     "Artificial Intelligence",
+     "CGI",
+     "AI-generated visuals",
+     "AI-generated audio",
+     "AI-generated scripts",
+     "AI-generated editing"
     ],
     "language": "English",
     "red_flags": [
-     "Submission deadlines staggered across four tiers: Early (August 30), Standard (September 15), Late (October 4), and an Extended deadline of October 18, 2026."
+     "AI Requirement: All submissions must incorporate Artificial Intelligence in the creative process.",
+     "Original Work: Must be original and not infringe copyright.",
+     "AI Ethics & Compliance: Works promoting violence, hate speech, misinformation, or unethical AI use (e.g., deepfakes without consent) will be rejected."
     ]
    },
    "score": {
     "scores": {
-     "win_odds": 2,
-     "deadline": 2,
+     "win_odds": 1,
+     "deadline": 5,
      "resources": 4,
      "cash": 1
     },
-    "total": 9,
+    "total": 11,
     "verdict": "maybe",
+    "scored_by": "rules",
     "why": [
-     "국제 대회에 우승자 1명뿐이라 승산이 낮으나, 팀의 AI 영상·이미지 강점이 요구 기술과 잘 맞음",
-     "마감까지 6일 남았고 주 10시간 가용으로는 AI 단편영화 완성 촉박함",
-     "상금이 현금 아닌 FilmSpark 10,000 크레딧이라 현금 가치는 낮음"
+     "Fixed scores: win_odds=1, deadline=5, resources=4, cash=1 → total=11, verdict='maybe'",
+     "Team profile: strengths match contest requirements (AI, video, English subtitles), but limits include no hardware, no travel, small budget, one human for sign-ups",
+     "Contest facts: deadline 2027-01-31, eligibility requires AI use, English subtitles, student status proof, and DCP delivery; deliverables align with team strengths"
     ],
     "blockers": [
-     "6일 내 단편영화 제작·제출 타임라인",
-     "영어 제출 필수이나 팀 영어 실력이 기초 수준",
-     "텍스트-비디오·생성 오디오 등 전문 AI 영상 도구 접근 필요"
+     "deadline: 2027-01-31 is far in future, but team has only 10 hours and must complete sign-ups, identity checks, and final submission as human-only",
+     "required student status proof for Student Showcase category is unknown and must be verified by human"
     ],
     "plan": [
      {
-      "date": "2026-10-12",
-      "task": "대회 회원가입·규정 숙지·제출 양식 확인",
+      "date": "2026-10-20",
+      "task": "Verify student status eligibility and prepare proof of enrollment",
       "owner": "human-only"
      },
      {
-      "date": "2026-10-13",
-      "task": "컨셉 기획·시나리오·샷리스트 작성",
+      "date": "2026-10-21",
+      "task": "Submit entry via FilmFreeway with AI-generated content and English subtitles",
       "owner": "team"
      },
      {
-      "date": "2026-10-14",
-      "task": "AI 이미지·비디오 클립 생성·수집",
+      "date": "2026-10-22",
+      "task": "Prepare DCP version for potential screening if accepted",
       "owner": "team"
-     },
-     {
-      "date": "2026-10-15",
-      "task": "AI 오디오·음악 생성·편집본 1차 컷",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-16",
-      "task": "러프컷 검토·피드백 반영·재편집",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-17",
-      "task": "최종 컷 색보정·자막·인코딩·내보내기",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-18",
-      "task": "UTC 23:59 전 최종 제출·확인 메일 수신",
-      "owner": "human-only"
      }
     ]
    },
@@ -4881,31 +4718,20 @@
     {
      "step": "extract",
      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 590,
-     "prompt_tokens": 2981,
-     "total_tokens": 3571,
+     "completion_tokens": 767,
+     "prompt_tokens": 9599,
+     "total_tokens": 10366,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     },
     {
-     "step": "score",
-     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-     "completion_tokens": 1456,
-     "prompt_tokens": 1031,
-     "total_tokens": 2487,
-     "completion_tokens_details": {
-      "accepted_prediction_tokens": null,
-      "audio_tokens": null,
-      "reasoning_tokens": 877,
-      "rejected_prediction_tokens": null
-     },
-     "prompt_tokens_details": {
-      "audio_tokens": null,
-      "cached_tokens": 0,
-      "multimodal_tokens": null
-     },
-     "prompt_cache_hit_tokens": 0,
-     "prompt_cache_miss_tokens": 1031
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 336,
+     "prompt_tokens": 1062,
+     "total_tokens": 1398,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
     }
    ]
   },
@@ -5672,242 +5498,117 @@
    ]
   },
   {
-   "id": "daily-2026-10-11-6",
-   "found_at": "2026-10-11",
-   "query": "AI art contest open call 2026 prize",
-   "title": "AI-ARTS Competition 2023 | AI-ARTS",
+   "id": "daily-2026-10-20-5",
+   "found_at": "2026-10-20",
+   "query": "AI hackathon online 2026 prize deadline",
+   "title": "AgentVerse' 26 (Supported by OpenAI) | HackIndia | HackIndia",
    "mode": "live",
-   "source": "https://ai-arts.org/competition",
+   "source": "https://hackindia.org/2026/agentverse-26-supported-by-openai",
    "via": "direct",
    "contest": {
-    "name": "AI-ARTS Competition 2023",
-    "organizer": "AI-ARTS.org",
-    "url": "https://ai-arts.org/competition",
+    "name": "AgentVerse' 26 (Supported by OpenAI)",
+    "organizer": "HackIndia",
+    "url": "https://hackindia.org/2026/agentverse-26-supported-by-openai",
     "deadline": {
-     "iso": null,
-     "as_written": null,
-     "evidence": null
+     "iso": "2026-10-23T00:10:00+05:30",
+     "as_written": "Oct 23, 2026 · 00:10 IST",
+     "evidence": "Closes Oct 23, 2026 · 00:10 IST"
     },
     "eligibility": {
-     "summary": "Artists can enter existing ready works or new private draft entries for the open call.",
+     "summary": "Developers, students, AI enthusiasts, and builders interested in creating AI agents are welcome.",
      "individuals_ok": true,
      "online": true,
      "countries": null,
      "age": null,
-     "evidence": "Artists can choose an approved or published work, or start a private draft entry for this open call."
+     "evidence": "Who can participate? + Developers, students, AI enthusiasts, and builders interested in creating AI agents are welcome."
     },
     "prizes": {
-     "summary": "Total prize fund of KRW 21 million for NEXT ART AI 2026; AI-ARTS Competition 2023 prize details not specified.",
-     "cash": true,
-     "top_amount": null,
+     "summary": "$12,500 in OpenAI credits + 3 complimentary Stirae Pro subscriptions",
+     "cash": false,
+     "top_amount": "$12,500",
      "winner_count": null,
-     "evidence": "Free entry · Open worldwide · AI image and video · 1–30 September 2026 · KRW 21 million total prize fund"
+     "evidence": "$12,500 in Open AI credits + 3 complimentary Stirae Pro subscriptions"
     },
     "deliverables": [
      {
-      "item": "title, featured image, statement or description",
-      "evidence": "Artwork statement: Artists should include a clear title, featured image and statement or description"
-     },
-     {
-      "item": "original work or private draft",
-      "evidence": "Entry paths: This open call accepts existing ready works and new private draft entries created specifically for the call."
+      "item": "AI agents that can reason, use tools, access knowledge, automate workflows and solve real-world problems",
+      "evidence": "create real, action-oriented AI agents that can reason, use tools, access knowledge, automate workflows and solve real-world problems."
      }
     ],
     "judging": [
-     "Organiser review",
-     "Public voting (planned)",
-     "AI Judge evaluation (planned)",
-     "Feedback and reports (planned)"
+     "Mahesh Chand",
+     "Avneesh Aryan",
+     "Saumya Smriti",
+     "Abhishek Bora"
     ],
     "required_tech": [
-     "image-based artworks through the standard artwork workflow"
+     "AI",
+     "AI Agents & Automation",
+     "GenAI"
     ],
-    "language": "Korean",
+    "language": "English",
     "red_flags": [
-     "Submission dates are 'To be confirmed'",
-     "Allowed media types not configured yet",
-     "Competition is marked as 'Closed' and not accepting new submissions"
+     "₹100 entry fee",
+     "Prize pool includes non-cash items (Stirae Pro subscriptions, Sharp Tokens)",
+     "OpenAI credits are conditional (\"eligible teams can receive $50\")"
     ]
    },
    "score": {
     "scores": {
      "win_odds": 1,
-     "deadline": 0,
-     "resources": 4,
-     "cash": 2
+     "deadline": 1,
+     "resources": 3,
+     "cash": 1
     },
-    "total": 7,
+    "total": 6,
     "verdict": "skip",
+    "scored_by": "rules",
     "why": [
-     "대회가 'Closed' 상태로 표시되어 새 제출을 받지 않음",
-     "제출 마감일이 '미정'이고 실제 마감일 정보가 없음",
-     "상금 정보가 2026년 다른 대회(NEXT ART AI 2026)와 혼재되어 있어 불확실함"
+     "Fixed scores: win_odds=1, deadline=1, resources=3, cash=1 → total=6, verdict=\"skip\"",
+     "Team profile limits: no hardware, no offline travel, small budget, one human for sign-ups",
+     "Contest red flags: ₹100 entry fee, prize includes non-cash items, OpenAI credits conditional"
     ],
     "blockers": [
-     "대회가 마감되어 참여 불가",
-     "마감일 불명으로 일정 계획 불가능",
-     "상금 세부 사항 불명확"
+     "₹100 entry fee payment",
+     "OpenAI credits eligibility verification",
+     "Final submission of AI agents"
     ],
-    "plan": []
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 476,
-     "prompt_tokens": 1712,
-     "total_tokens": 2188,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "score",
-     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-     "completion_tokens": 1213,
-     "prompt_tokens": 917,
-     "total_tokens": 2130,
-     "completion_tokens_details": {
-      "accepted_prediction_tokens": null,
-      "audio_tokens": null,
-      "reasoning_tokens": 1026,
-      "rejected_prediction_tokens": null
-     },
-     "prompt_tokens_details": {
-      "audio_tokens": null,
-      "cached_tokens": 0,
-      "multimodal_tokens": null
-     },
-     "prompt_cache_hit_tokens": 0,
-     "prompt_cache_miss_tokens": 917
-    }
-   ]
-  },
-  {
-   "id": "daily-2026-10-12-4",
-   "found_at": "2026-10-12",
-   "query": "AI 활용 아이디어 공모전 2026",
-   "title": "서강대, 생성형 AI 아이디어 공모전…10개 팀 수상 | 미주중앙일보",
-   "mode": "live",
-   "source": "https://www.koreadaily.com/article/20261005230450463",
-   "via": "direct",
-   "contest": {
-    "name": "2026 서강대학교 생성형 AI 기반 아이디어 공모전",
-    "organizer": "서강대학교",
-    "url": "https://www.koreadaily.com/article/20261005230450463",
-    "deadline": {
-     "iso": null,
-     "as_written": null,
-     "evidence": null
-    },
-    "eligibility": {
-     "summary": "학부·대학원생과 교직원이 1~5명 규모의 팀으로 참여",
-     "individuals_ok": null,
-     "online": null,
-     "countries": null,
-     "age": null,
-     "evidence": "학부·대학원생과 교직원이 1~5명 규모의 팀으로 참여했으며, 아이디어 기획 중심의 예선과 AI 서비스 개발 중심의 본선으로 진행됐다."
-    },
-    "prizes": {
-     "summary": "대상, 최우수상, 우수상, 앵커사업단장상, 협력기업 마인드로직 대표상 등 시상",
-     "cash": true,
-     "top_amount": "30만원",
-     "winner_count": 10,
-     "evidence": "본선 진출팀에는 AI 개발 도구와 30만원 상당의 개발지원비를 제공하고, 현업 전문가의 일대일 멘토링과 중간 점검 등을 통해 아이디어를 실제 서비스로 구현하도록 지원했다."
-    },
-    "deliverables": [
+    "plan": [
      {
-      "item": "AI 기반 근로장학 업무 통합관리 시스템",
-      "evidence": "STREAM은 AI가 근로 시간표를 자동 생성하고 부서별 운영 규칙을 검토하며, 챗봇으로 변경 사항을 조정할 수 있도록 설계됐다."
+      "date": "2026-10-21",
+      "task": "Verify eligibility and confirm OpenAI credit eligibility",
+      "owner": "human-only"
      },
      {
-      "item": "AI 취업 지원 서비스",
-      "evidence": "이력서 정보를 기업별 지원서 양식에 맞춰 자동 정리하는 AI 취업 지원 서비스를 제안한 ‘마이에이아이레주메’팀이 최우수상 수상"
+      "date": "2026-10-22",
+      "task": "Pay ₹100 entry fee",
+      "owner": "human-only"
      },
      {
-      "item": "연구비 행정 AI 코파일럿",
-      "evidence": "ResearchFlow팀이 앵커사업단장상 수상"
-     },
-     {
-      "item": "사서-AI 협업 에이전트",
-      "evidence": "renAIssance팀이 우수상 수상"
-     },
-     {
-      "item": "AI 기반 개인 맞춤형 전공 이수 경로 탐색 시스템",
-      "evidence": "Haksa's Insight Lab팀이 우수상 공동 수상"
-     },
-     {
-      "item": "AI 사전 면담 시스템",
-      "evidence": "프리톡(PreTalk)팀이 협력기업 마인드로직 대표상 수상"
+      "date": "2026-10-23",
+      "task": "Submit final AI agents",
+      "owner": "human-only"
      }
-    ],
-    "judging": [
-     "AI 아이디어 기획",
-     "AI 서비스 개발",
-     "실제 구현 가능성"
-    ],
-    "required_tech": [
-     "생성형 AI",
-     "자동화 도구",
-     "챗봇",
-     "AI 개발 도구"
-    ],
-    "language": "Korean",
-    "red_flags": [
-     "공모전 명칭과 일정이 기사에 명시되지 않음",
-     "마감일이 명시되지 않음",
-     "지원 자격 요건이 구체적으로 명시되지 않음"
     ]
    },
-   "score": {
-    "scores": {
-     "win_odds": 0,
-     "deadline": 0,
-     "resources": 1,
-     "cash": 3
-    },
-    "total": 4,
-    "verdict": "skip",
-    "why": [
-     "팀이 학생/교직원 자격 요건을 충족하지 못함",
-     "마감일 정보가 없어 참여 가능 여부 불확실",
-     "실제 AI 서비스 개발 역량 필요, 콘텐츠 제작 위주 팀과 불일치"
-    ],
-    "blockers": [
-     "자격 미달(학부·대학원생·교직원만 참여 가능)",
-     "마감일 불명",
-     "소프트웨어 개발 역량 부족"
-    ],
-    "plan": []
-   },
    "usage": [
     {
      "step": "extract",
      "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 776,
-     "prompt_tokens": 2358,
-     "total_tokens": 3134,
+     "completion_tokens": 529,
+     "prompt_tokens": 1911,
+     "total_tokens": 2440,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     },
     {
-     "step": "score",
-     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-     "completion_tokens": 1690,
-     "prompt_tokens": 1217,
-     "total_tokens": 2907,
-     "completion_tokens_details": {
-      "accepted_prediction_tokens": null,
-      "audio_tokens": null,
-      "reasoning_tokens": 1510,
-      "rejected_prediction_tokens": null
-     },
-     "prompt_tokens_details": {
-      "audio_tokens": null,
-      "cached_tokens": 0,
-      "multimodal_tokens": null
-     },
-     "prompt_cache_hit_tokens": 0,
-     "prompt_cache_miss_tokens": 1217
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 254,
+     "prompt_tokens": 823,
+     "total_tokens": 1077,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
     }
    ]
   }
@@ -5994,6 +5695,14 @@
   "https://www.joongang.co.kr/article/25467474": "2026-10-19",
   "http://blog.naver.com/yangju619/224418675312": "2026-10-19",
   "https://www.allforyoung.com/posts/87969": "2026-10-19",
-  "https://blog.naver.com/PostView.naver?blogId=thinku1125&logNo=224433197498&redirect=Dlog": "2026-10-19"
+  "https://blog.naver.com/PostView.naver?blogId=thinku1125&logNo=224433197498&redirect=Dlog": "2026-10-19",
+  "https://thinkyou.co.kr/contest/66076": "2026-10-20",
+  "https://gcontest.co.kr/front/m/comp/view/37031": "2026-10-20",
+  "https://www.sciencecenter.go.kr/event/2026/ai-shortform-contest": "2026-10-20",
+  "https://gcontest.co.kr/front/m/comp/view/37042": "2026-10-20",
+  "https://hackindia.org/2026/agentverse-26-supported-by-openai": "2026-10-20",
+  "https://www.youngmasters.teravarna.com/open-art-contest-for-students": "2026-10-20",
+  "https://www.threads.com/@yoonjang.2/post/DepWuccgciT/yj2%EB%8B%98yoonjang2%EC%9D%98-%EA%B2%8C%EC%8B%9C%EB%AC%BC": "2026-10-20",
+  "https://filmfreeway.com/AIMF": "2026-10-20"
  }
 }
