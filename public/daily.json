@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-10-22T00:25:20.335Z",
- "date": "2026-10-22",
+ "updated_at": "2026-10-23T00:22:36.312Z",
+ "date": "2026-10-23",
  "analyzed": 8,
  "failed": 0,
  "usage": {
   "month": "2026-10",
-  "tavily": 86,
-  "ai_tokens": 309189,
-  "analyses": 64,
-  "runs": 9
+  "tavily": 95,
+  "ai_tokens": 347637,
+  "analyses": 72,
+  "runs": 10
  },
  "items": [
   {
@@ -2388,6 +2388,245 @@
    ]
   },
   {
+   "id": "daily-2026-10-23-3",
+   "found_at": "2026-10-23",
+   "query": "AI 활용 아이디어 공모전 2026",
+   "title": "대회·공모전 > 학문•과학•IT - 콘테스트코리아",
+   "mode": "live",
+   "source": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202610120053",
+   "via": "direct",
+   "contest": {
+    "name": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
+    "organizer": "대구광역시 탄소중립지원센터",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202610120053",
+    "deadline": {
+     "iso": "2026-11-20T23:59:59+09:00",
+     "as_written": "2026.10.12 ~ 2026.11.20",
+     "evidence": "접수기간 2026.10.12 ~ 2026.11.20"
+    },
+    "eligibility": {
+     "summary": "누구나, 유치원, 초등학생, 중학생, 고등학생, 대학생, 대학원생, 일반인, 외국인",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "대한민국",
+     "age": null,
+     "evidence": "참가대상 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인"
+    },
+    "prizes": {
+     "summary": "총상금 510만 원, 부문별 대상·최우수상·우수상 시상",
+     "cash": true,
+     "top_amount": "130만 원",
+     "winner_count": 8,
+     "evidence": "상금(총상금 : 510만원 / 1위 : 130만원)"
+    },
+    "deliverables": [
+     {
+      "item": "아이디어 제안서 (제안서 지정 서식 HWP/PDF 10p 이내)",
+      "evidence": "[부문 1] 아이디어 제안: [붙임 6] 아이디어 제안서 (제안서 지정 서식 HWP/PDF 10p 이내)"
+     },
+     {
+      "item": "공공 데이터 분석·시각화 결과물 (자유 형식)",
+      "evidence": "[부문 2] 공공 데이터 분석·시각화: 자유 형식 (대시보드, 인포그래픽, 웹포스터, 분석보고서, 웹/앱 시각화 페이지, PPT 등 파일 또는 URL)"
+     }
+    ],
+    "judging": [
+     "주제 적합성 (25점)",
+     "데이터 및 AI 활용성 (30점)",
+     "독창성 및 실현가능성 (25점)",
+     "파급효과 (20점)"
+    ],
+    "required_tech": [
+     "공공데이터",
+     "AI 기술",
+     "데이터 분석",
+     "데이터 시각화"
+    ],
+    "language": "한국어",
+    "red_flags": [
+     "제세공과금 본인 부담",
+     "표절·모방·제3자 권리 침해 시 수상 취소 및 상금 환수"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 5,
+     "resources": 3,
+     "cash": 4
+    },
+    "total": 15,
+    "verdict": "go",
+    "scored_by": "rules",
+    "why": [
+     "총상금 510만원(1위 130만원) 중 130만원은 현금으로 수령 가능하나, 제세공과금은 신청자 본인 부담으로 예상됨",
+     "제출 기한 2026-11-20까지 30일 내외 남아 있어, 현재 2026-10-23 기준 28일 남음",
+     "팀은 한 명인 크리에이터 스튜디오로, 신청·제출·결제 등 모든 절차를 인간이 직접 수행해야 함"
+    ],
+    "blockers": [
+     "제출 서류 양식(HWP/PDF) 제작 및 서식 준수",
+     "공공 데이터 분석·시각화 결과물 제작",
+     "제출 마감일(2026-11-20)까지 작업 완료"
+    ],
+    "plan": []
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 733,
+     "prompt_tokens": 7383,
+     "total_tokens": 8116,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 210,
+     "prompt_tokens": 1028,
+     "total_tokens": 1238,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-23-6",
+   "found_at": "2026-10-23",
+   "query": "AI short film competition 2026 deadline",
+   "title": "1 Billion Followers Summit -",
+   "mode": "live",
+   "source": "https://www.1billionsummit.com/ai-award-2027",
+   "via": "direct",
+   "contest": {
+    "name": "AI Film Award 2027",
+    "organizer": "1 Billion Followers Summit",
+    "url": "https://www.1billionsummit.com/ai-award-2027",
+    "deadline": {
+     "iso": "2026-11-20T23:59:59+00:00",
+     "as_written": "20 November 2026",
+     "evidence": "Deadline 20 November 2026"
+    },
+    "eligibility": {
+     "summary": "Creators worldwide must be at least 18 years old; films must be original, 5–7 minutes, in any language with English subtitles, and meet technical and AI‑use requirements.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": "18",
+     "evidence": "Applicants must be at least 18 years old at the time of submission"
+    },
+    "prizes": {
+     "summary": "$1,000,000 Grand Prize for the winning creator.",
+     "cash": true,
+     "top_amount": "$1,000,000",
+     "winner_count": 1,
+     "evidence": "One winning creator receives the $1,000,000 Grand Prize"
+    },
+    "deliverables": [
+     {
+      "item": "Original film of 5–7 minutes",
+      "evidence": "Each submission must include one film forming one connected story."
+     },
+     {
+      "item": "Horizontal format, 16:9, 1080p, .MOV or .MP4",
+      "evidence": "All films must be horizontal and delivered to these specifications: Aspect ratio 16:9, Resolution 1080p, File format MOV or MP4"
+     },
+     {
+      "item": "English subtitles",
+      "evidence": "Submissions can be made in any language. However, English subtitles must be included."
+     },
+     {
+      "item": "At least 70% generated with Seedance",
+      "evidence": "At least 70% of the final film must be generated using Seedance as the primary video-generation tool."
+     }
+    ],
+    "judging": [
+     "AI Integration (30%)",
+     "Storytelling (30%)",
+     "Creativity & Aesthetic (20%)",
+     "Technical Execution (20%)"
+    ],
+    "required_tech": [
+     "Seedance"
+    ],
+    "language": "any",
+    "red_flags": [
+     "Submissions must be original works",
+     "At least 70% of film must be generated with Seedance",
+     "English subtitles required"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 5,
+     "resources": 4,
+     "cash": 5
+    },
+    "total": 15,
+    "verdict": "go",
+    "scored_by": "rules",
+    "why": [
+     "총점 15점 중 5점이 자원, 5점이 현금, 1점이 마감, 1점이 승리 확률을 의미함.",
+     "승리 확률(1) 대비 총점(15)은 높은 점수를 확보해야 함을 의미.",
+     "제출 기한(2026-11-20)까지 5일 남았고, 현재 10시간(1일 2.5시간)만 사용 가능함."
+    ],
+    "blockers": [
+     "자원(4점)과 현금(5점) 확보가 필요하지만, 현재 자원이나 현금에 대한 구체적 계획이 없음.",
+     "영상 제작에 필요한 Seedance 사용 비중 70% 이상 충족이 불확실함.",
+     "영어 자막 제작과 최종 파일 포맷(.mov/.mp4, 1080p, 16:9) 변환이 아직 진행되지 않음.",
+     "한국어 사용자는 영어 자막을 반드시 포함해야 하므로 번역·자막 제작이 필요함."
+    ],
+    "plan": [
+     {
+      "date": "2026-10-24",
+      "task": "스토리보드 작성 및 시나리오 초안 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-25",
+      "task": "Seedance로 영상 70% 이상 생성 (시각 자료 및 애니메이션)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-26",
+      "task": "영상 편집 및 1080p 16:9 MOV/MP4 포맷 변환",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-27",
+      "task": "영어 자막 제작 및 삽입",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-28",
+      "task": "최종 검수 및 대회 제출 파일 업로드",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 637,
+     "prompt_tokens": 3021,
+     "total_tokens": 3658,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 499,
+     "prompt_tokens": 932,
+     "total_tokens": 1431,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-12-6",
    "found_at": "2026-10-12",
    "query": "AI 활용 아이디어 공모전 2026",
@@ -4073,141 +4312,6 @@
    ]
   },
   {
-   "id": "daily-2026-10-19-1",
-   "found_at": "2026-10-19",
-   "query": "AI hackathon online 2026 prize deadline",
-   "title": "AI Agents Hackathon - AgentVerse 2026 (Supported by OpenAI) | HackIndia | HackIndia",
-   "mode": "live",
-   "source": "https://hackindia.org/2026/ai-agents-hackathon-agentverse-2026-supported-by-openai",
-   "via": "tavily-extract",
-   "contest": {
-    "name": "AI Agents Hackathon - AgentVerse 2026 (Supported by OpenAI)",
-    "organizer": "HackIndia",
-    "url": "https://hackindia.org/2026/ai-agents-hackathon-agentverse-2026-supported-by-openai",
-    "deadline": {
-     "iso": "2026-10-23T00:10:00+05:30",
-     "as_written": "Closes Oct 23, 2026 · 00:10 IST",
-     "evidence": "Closes Oct 23, 2026 · 00:10 IST"
-    },
-    "eligibility": {
-     "summary": "Online hackathon open to teams; no explicit age or country restrictions mentioned.",
-     "individuals_ok": true,
-     "online": true,
-     "countries": null,
-     "age": null,
-     "evidence": "Online"
-    },
-    "prizes": {
-     "summary": "₹5000 INR + 30,000 Sharp Tokens + $50 OpenAI API Credits prize pool; Grand prize $12,500.",
-     "cash": true,
-     "top_amount": "$12,500",
-     "winner_count": null,
-     "evidence": "₹5000 INR + 30,000 Sharp Tokens (Cryptocurrency) + $50 OpenAI API Credits prize pool · ₹100 · Online"
-    },
-    "deliverables": [
-     {
-      "item": "AI agents that can reason, use tools, access knowledge, automate workflows and solve real-world problems",
-      "evidence": "create real, action-oriented AI agents that can reason, use tools, access knowledge, automate workflows and solve real-world problems"
-     }
-    ],
-    "judging": [
-     "Mahesh Chand",
-     "Avneesh Aryan",
-     "Saumya Smriti"
-    ],
-    "required_tech": [
-     "AI models",
-     "APIs",
-     "MCP",
-     "RAG",
-     "memory",
-     "tools",
-     "databases",
-     "cloud infrastructure",
-     "modern agent frameworks"
-    ],
-    "language": "Korean",
-    "red_flags": [
-     "Deadline is 4 days from today (Oct 18) but the page says \"Closes Oct 23, 2026\" which is far in the future; possible inconsistency."
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 2,
-     "resources": 3,
-     "cash": 5
-    },
-    "total": 13,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "Fixed scores: win_odds=3, deadline=2, resources=3, cash=5, total=13, verdict=maybe",
-     "Team profile: one human creator, strengths in writing, AI images, short videos, Korean+basic English, 10 hours available",
-     "Contest deadline is Oct 23, 2026 (4 days from today) but page says \"Closes Oct 23, 2026\" which is far in the future; possible inconsistency",
-     "Eligibility allows individuals, online, no country restrictions",
-     "Prize includes cash ₹5000 INR, 30,000 Sharp Tokens, $50 OpenAI API Credits, and $12,500 grand prize",
-     "Deliverable requires AI agents that can reason, use tools, access knowledge, automate workflows and solve real-world problems",
-     "Required tech includes AI models, APIs, MCP, RAG, memory, tools, databases, cloud infrastructure, modern agent frameworks",
-     "Red flag: deadline inconsistency"
-    ],
-    "blockers": [
-     "Deadline inconsistency",
-     "Limited hours (10) and no hardware or offline travel abroad",
-     "One human for sign-ups and payments",
-     "Need to create AI agents with required tech stack",
-     "Language of contest is Korean but team has basic English"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-20",
-      "task": "Verify deadline date and clarify inconsistency",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-20",
-      "task": "Draft AI agent concept using writing and AI image strengths",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-21",
-      "task": "Create short video pitch for agent idea",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-22",
-      "task": "Submit registration and payment",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-23",
-      "task": "Finalize and submit AI agent deliverable",
-      "owner": "team"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 577,
-     "prompt_tokens": 2067,
-     "total_tokens": 2644,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 519,
-     "prompt_tokens": 872,
-     "total_tokens": 1391,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
    "id": "daily-2026-10-19-4",
    "found_at": "2026-10-19",
    "query": "숏폼 영상 공모전 2026 상금",
@@ -4688,6 +4792,151 @@
      "completion_tokens": 388,
      "prompt_tokens": 773,
      "total_tokens": 1161,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-23-4",
+   "found_at": "2026-10-23",
+   "query": "AI 이미지 그림 공모전 2026",
+   "title": "공모요강 — 제28회 말 사진·AI 이미지 공모전",
+   "mode": "live",
+   "source": "https://www.horsephoto.co.kr",
+   "via": "direct",
+   "contest": {
+    "name": "제28회 말 사진·AI 이미지 공모전",
+    "organizer": "한국마사회",
+    "url": "https://www.horsephoto.co.kr",
+    "deadline": {
+     "iso": "2026-10-31T23:59:59+09:00",
+     "as_written": "2026. 10. 31.(토)",
+     "evidence": "접수기간 : 2026. 10. 1.(목) ~ 10. 31.(토)"
+    },
+    "eligibility": {
+     "summary": "대한민국 국민 누구나, 1인 부문별 최대 3점, 2개 부문 중복 응모 가능",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "대한민국",
+     "age": null,
+     "evidence": "참가 자격 : 대한민국 국민 누구나"
+    },
+    "prizes": {
+     "summary": "총 28점, 1,300만원 (일반사진 부문 900만원, AI 이미지 부문 400만원)",
+     "cash": true,
+     "top_amount": "300만원",
+     "winner_count": 14,
+     "evidence": "시상규모 : 총 28점, 1,300만원 (부문별 각 14점) ... 대상 1 300만원 ... 우수상 3 각 100만원 ... 장려상 10 각 15만원 ... 계 14 900만원 ... 14 400만원"
+    },
+    "deliverables": [
+     {
+      "item": "작품",
+      "evidence": "작품+사연(국문 300~1,000자)"
+     },
+     {
+      "item": "스토리",
+      "evidence": "작품+스토리(국문 300~1,000자)"
+     },
+     {
+      "item": "AI 작업기록",
+      "evidence": "AI 작업기록(사용 도구·프롬프트·후처리)"
+     }
+    ],
+    "judging": [
+     "일반사진 부문 합성 사진은 수상 불가",
+     "AI 이미지 부문 사용 AI 도구·프롬프트 이력·후처리 여부 등 작업기록 제출 필수"
+    ],
+    "required_tech": [
+     "디지털카메라 또는 스마트폰",
+     "생성형 AI"
+    ],
+    "language": "한국어",
+    "red_flags": [
+     "상금에 대한 제세공과금은 수상자 본인이 부담",
+     "표절·모방 시 입상 취소 및 상금 회수",
+     "저작권 분쟁은 응모자에게 책임"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 3,
+     "resources": 3,
+     "cash": 4
+    },
+    "total": 13,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "승리 확률은 3분의 1 수준으로 낮음",
+     "총 점수 13점 중 3점이 각 항목에 할당돼 제한적 자원 활용 필요",
+     "AI 이미지 부문은 작업기록 제출이 필수이며, 이는 팀의 강점과 일치"
+    ],
+    "blockers": [
+     "AI 이미지 부문은 작업기록 제출이 필수이며, 이는 팀의 강점과 일치",
+     "제출 기한은 2026-10-31까지로 8일 남음",
+     "작품·스토리·AI 작업기록 모두 300~1,000자 제한 내에 작성해야 함"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-24",
+      "task": "주제 선정 및 콘셉트 확정",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-25",
+      "task": "AI 이미지 생성 및 초기 검수",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-26",
+      "task": "작품 및 스토리 초안 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-27",
+      "task": "AI 작업기록 상세 기록 작성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-28",
+      "task": "전체 검토 및 수정",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-29",
+      "task": "최종 파일 포맷팅 및 업로드 준비",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-30",
+      "task": "시스템 테스트 및 제출 검증",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-31",
+      "task": "공모전 제출",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 685,
+     "prompt_tokens": 2081,
+     "total_tokens": 2766,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 517,
+     "prompt_tokens": 980,
+     "total_tokens": 1497,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     }
@@ -5222,6 +5471,121 @@
      "completion_tokens": 300,
      "prompt_tokens": 869,
      "total_tokens": 1169,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-23-7",
+   "found_at": "2026-10-23",
+   "query": "AI hackathon online 2026 prize deadline",
+   "title": "IEEE IES Generative AI Challenge 2026 :: IEEE Industrial Electronics Society",
+   "mode": "live",
+   "source": "https://ai.ieee-ies.org",
+   "via": "direct",
+   "contest": {
+    "name": "IEEE IES Generative AI Challenge 2027",
+    "organizer": "IEEE Industrial Electronics Society",
+    "url": "https://ai.ieee-ies.org",
+    "deadline": {
+     "iso": "2027-05-31T23:59:59+0000",
+     "as_written": "May 2027",
+     "evidence": "Project work runs from January to May 2027, culminating in the opportunity to present your published paper at IRAI 2027 (17–20 November 2027, Colombo, Sri Lanka)."
+    },
+    "eligibility": {
+     "summary": "Open to anyone from any background, no IEEE membership required, no fully developed project needed.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": null,
+     "evidence": "The IEEE IES Generative AI Challenge is an international, multi-stage AI hackathon for transforming early-stage AI innovations into peer-reviewed research contributions... This hackathon is open to anyone from any background , whether you have prior experience in academic writing or not. You are not required to be an IEEE member or have a fully developed project."
+    },
+    "prizes": {
+     "summary": "Top 3 teams win USD 2,000 each; next 3 teams win USD 1,000 each; minimum 6 travel grants awarded.",
+     "cash": true,
+     "top_amount": "USD 2,000",
+     "winner_count": 3,
+     "evidence": "Top 3 teams (Winners): USD 2,000 per team + potential additional support based on paper quality"
+    },
+    "deliverables": [
+     {
+      "item": "Conference paper",
+      "evidence": "All papers accepted through the hackathon pathway will be sponsored through the hackathon. The hackathon provides a minimum of 6 travel grants for winning teams to present their accepted paper at IRAI 2027."
+     }
+    ],
+    "judging": [
+     "Paper quality",
+     "Innovation",
+     "Relevance to industrial applications",
+     "Responsible AI considerations"
+    ],
+    "required_tech": [
+     "Generative AI",
+     "Transformer-based models",
+     "Deep learning"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Requires publication at IEEE conference",
+     "Travel grants contingent on paper acceptance",
+     "No guarantee of cash prize beyond stated amounts"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 5,
+     "resources": 3,
+     "cash": 3
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총 상금은 6,000달러(상금 2,000달러 × 3팀 + 1,000달러 × 3팀)이며, 현금 수령은 팀 단위로 진행됩니다.",
+     "수상 논문은 IEEE IES가 주관하는 국제 학술대회(IRAI 2027)에서 발표해야 하며, 발표를 위해서는 최소 6개의 여행 지원금이 필요합니다.",
+     "팀은 최소 3명 이상이어야 하며, 최소 한 명은 IEEE 정회원이어야 한다는 요구사항이 명시되어 있습니다."
+    ],
+    "blockers": [
+     "IEEE 정회원 자격 요건을 확인할 수 있는 정보가 제공되지 않았습니다.",
+     "팀에 최소 3명 이상, 그 중 최소 한 명이 IEEE 정회원인 구성이 아직 확정되지 않았습니다.",
+     "여행 지원금은 논문 채택에 따라 지급되므로, 논문 채택 여부가 불확실합니다."
+    ],
+    "plan": [
+     {
+      "date": "2026-10-24",
+      "task": "IEEE 정회원 자격 확인 및 팀원 모집 (3명 이상, 최소 1명 IEEE 정회원)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-25",
+      "task": "참가 신청서 제출 및 정회원 자격 증빙 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-26",
+      "task": "팀 내 역할 분담 및 프로젝트 일정 수립",
+      "owner": "team"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 576,
+     "prompt_tokens": 2274,
+     "total_tokens": 2850,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 397,
+     "prompt_tokens": 871,
+     "total_tokens": 1268,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     }
@@ -6713,121 +7077,6 @@
      "prompt_tokens_details": null
     }
    ]
-  },
-  {
-   "id": "daily-2026-10-20-5",
-   "found_at": "2026-10-20",
-   "query": "AI hackathon online 2026 prize deadline",
-   "title": "AgentVerse' 26 (Supported by OpenAI) | HackIndia | HackIndia",
-   "mode": "live",
-   "source": "https://hackindia.org/2026/agentverse-26-supported-by-openai",
-   "via": "direct",
-   "contest": {
-    "name": "AgentVerse' 26 (Supported by OpenAI)",
-    "organizer": "HackIndia",
-    "url": "https://hackindia.org/2026/agentverse-26-supported-by-openai",
-    "deadline": {
-     "iso": "2026-10-23T00:10:00+05:30",
-     "as_written": "Oct 23, 2026 · 00:10 IST",
-     "evidence": "Closes Oct 23, 2026 · 00:10 IST"
-    },
-    "eligibility": {
-     "summary": "Developers, students, AI enthusiasts, and builders interested in creating AI agents are welcome.",
-     "individuals_ok": true,
-     "online": true,
-     "countries": null,
-     "age": null,
-     "evidence": "Who can participate? + Developers, students, AI enthusiasts, and builders interested in creating AI agents are welcome."
-    },
-    "prizes": {
-     "summary": "$12,500 in OpenAI credits + 3 complimentary Stirae Pro subscriptions",
-     "cash": false,
-     "top_amount": "$12,500",
-     "winner_count": null,
-     "evidence": "$12,500 in Open AI credits + 3 complimentary Stirae Pro subscriptions"
-    },
-    "deliverables": [
-     {
-      "item": "AI agents that can reason, use tools, access knowledge, automate workflows and solve real-world problems",
-      "evidence": "create real, action-oriented AI agents that can reason, use tools, access knowledge, automate workflows and solve real-world problems."
-     }
-    ],
-    "judging": [
-     "Mahesh Chand",
-     "Avneesh Aryan",
-     "Saumya Smriti",
-     "Abhishek Bora"
-    ],
-    "required_tech": [
-     "AI",
-     "AI Agents & Automation",
-     "GenAI"
-    ],
-    "language": "English",
-    "red_flags": [
-     "₹100 entry fee",
-     "Prize pool includes non-cash items (Stirae Pro subscriptions, Sharp Tokens)",
-     "OpenAI credits are conditional (\"eligible teams can receive $50\")"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 1,
-     "deadline": 1,
-     "resources": 3,
-     "cash": 1
-    },
-    "total": 6,
-    "verdict": "skip",
-    "scored_by": "rules",
-    "why": [
-     "Fixed scores: win_odds=1, deadline=1, resources=3, cash=1 → total=6, verdict=\"skip\"",
-     "Team profile limits: no hardware, no offline travel, small budget, one human for sign-ups",
-     "Contest red flags: ₹100 entry fee, prize includes non-cash items, OpenAI credits conditional"
-    ],
-    "blockers": [
-     "₹100 entry fee payment",
-     "OpenAI credits eligibility verification",
-     "Final submission of AI agents"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-21",
-      "task": "Verify eligibility and confirm OpenAI credit eligibility",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-22",
-      "task": "Pay ₹100 entry fee",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-23",
-      "task": "Submit final AI agents",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 529,
-     "prompt_tokens": 1911,
-     "total_tokens": 2440,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 254,
-     "prompt_tokens": 823,
-     "total_tokens": 1077,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
   }
  ],
  "seen": {
@@ -6936,6 +7185,14 @@
   "https://www.dsu.ac.kr/kr/index.php?pCode=dsunoti2&mode=view&idx=5038": "2026-10-22",
   "https://aifilmcontests.com/contests/ia-en-corto-2026": "2026-10-22",
   "https://www.buildfastwithai.com/hackathon": "2026-10-22",
-  "https://lablab.ai/ai-hackathons/ibm-bob-2-hackathon": "2026-10-22"
+  "https://lablab.ai/ai-hackathons/ibm-bob-2-hackathon": "2026-10-22",
+  "https://gongmonara.com/contests/251": "2026-10-23",
+  "https://www.startupgrantsindia.com/competitions/flow-state-global-ai-hackathon": "2026-10-23",
+  "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=030310001&str_no=202610120053": "2026-10-23",
+  "https://www.horsephoto.co.kr": "2026-10-23",
+  "https://linkareer.com/activity/350683": "2026-10-23",
+  "https://www.1billionsummit.com/ai-award-2027": "2026-10-23",
+  "https://ai.ieee-ies.org": "2026-10-23",
+  "https://builder.aws.com/content/3JjizKCGyDjqLHiUnaEXmSdi3aE/aws-hackathon-2026-zero-to-shipped-win-dollar5k-credits": "2026-10-23"
  }
 }
