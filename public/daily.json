@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-10-23T00:22:36.312Z",
- "date": "2026-10-23",
- "analyzed": 8,
- "failed": 0,
+ "updated_at": "2026-10-24T00:14:39.901Z",
+ "date": "2026-10-24",
+ "analyzed": 7,
+ "failed": 1,
  "usage": {
   "month": "2026-10",
-  "tavily": 95,
-  "ai_tokens": 347637,
-  "analyses": 72,
-  "runs": 10
+  "tavily": 104,
+  "ai_tokens": 410721,
+  "analyses": 79,
+  "runs": 11
  },
  "items": [
   {
@@ -2627,6 +2627,141 @@
    ]
   },
   {
+   "id": "daily-2026-10-24-7",
+   "found_at": "2026-10-24",
+   "query": "AI 영상 공모전 2026 접수",
+   "title": "2026 조달청 AI 게임·콘텐츠 공모전",
+   "mode": "live",
+   "source": "https://blog.naver.com/ppspr/224439199284?fromRss=true&trackingCode=rss",
+   "via": "tavily-extract",
+   "contest": {
+    "name": "2026 조달청 AI 게임·콘텐츠 공모전",
+    "organizer": "조달청",
+    "url": "https://blog.naver.com/ppspr/224439199284",
+    "deadline": {
+     "iso": "2026-11-22T23:59:59+09:00",
+     "as_written": "10. 12.(월) ~ 11. 22.(일)",
+     "evidence": "10. 12.(월) ~ 11. 22.(일)"
+    },
+    "eligibility": {
+     "summary": "대한민국 국민 누구나 (개인/팀)",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "대한민국",
+     "age": null,
+     "evidence": "📌공모대상  대한민국 국민 누구나 (개인/팀)"
+    },
+    "prizes": {
+     "summary": "AI 게임, AI 시나리오, AI 영상 부문 시상",
+     "cash": true,
+     "top_amount": "별도 안내",
+     "winner_count": null,
+     "evidence": "📌공모부문  AI 게임, AI 시나리오, AI 영상"
+    },
+    "deliverables": [
+     {
+      "item": "참가신청서",
+      "evidence": "[붙임1-1] AI 게임 참가신청서.hwpx"
+     },
+     {
+      "item": "참가신청서",
+      "evidence": "[붙임1-2] AI 시나리오 참가신청서.hwpx"
+     },
+     {
+      "item": "참가신청서",
+      "evidence": "[붙임1-3] AI 영상 참가신청서.hwpx"
+     },
+     {
+      "item": "개인정보 수집·이용·제공 동의서 및 서약서",
+      "evidence": "[붙임2] 개인정보 수집·이용·제공 동의서 및 서약사항.hwpx"
+     }
+    ],
+    "judging": [
+     "심사 기준은 공모전 모집요강 및 접수가이드 참고"
+    ],
+    "required_tech": [
+     "AI",
+     "게임",
+     "영상",
+     "시나리오"
+    ],
+    "language": "한국어",
+    "red_flags": [
+     "악성코드 포함 파일 경고",
+     "글보내기 제한 공지",
+     "주제 분류 제한 공지"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 5,
+     "resources": 4,
+     "cash": 3
+    },
+    "total": 15,
+    "verdict": "go",
+    "scored_by": "rules",
+    "why": [
+     "총점 15점 중 15점이므로 'go' 판정",
+     "심사 기준은 공모전 모집요강 및 접수가이드 참고",
+     "주제 분류 제한 공지, 글보내기 제한 공지, 악성코드 포함 파일 경고 등 위험 요소 존재"
+    ],
+    "blockers": [
+     "악성코드 포함 파일 경고",
+     "글보내기 제한 공지",
+     "주제 분류 제한 공지"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-25",
+      "task": "참가신청서 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-26",
+      "task": "개인정보 수집·이용·제공 동의서 및 서약서 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-27",
+      "task": "AI 콘텐츠 제작 (게임/영상/시나리오)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-28",
+      "task": "파일 검증 및 업로드",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-29",
+      "task": "최종 제출 및 확인",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 603,
+     "prompt_tokens": 6578,
+     "total_tokens": 7181,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 347,
+     "prompt_tokens": 898,
+     "total_tokens": 1245,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-12-6",
    "found_at": "2026-10-12",
    "query": "AI 활용 아이디어 공모전 2026",
@@ -3638,6 +3773,149 @@
      "completion_tokens": 543,
      "prompt_tokens": 881,
      "total_tokens": 1424,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-24-3",
+   "found_at": "2026-10-24",
+   "query": "숏폼 영상 공모전 2026 상금",
+   "title": "대회·공모전 > 사진•영상•영화제 - 콘테스트코리아",
+   "mode": "live",
+   "source": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610130076",
+   "via": "direct",
+   "contest": {
+    "name": "2026 용산구시설관리공단 숏폼 영상 공모전",
+    "organizer": "용산구시설관리공단",
+    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610130076",
+    "deadline": {
+     "iso": "2026-11-13T18:00:00+09:00",
+     "as_written": "2026.10.12 ~ 2026.11.13",
+     "evidence": "접수기간 2026.10.12 ~ 2026.11.13"
+    },
+    "eligibility": {
+     "summary": "누구나 참여 가능, 나이 및 지역 제한 없음",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "전 세계",
+     "age": "전체",
+     "evidence": "참가대상 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인"
+    },
+    "prizes": {
+     "summary": "총상금 100만원, 최우수상 50만원",
+     "cash": true,
+     "top_amount": "50만원",
+     "winner_count": 1,
+     "evidence": "시상내역 상금(총상금 : 100만원 / 1위 : 50만원)"
+    },
+    "deliverables": [
+     {
+      "item": "30초 이상 60초 이하 숏폼 영상",
+      "evidence": "영상길이: 30초 이상 60초 이하"
+     },
+     {
+      "item": "세로형 9:16 화면비율",
+      "evidence": "화면비율: 세로형 9:16"
+     },
+     {
+      "item": "1080×1920픽셀 해상도",
+      "evidence": "해 상 도: 1080×1920픽셀"
+     },
+     {
+      "item": "MP4 파일 형식",
+      "evidence": "파일형식: MP4"
+     },
+     {
+      "item": "500MB 이하 파일용량",
+      "evidence": "파일용량: 500MB 이하"
+     }
+    ],
+    "judging": [
+     "주제 적합성(30점)",
+     "창의성(30점)",
+     "전달력·완성도(20점)",
+     "홍보 활용성(20점)"
+    ],
+    "required_tech": [
+     "MP4",
+     "1080×1920픽셀",
+     "세로형 9:16"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "세부요강은 주최사의 기획에 의해 내용이 변경 될 수 있으니, 주최사의 공고를 반드시 확인해 보시기 바랍니다."
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 4,
+     "resources": 4,
+     "cash": 3
+    },
+    "total": 14,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "현재 2026-10-24 기준, 남은 시간은 약 20일(2026-11-13까지)이며, 10시간의 작업 가능 시간이 남아 있습니다.",
+     "제출 마감일(2026-11-13) 전에 영상 제작을 완료하고, 제출을 위한 서류(신청서, 신원 확인 등)를 처리해야 하므로, 남은 시간을 효율적으로 활용해야 합니다.",
+     "제한된 인력(1인)과 기술(하드웨어 없음, 로봇 없음) 때문에, AI와 영상 제작 도구를 활용해 빠르게 콘텐츠를 제작하고, 필요한 서류는 인간이 직접 처리해야 하므로, 작업 일정이 매우 촉박합니다."
+    ],
+    "blockers": [
+     "제출 마감일이 2026-11-13이므로, 이를 기준으로 역산해 작업 일정을 계획해야 합니다.",
+     "제출을 위한 신청서 작성, 신원 확인, 결제 등 일부 절차는 인간이 직접 수행해야 하므로, 이를 위한 시간이 필요합니다."
+    ],
+    "plan": [
+     {
+      "date": "2026-10-25",
+      "task": "초안 스토리보드 작성 및 AI 이미지 생성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-26",
+      "task": "영상 편집 및 MP4 포맷 변환",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-27",
+      "task": "파일 용량 확인 및 500MB 이하 확인",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-28",
+      "task": "공모전 신청서 작성 및 제출",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-29",
+      "task": "신원 확인 및 결제 완료",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-30",
+      "task": "최종 검토 및 제출 완료",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 754,
+     "prompt_tokens": 6961,
+     "total_tokens": 7715,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 532,
+     "prompt_tokens": 1049,
+     "total_tokens": 1581,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     }
@@ -4943,6 +5221,252 @@
    ]
   },
   {
+   "id": "daily-2026-10-24-2",
+   "found_at": "2026-10-24",
+   "query": "AI 영상 공모전 2026 접수",
+   "title": "2026 시민 AI영상 공모전 <응답하라, 제천> 공고",
+   "mode": "live",
+   "source": "https://www.co-worker.co.kr/application/resources/upload/contest_file/1792644518990931.pdf",
+   "via": "direct",
+   "contest": {
+    "name": "2026 Co-Worker Innovation Challenge",
+    "organizer": "Co-Worker",
+    "url": "https://www.co-worker.co.kr/application/resources/upload/contest_file/1792644518990931.pdf",
+    "deadline": {
+     "iso": "2026-10-24T23:59:59+09:00",
+     "as_written": "2026-10-24",
+     "evidence": "2026-10-24"
+    },
+    "eligibility": {
+     "summary": "Open to individuals and teams worldwide, online submission.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "global",
+     "age": "any",
+     "evidence": "전 세계 누구나 참여 가능 (온라인 제출)"
+    },
+    "prizes": {
+     "summary": "총 3개 프로젝트 수상, 현금 및 멘토링 제공.",
+     "cash": true,
+     "top_amount": "10,000,000 KRW",
+     "winner_count": 3,
+     "evidence": "최고상금 1,000만원, 3개 프로젝트 수상"
+    },
+    "deliverables": [
+     {
+      "item": "아이디어 제안서",
+      "evidence": "제안서 제출"
+     },
+     {
+      "item": "프로토타입 시연 영상",
+      "evidence": "시연 영상 제출"
+     }
+    ],
+    "judging": [
+     "전문가 심사위원 3명",
+     "혁신성, 실행 가능성, 사회적 가치 평가"
+    ],
+    "required_tech": [
+     "AI/ML",
+     "블록체인",
+     "IoT"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "제출 마감일이 2026년 10월 24일로 늦게 설정되어 있음"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 1,
+     "resources": 4,
+     "cash": 5
+    },
+    "total": 13,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "2026-10-24 마감일이 오늘(2026-10-24)이고, 남은 시간이 0일입니다. 즉시 제출해야 합니다.",
+     "심사 기준은 혁신성, 실행 가능성, 사회적 가치이며, 제안서와 시연 영상 두 가지 제출물이 필요합니다.",
+     "현재 인력과 자원은 1인(인간)만 가능하고, AI 이미지·영상 제작 역량과 빠른 제작 속도를 활용할 수 있습니다."
+    ],
+    "blockers": [
+     "제출 마감일이 이미 지난 시점(2026-10-24)이므로, 즉시 제출해야 하는 상황입니다.",
+     "시연 영상 제작에 필요한 장비·자원이 없으므로, 현재 보유한 AI 영상 제작 역량을 최대한 활용해야 합니다.",
+     "제출 양식 및 파일 형식에 대한 구체적 요구가 명시되지 않아, 제출 전 확인 필요(알 수 없음)."
+    ],
+    "plan": [
+     {
+      "date": "2026-10-24",
+      "task": "아이디어 제안서 작성 및 제출",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-24",
+      "task": "프로토타입 시연 영상 제작 및 업로드",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 475,
+     "prompt_tokens": 25891,
+     "total_tokens": 26366,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 324,
+     "prompt_tokens": 770,
+     "total_tokens": 1094,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-24-4",
+   "found_at": "2026-10-24",
+   "query": "AI 활용 아이디어 공모전 2026",
+   "title": "2026년 10월 2주 이주의 주목할 공모전 | AI 활용 가능한 숏폼 영상 공모전 특집 : 네이버 블로그",
+   "mode": "live",
+   "source": "https://blog.naver.com/PostView.naver?blogId=thinku1125&logNo=224439149891&redirect=Dlog",
+   "via": "direct",
+   "contest": {
+    "name": "AI 활용 가능한 숏폼 영상 공모전",
+    "organizer": "서민금융진흥원",
+    "url": "https://thinkyou.co.kr/contest/67120/",
+    "deadline": {
+     "iso": "2026-10-30T23:59:00+09:00",
+     "as_written": "2026년 10월 1일 ~ 10월 30일 23:59",
+     "evidence": "접수기간 2026년 10월 1일 ~ 10월 30일 23:59"
+    },
+    "eligibility": {
+     "summary": "대한민국 국민 누구나",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "대한민국",
+     "age": null,
+     "evidence": "참여대상 대한민국 국민 누구나 ※ 개인 참가만 가능"
+    },
+    "prizes": {
+     "summary": "총 9명 / 총상금 400만원",
+     "cash": true,
+     "top_amount": "100만원",
+     "winner_count": 1,
+     "evidence": "시상내역 총 9명 / 총상금 400만원 최우수상 1명: 100만원"
+    },
+    "deliverables": [
+     {
+      "item": "30초~3분 길이의 숏폼 영상",
+      "evidence": "영상 길이: 30초~3분"
+     },
+     {
+      "item": "AI 활용 가능",
+      "evidence": "생성형 AI 활용도 가능"
+     }
+    ],
+    "judging": [
+     "공모전 홈페이지를 통한 온라인 접수",
+     "審查 기준은 명시되지 않음"
+    ],
+    "required_tech": [
+     "AI 활용 가능",
+     "MP4 형식"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "참가대상 제한: 개인만 가능 (팀 참가 불가)",
+     "제출 시 초상권 사용 동의서 필요",
+     "유의사항 동의서 제출 필요"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 2,
+     "resources": 4,
+     "cash": 4
+    },
+    "total": 13,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총점 13점은 '아주 가능' 수준을 의미하지 않으며, '아주 가능'은 15점 이상이므로 13점은 '가능' 수준에 가깝지만 아직 '아주 가능'은 아님",
+     "승리 확률(3점)과 자원(4점), 마감(2점), 현금(4점) 중 가장 낮은 점수는 마감(2점)이며, 마감까지 남은 시간이 6일뿐이므로 준비 기간이 매우 짧음",
+     "팀은 한 명인 크리에이터 스튜디오로, 개인만 참가 가능하고 서류 제출이 필요하므로 'human-only'로 분류됨"
+    ],
+    "blockers": [
+     "마감일이 2026-10-30이므로 현재 2026-10-24부터 6일 남음",
+     "초상권 사용 동의서와 유의사항 동의서 제출이 필요하나 자동화 불가",
+     "개인만 참가 가능으로 팀 구성 불가"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-24",
+      "task": "초상권 사용 동의서 작성 및 제출 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-25",
+      "task": "공모전 주제에 맞는 영상 콘텐츠 기획",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-26",
+      "task": "AI 이미지 및 영상 제작",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-27",
+      "task": "영상 편집 및 MP4 포맷 변환",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-28",
+      "task": "유의사항 동의서 작성 및 제출",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-29",
+      "task": "최종 영상 검토 및 제출 파일 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-30",
+      "task": "제출 마감 전 최종 확인 및 제출",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 523,
+     "prompt_tokens": 6455,
+     "total_tokens": 6978,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 564,
+     "prompt_tokens": 818,
+     "total_tokens": 1382,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-10-2",
    "found_at": "2026-10-10",
    "query": "(test)",
@@ -5355,128 +5879,6 @@
    ]
   },
   {
-   "id": "daily-2026-10-19-6",
-   "found_at": "2026-10-19",
-   "query": "AI 이미지 그림 공모전 2026",
-   "title": "2026년 10월 1주 이주의 주목할 공모전 | AI 광고, 영상, 웹툰 ...",
-   "mode": "live",
-   "source": "https://blog.naver.com/PostView.naver?blogId=thinku1125&logNo=224433197498&redirect=Dlog",
-   "via": "direct",
-   "contest": {
-    "name": "2026년 10월 1주 이주의 주목할 공모전 | AI 광고, 영상, 웹툰 공모전",
-    "organizer": "씽유(thinkyou)",
-    "url": "https://thinkyou.co.kr/contest/66055",
-    "deadline": {
-     "iso": "2026-10-23T23:59:59+09:00",
-     "as_written": "2026년 10월 1주",
-     "evidence": "접수기간 2026년 9월 14일 ~ 10월 23일"
-    },
-    "eligibility": {
-     "summary": "일반인·중고등학생·초등학생",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "대한민국",
-     "age": "전 연령",
-     "evidence": "참여 대상 일반인·중고등학생·초등학생"
-    },
-    "prizes": {
-     "summary": "총 21명 / 총상금 520만원",
-     "cash": true,
-     "top_amount": "100만원",
-     "winner_count": 1,
-     "evidence": "대상: 일반부 100만원"
-    },
-    "deliverables": [
-     {
-      "item": "풍경화",
-      "evidence": "일반부: 규격 제한 없음"
-     },
-     {
-      "item": "수채화·유화·아크릴화·산수화·수묵화·세밀화",
-      "evidence": "수채화, 유화, 아크릴화, 산수화, 수묵화, 세밀화 등"
-     },
-     {
-      "item": "온라인 접수 후 우편 또는 방문 제출",
-      "evidence": "온라인 접수 후 작품을 우편 또는 방문 제출"
-     }
-    ],
-    "judging": [
-     "일반부",
-     "중·고등부",
-     "초등부"
-    ],
-    "required_tech": [
-     "수채화",
-     "유화",
-     "아크릴화",
-     "산수화",
-     "수묵화",
-     "세밀화"
-    ],
-    "language": "Korean",
-    "red_flags": [
-     "제출작은 반드시 우편 또는 방문 제출이 필요함"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 2,
-     "resources": 3,
-     "cash": 4
-    },
-    "total": 12,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "2026-10-19 기준 4일 남음, 2026-10-23 23:59:59까지 제출 가능",
-     "수상작은 우편 또는 방문 제출이 필요하므로, 작품을 직접 우편으로 보낼 수 있는 인력이 필요함",
-     "수상작은 수채화·유화·아크릴화·산수화·수묵화·세밀화 중 하나여야 함"
-    ],
-    "blockers": [
-     "작품을 직접 우편으로 보낼 수 있는 인력이 없음",
-     "수상작을 만들기 위한 충분한 시간과 자원이 아직 확보되지 않음"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-20",
-      "task": "작품 제작 및 우편 발송 준비",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-22",
-      "task": "우편 발송 및 확인",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-23",
-      "task": "제출 마감 확인 및 최종 점검",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 574,
-     "prompt_tokens": 6838,
-     "total_tokens": 7412,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 300,
-     "prompt_tokens": 869,
-     "total_tokens": 1169,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
    "id": "daily-2026-10-23-7",
    "found_at": "2026-10-23",
    "query": "AI hackathon online 2026 prize deadline",
@@ -5586,6 +5988,152 @@
      "completion_tokens": 397,
      "prompt_tokens": 871,
      "total_tokens": 1268,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-24-1",
+   "found_at": "2026-10-24",
+   "query": "숏폼 영상 공모전 2026 상금",
+   "title": "2026 태안 방문의 해 숏폼영상 공모전 | 공모나라",
+   "mode": "live",
+   "source": "https://gongmonara.com/contests/275",
+   "via": "direct",
+   "contest": {
+    "name": "2026 태안 방문의 해 숏폼영상 공모전(하반기)",
+    "organizer": "태안군청",
+    "url": "https://gongmonara.com/contests/275",
+    "deadline": {
+     "iso": "2026-10-31T23:59:00+09:00",
+     "as_written": "2026. 10. 31.(토) 23:59까지",
+     "evidence": "접수기간: 2026. 10. 1.(목) ~ 10. 31.(토) 23:59까지"
+    },
+    "eligibility": {
+     "summary": "제한 없음 (전국 누구나)",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": null,
+     "evidence": "접수자격: 제한 없음 (전국 누구나)"
+    },
+    "prizes": {
+     "summary": "총 11명 / 총상금 3,900,000원",
+     "cash": true,
+     "top_amount": "1,000,000원",
+     "winner_count": 1,
+     "evidence": "총 11명 / 총상금 3,900,000원"
+    },
+    "deliverables": [
+     {
+      "item": "참가신청서",
+      "evidence": "제출 서류 목록: 참가신청서 (자필 서명 필수)"
+     },
+     {
+      "item": "개인정보 수집·이용 동의서",
+      "evidence": "제출 서류 목록: 개인정보 수집·이용 동의서 (자필 서명 필수)"
+     },
+     {
+      "item": "초상권 사용 동의서",
+      "evidence": "제출 서류 목록: 초상권 사용 동의서 (해당 시 제출)"
+     },
+     {
+      "item": "편집본",
+      "evidence": "제출 서류 목록: 편집본, 클린본 (클린본: 자막, 나레이션, 디자인 없는 컷편집본)"
+     },
+     {
+      "item": "클린본",
+      "evidence": "제출 서류 목록: 편집본, 클린본 (클린본: 자막, 나레이션, 디자인 없는 컷편집본)"
+     }
+    ],
+    "judging": [
+     "1차 심사: 작품 규격",
+     "2차 심사: 완성도, 창의성, 전달력, 스토리텔링, 대중성"
+    ],
+    "required_tech": [
+     "세로형 영상",
+     "해상도: 1080×1920p 이상",
+     "분량: 30초 이상 ~ 1분 미만",
+     "형식: 애니메이션, 모션그래픽, 드론 등 자유 형식"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "초상권, 저작권 문제 없음을 확인",
+     "드론 촬영 시 항공법 준수 필요",
+     "수상 후 저작권은 응모자에게 귀속",
+     "수상작은 태안군 홍보 목적에 한해 사용 가능"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 3,
+     "resources": 2,
+     "cash": 4
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총점 12점은 'maybe' verdict이므로 참가가 가능하나 승리가 보장되지 않음",
+     "1인 스튜디오이지만 글쓰기, AI 이미지, 짧은 영상 제작에 강점이 있음",
+     "제한 없음, 온라인 제출, 한국어 영상 제작이 가능하고 10시간 내에 완성 가능"
+    ],
+    "blockers": [
+     "자필 서명과 서류 제출이 필요하나 1인인tress는 서명 가능하나 시간 제약이 있음",
+     "드론 촬영이 필요하면 항공법 준수를 확인해야 함",
+     "수상 후 저작권은 군에 귀속되므로 상업적 이용에 제한이 있을 수 있음"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-25",
+      "task": "참가 신청서와 개인정보 동의서 작성 및 자필 서명",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-26",
+      "task": "초상권 사용 동의서 준비 및 초상권 문제 검토",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-27",
+      "task": "드론 촬영 필요 여부 확인 및 항공법 검토",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-28",
+      "task": "초안 영상 제작 (30초 이상 1분 미만, 세로형, 1080×1920p 이상)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-29",
+      "task": "편집본 및 클린본 제작 (자막·나레이션·디자인 제외)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-30",
+      "task": "제출 서류 최종 점검 및 업로드",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 775,
+     "prompt_tokens": 2393,
+     "total_tokens": 3168,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 489,
+     "prompt_tokens": 1070,
+     "total_tokens": 1559,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     }
@@ -6822,141 +7370,6 @@
    ]
   },
   {
-   "id": "daily-2026-10-16-6",
-   "found_at": "2026-10-16",
-   "query": "AI hackathon online 2026 prize deadline",
-   "title": "Model Context Protocol Server and AI Agent Government Hackathon | GSA",
-   "mode": "live",
-   "source": "https://www.gsa.gov/artificial-intelligence/ai-community-of-practice/events-and-training/mcp-server-and-ai-agent-government-hackathon",
-   "via": "direct",
-   "contest": {
-    "name": "Model Context Protocol Server and AI Agent Government Hackathon",
-    "organizer": "GSA AI Community of Practice",
-    "url": "https://www.gsa.gov/artificial-intelligence/ai-community-of-practice/events-and-training/mcp-server-and-ai-agent-government-hackathon",
-    "deadline": {
-     "iso": null,
-     "as_written": null,
-     "evidence": null
-    },
-    "eligibility": {
-     "summary": "All government employees with a .gov or .mil email address are eligible to participate.",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "United States",
-     "age": null,
-     "evidence": "Open to all government employees with a .gov or .mil email address (federal, state, local, territorial, or tribal)."
-    },
-    "prizes": {
-     "summary": "Winners will be recognized in an awards ceremony by senior government officials; no monetary prizes are offered.",
-     "cash": false,
-     "top_amount": null,
-     "winner_count": null,
-     "evidence": "Due to federal legal requirements, we cannot offer cross-agency monetary prizes, but winners will be recognized in an awards ceremony by senior government officials."
-    },
-    "deliverables": [
-     {
-      "item": "GitHub repository (template)",
-      "evidence": "GitHub repository ( template ) : Complete, documented code for your MCP server."
-     },
-     {
-      "item": "Presentation slide deck",
-      "evidence": "Presentation slide deck ( presentation template [PPTX - 102 KB] ) : Problem statement — What challenge does your server address?"
-     },
-     {
-      "item": "Evaluation documentation",
-      "evidence": "Evaluation documentation ( sample documentation [DOCX - 11 KB] ) : Testing methodology"
-     }
-    ],
-    "judging": [
-     "Technical Quality",
-     "Innovation",
-     "Mission alignment",
-     "Presentation"
-    ],
-    "required_tech": [
-     "Python (3.10+)",
-     "Node.js (18+)",
-     "Git",
-     "MCP SDK",
-     "REST API concepts"
-    ],
-    "language": "Korean",
-    "red_flags": [
-     "Deadline not specified",
-     "Registration is now closed",
-     "No monetary prizes"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 2,
-     "resources": 3,
-     "cash": 1
-    },
-    "total": 9,
-    "verdict": "skip",
-    "scored_by": "rules",
-    "why": [
-     "총 상금이 없고, 정부 직원 전용 행사라서 신규 팀이 참여하기 어려운 환경",
-     "데드라인이 명시되지 않아 일정 관리가 어렵고, 등록이 이미 마감된 것으로 보임",
-     "필요한 기술 스택(Python, Node.js, MCP SDK 등)을 혼자서 구현·제출하기 어려운 부담"
-    ],
-    "blockers": [
-     "등록이 이미 종료된 것으로 보임",
-     "데드라인 정보가 없으므로 일정 수립이 불확실",
-     "하드웨어·여행 제한 없이 온라인으로만 구현해야 함"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-16",
-      "task": "참가 자격 및 등록 마감 여부 확인",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-17",
-      "task": "MCP 서버 기본 템플릿 구축 및 문서화",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-18",
-      "task": "제출용 GitHub 레포지토리 준비 및 프레젠테이션 슬라이드 제작",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-19",
-      "task": "평가 문서 초안 작성 및 전체 검토",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-20",
-      "task": "최종 검증 및 제출 준비 (human-only)",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 524,
-     "prompt_tokens": 4149,
-     "total_tokens": 4673,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 393,
-     "prompt_tokens": 818,
-     "total_tokens": 1211,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
    "id": "daily-2026-10-21-7",
    "found_at": "2026-10-21",
    "query": "AI 활용 아이디어 공모전 2026",
@@ -7193,6 +7606,14 @@
   "https://linkareer.com/activity/350683": "2026-10-23",
   "https://www.1billionsummit.com/ai-award-2027": "2026-10-23",
   "https://ai.ieee-ies.org": "2026-10-23",
-  "https://builder.aws.com/content/3JjizKCGyDjqLHiUnaEXmSdi3aE/aws-hackathon-2026-zero-to-shipped-win-dollar5k-credits": "2026-10-23"
+  "https://builder.aws.com/content/3JjizKCGyDjqLHiUnaEXmSdi3aE/aws-hackathon-2026-zero-to-shipped-win-dollar5k-credits": "2026-10-23",
+  "https://gongmonara.com/contests/275": "2026-10-24",
+  "https://www.co-worker.co.kr/application/resources/upload/contest_file/1792644518990931.pdf": "2026-10-24",
+  "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202610130076": "2026-10-24",
+  "https://blog.naver.com/PostView.naver?blogId=thinku1125&logNo=224439149891&redirect=Dlog": "2026-10-24",
+  "https://www.allforyoung.com/posts/84999": "2026-10-24",
+  "https://www.all-con.co.kr/view/contest/543249": "2026-10-24",
+  "https://www.kcarbon.or.kr/web/page.php?pcode=DE&gonggo_code=26100116490286": "2026-10-24",
+  "https://blog.naver.com/ppspr/224439199284?fromRss=true&trackingCode=rss": "2026-10-24"
  }
 }
