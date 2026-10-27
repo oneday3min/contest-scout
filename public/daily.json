@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-10-25T23:45:30.937Z",
- "date": "2026-10-26",
- "analyzed": 8,
- "failed": 0,
+ "updated_at": "2026-10-27T01:05:36.887Z",
+ "date": "2026-10-27",
+ "analyzed": 7,
+ "failed": 1,
  "usage": {
   "month": "2026-10",
-  "tavily": 124,
-  "ai_tokens": 509807,
-  "analyses": 94,
-  "runs": 13
+  "tavily": 132,
+  "ai_tokens": 539670,
+  "analyses": 101,
+  "runs": 14
  },
  "items": [
   {
@@ -3744,6 +3744,151 @@
    ]
   },
   {
+   "id": "daily-2026-10-27-5",
+   "found_at": "2026-10-27",
+   "query": "AI hackathon online 2026 prize deadline",
+   "title": "PayPal AI Hackathon 2026 – Cash Prizes",
+   "mode": "live",
+   "source": "https://internshala.com/competitions/paypal-ai-hackathon-2026",
+   "via": "direct",
+   "contest": {
+    "name": "PayPal AI Hackathon 2026",
+    "organizer": "PayPal Inc.",
+    "url": "https://internshala.com/competitions/paypal-ai-hackathon-2026",
+    "deadline": {
+     "iso": "2026-11-13T01:30:00+05:30",
+     "as_written": "13 November 2026, 1:30 AM IST",
+     "evidence": "Submission Deadline: 13 November 2026, 1:30 AM IST"
+    },
+    "eligibility": {
+     "summary": "Open to eligible individuals aged at least the legal age of majority in their country of residence, teams and organizations.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": "legal age of majority in their country of residence",
+     "evidence": "Eligibility: Individuals who have reached the legal age of majority in their country of residence, subject to the official rules and country restrictions."
+    },
+    "prizes": {
+     "summary": "First Place: US $12,000; Second Place: US $8,000; Third Place: US $5,000; Special Awards: US $5,000 each for Most Creative, Most Impactful, Best Demo Delivery, Best Use of PayPal + AI, and Best Use of Agentic Commerce; Sponsor Awards: additional cash prizes.",
+     "cash": true,
+     "top_amount": "US $12,000",
+     "winner_count": 1,
+     "evidence": "First Place: US $12,000"
+    },
+    "deliverables": [
+     {
+      "item": "Working prototype or proof of concept",
+      "evidence": "Project Requirements: Working prototype or proof of concept, project description, public open-source code repository, and a public YouTube demonstration video under three minutes."
+     },
+     {
+      "item": "Project description",
+      "evidence": "Project Requirements: Working prototype or proof of concept, project description, public open-source code repository, and a public YouTube demonstration video under three minutes."
+     },
+     {
+      "item": "Public open-source code repository",
+      "evidence": "Project Requirements: Working prototype or proof of concept, project description, public open-source code repository, and a public YouTube demonstration video under three minutes."
+     },
+     {
+      "item": "Public YouTube demonstration video under three minutes",
+      "evidence": "Project Requirements: Working prototype or proof of concept, project description, public open-source code repository, and a public YouTube demonstration video under three minutes."
+     }
+    ],
+    "judging": [
+     "Technical implementation",
+     "design",
+     "potential impact",
+     "innovation",
+     "presentation"
+    ],
+    "required_tech": [
+     "PayPal developer platform",
+     "AI tool, model, or platform"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Internshala is not affiliated with the organisers and is not responsible for event execution, registration, or prize fulfillment"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 4,
+     "resources": 4,
+     "cash": 5
+    },
+    "total": 14,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총 점수 14점 중 4점이 'deadline' 항목으로, 2026-11-13 1:30 AM IST 마감일이 16일 남았고, 현재 2026-10-27이므로 13일 후 마감이므로 충분히 준수 가능",
+     "총 점수 14점 중 4점이 'resources' 항목으로, 팀이 AI 이미지·영상 제작 역량과 한국어·기초 영어 능력이 있어 프로토타입 구현에 필요한 기술 자원을 충분히 보유",
+     "총 점수 14점 중 5점이 'cash' 항목으로, 1등 US$12,000 등 현금 상금이 존재하므로 실제 현금 유인으로 동기 부여가 강함"
+    ],
+    "blockers": [
+     "human-only: sign-ups, identity checks, payments, final submission",
+     "human-only: PayPal 계정 생성 및 연동 (PayPal 개발자 플랫폼 사용을 위한 개인 인증 필요)",
+     "human-only: 최종 영상·코드 공개 및 제출 절차 (YouTube 업로드, GitHub 공개 저장소 생성 등)"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-28",
+      "task": "PayPal 개발자 계정 생성 및 신원 확인 (human-only)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-30",
+      "task": "프로젝트 아이디어 선정 및 요구사항 정의 (team)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-01",
+      "task": "AI 이미지·영상 콘텐츠 제작 (team)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-02",
+      "task": "프로토타입 코드베이스 개발 및 GitHub 공개 저장소 초기화 (team)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-03",
+      "task": "YouTube 시연 영상 촬영 및 업로드 (team)",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-04",
+      "task": "제출 서류 최종 점검 및 PayPal 결제/수상금 수령 절차 준비 (human-only)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-12",
+      "task": "최종 제출 (human-only)",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 711,
+     "prompt_tokens": 1907,
+     "total_tokens": 2618,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 623,
+     "prompt_tokens": 1006,
+     "total_tokens": 1629,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-13-4",
    "found_at": "2026-10-13",
    "query": "AI 활용 아이디어 공모전 2026",
@@ -6196,6 +6341,405 @@
    ]
   },
   {
+   "id": "daily-2026-10-27-3",
+   "found_at": "2026-10-27",
+   "query": "AI 영상 공모전 2026 접수",
+   "title": "학생이 낼 수 있는 국내 공모전 34선: 2026년 AI·데이터·창업·영상 공고 정리 | CIT",
+   "mode": "live",
+   "source": "https://citcoding.com/competitions/korean-contests-guide.html",
+   "via": "direct",
+   "contest": {
+    "name": "학생이 낼 수 있는 국내 공모전 34선",
+    "organizer": "CIT",
+    "url": "https://citcoding.com/competitions/korean-contests-guide.html",
+    "deadline": {
+     "iso": null,
+     "as_written": null,
+     "evidence": null
+    },
+    "eligibility": {
+     "summary": "초·중·고 학생이 참가 자격을 갖는 공고만 모았습니다.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "한국",
+     "age": null,
+     "evidence": "초·중·고 학생이 참가 자격을 갖는 공고만 모았습니다."
+    },
+    "prizes": {
+     "summary": "수상금 및 상세 내용은 공고마다 다름",
+     "cash": true,
+     "top_amount": null,
+     "winner_count": null,
+     "evidence": "수상금 및 상세 내용은 공고마다 다름"
+    },
+    "deliverables": [
+     {
+      "item": "보고서",
+      "evidence": "보고서를 받는 곳이 있습니다."
+     },
+     {
+      "item": "영상",
+      "evidence": "영상이나 앱을 받는 곳이 있습니다."
+     },
+     {
+      "item": "앱",
+      "evidence": "영상이나 앱을 받는 곳이 있습니다."
+     },
+     {
+      "item": "기획서",
+      "evidence": "보고서, 영상, 앱, 아이디어 기획서처럼 형식이 공고마다 다르고"
+     }
+    ],
+    "judging": [
+     "학생이 만든 결과물을 냅니다."
+    ],
+    "required_tech": [
+     "AI",
+     "데이터",
+     "코딩"
+    ],
+    "language": "한국어",
+    "red_flags": [
+     "수상 보장 안 함",
+     "CIT는 대신 만들어 주지 않음",
+     "참가 프로그램은 참가 기록으로 남음"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 2,
+     "resources": 4,
+     "cash": 3
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "현재 10시간 내에 12점(승리 확률 3점, 마감 2점, 자원 4점, 현금 3점)을 획득했지만, 실제 경쟁 우위나 구체적 전략은 명시되지 않아 불확실성이 큽니다.",
+     "팀은 한 명인 크리에이터 스튜디오로, 한국어와 기본 영어만 가능하고 하드웨어·로봇·해외 여행 등 물리적 자원이 없으며, 예산도 제한적입니다.",
+     "공모전은 국내 초·중·고 학생 대상이며, 결과물은 보고서·영상·앱·기획서 등 다양한 형태를 요구하지만, 구체적인 아이디어와 실행 계획이 아직 수립되지 않았습니다."
+    ],
+    "blockers": [
+     "아이디어 구체화 및 결과물 제작을 위한 충분한 시간과 기술 자원이 부족함",
+     "참가 프로그램 등록·수상 확인 절차가 복잡하고, 수상 보장이 없으며, CIT가 직접 지원하지 않음",
+     "결과물 제출 마감일이 정확히 정해져 있지 않아 일정 관리가 불확실함"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-28",
+      "task": "아이디어 브레인스토밍 및 초안 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-29",
+      "task": "AI 이미지·영상 제작 및 초안 검토",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-30",
+      "task": "앱 프로토타입 제작 및 테스트",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-31",
+      "task": "보고서·기획서 최종 작성 및 제출 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-01",
+      "task": "참가 프로그램 등록 및 제출",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 457,
+     "prompt_tokens": 3801,
+     "total_tokens": 4258,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 490,
+     "prompt_tokens": 751,
+     "total_tokens": 1241,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-27-4",
+   "found_at": "2026-10-27",
+   "query": "AI 활용 아이디어 공모전 2026",
+   "title": "Ѹб",
+   "mode": "live",
+   "source": "https://www.hallym.ac.kr/bbs/hlsw/335/391019/artclView.do",
+   "via": "direct",
+   "contest": {
+    "name": "한림 정보보호 아이디어 공모전",
+    "organizer": "한림대학교",
+    "url": "https://www.hallym.ac.kr/bbs/hlsw/335/391019/artclView.do",
+    "deadline": {
+     "iso": "2026-10-28T23:59:00+09:00",
+     "as_written": "10월28일(수) 23:59까지",
+     "evidence": "접수 마감: 10월28일(수) 23:59까지"
+    },
+    "eligibility": {
+     "summary": "한림대학교 재학생(전공 무관, 대학원생 및 휴학생·졸업생은 참여 불가) 개인별 참가",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "한국",
+     "age": null,
+     "evidence": "한림대학교 재학생(전공 무관, 대학원생 및 휴학생·졸업생은 참여 불가)"
+    },
+    "prizes": {
+     "summary": "금상(1팀, 50만원, SW마일리지 120) / 은상(2팀, 30만원, SW마일리지 110) / 동상(3팀, 20만원, SW마일리지 100)",
+     "cash": true,
+     "top_amount": "50만원",
+     "winner_count": 1,
+     "evidence": "금상(1팀, 50만원, SW마일리지 120) / 은상(2팀, 30만원, SW마일리지 110) / 동상(3팀, 20만원, SW마일리지 100)"
+    },
+    "deliverables": [
+     {
+      "item": "아이디어 기획서(4쪽이내)",
+      "evidence": "아이디어 기획서(4쪽이내): 문제상황, 위험분석, 제안 아이디어, 구현 또는 운영 방법 등을 작성"
+     },
+     {
+      "item": "발표 영상(5분 이내)",
+      "evidence": "발표 영상(5분 이내): 포함 내용 - 위험 사례, 아이디어 및 동작 방식, 기대효과, 캠페인 메시지"
+     },
+     {
+      "item": "AI안전사용 캠페인 카드(1쪽 이미지 또는 10초 이내 영상)",
+      "evidence": "AI안전사용 캠페인 카드(1쪽 이미지 또는 10초 이내 영상): 제안 아이디어를 이미지나 영상으로 요약, 16:9 비율"
+     },
+     {
+      "item": "AI활용 내역서(1쪽)",
+      "evidence": "AI활용 내역서(1쪽): 작품 제작에 사용한 AI도구, 사용 목적, 검증 방법 및 사람이 직접 수정한 부분을 작성"
+     }
+    ],
+    "judging": [
+     "주제 적합성 및 문제 중요성(30) / 창의성(30) / 실현 가능성(25) / 기획 완성도 및 전달력(15)"
+    ],
+    "required_tech": [
+     "AI"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "SW WEEK 다른 프로그램과 중복 수혜 불가",
+     "장학금은 한림대학교 재학생 장학금 지급 기준에 미충족시 지급 불가"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 1,
+     "resources": 5,
+     "cash": 3
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총점 12점 중 1점이 자원 점수이며, 이는 제한된 자원(예산, 인력)으로 인해 높은 위험을 의미합니다.",
+     "심사 기준 중 '실현 가능성' 25점이 중요한데, 팀의 한계(하드웨어 부재, 해외 여행 불가)로 인해 실현 가능성 확보가 어려울 수 있습니다.",
+     "제출 기한이 2026-10-28(수) 23:59까지로 1일 남았으며, 1인 운영팀은 모든 제출물(기획서, 영상, 카드, 내역서)을 완성하기에 시간이 부족합니다."
+    ],
+    "blockers": [
+     "1인 운영팀으로 모든 제출물 제작 및 검증이 불가능할 수 있음",
+     "자원 점수 1점이 리스크를 높임",
+     "SW WEEK 중복 수혜 불가 및 장학금 지급 기준 미충족 가능성"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-27",
+      "task": "AI안전사용 캠페인 카드 제작 및 AI활용 내역서 초안 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-27",
+      "task": "발표 영상 5분 분량 스크립트 작성 및 촬영",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-27",
+      "task": "아이디어 기획서 4쪽 이내 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-10-27",
+      "task": "전체 제출물 검증 및 최종 제출",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 821,
+     "prompt_tokens": 1167,
+     "total_tokens": 1988,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 432,
+     "prompt_tokens": 1116,
+     "total_tokens": 1548,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-27-7",
+   "found_at": "2026-10-27",
+   "query": "AI art contest open call 2026 prize",
+   "title": "Call for Artists",
+   "mode": "live",
+   "source": "https://www.transartists.org/en/call-artists",
+   "via": "direct",
+   "contest": {
+    "name": "CREACTION 2026 – The 2nd Edition 2026",
+    "organizer": "Dr. Carmela Loiacono, Art Historian & Independent Curator",
+    "url": "https://carmelaloiaconoarthistorian.com/call-for-artists-creaction-the-2nd-edit…",
+    "deadline": {
+     "iso": "2026-11-27T23:59:00+01:00",
+     "as_written": "November 27, 2026 (11.59 PM your local time)",
+     "evidence": "Extended deadline for applications is November 27, 2026 (11.59 PM your local time)."
+    },
+    "eligibility": {
+     "summary": "Artists and collectives, both Italian and international, working in painting, photography, sculpture, installation, video art and performance.",
+     "individuals_ok": true,
+     "online": false,
+     "countries": null,
+     "age": null,
+     "evidence": "Artists and collectives, both Italian and international, working in painting, photography, sculpture, installation, video art and performance."
+    },
+    "prizes": {
+     "summary": "Participation fee required only for selected artists to cover logistics; no cash prize mentioned.",
+     "cash": false,
+     "top_amount": null,
+     "winner_count": null,
+     "evidence": "A participation fee is required only for selected artists to cover logistics, setup, printed materials, press office, local support, article/interview, opening and services."
+    },
+    "deliverables": [
+     {
+      "item": "Artist statement / biography (max 250 words)",
+      "evidence": "Artist statement / biography (max 250 words)."
+     },
+     {
+      "item": "Artwork description (max 300 words), including title, year, medium, dimensions, and any technical/logistical requirements",
+      "evidence": "Artwork description (max 300 words), including title, year, medium, dimensions, and any technical/logistical requirements."
+     },
+     {
+      "item": "Visual or video documentation of the video art, and performance (high-resolution images, video links or digital files)",
+      "evidence": "Visual or video documentation of the video art, and performance (high-resolution images, video links or digital files)."
+     },
+     {
+      "item": "Portfolio or website link (if available)",
+      "evidence": "Portfolio or website link (if available)."
+     }
+    ],
+    "judging": [
+     "Selection by the curator Dr. Carmela Loiacono"
+    ],
+    "required_tech": [
+     "Not specified"
+    ],
+    "language": "English",
+    "red_flags": [
+     "The page is a free posting board, not curated or edited by DutchCulture | TransArtists team; they do not take responsibility for double checking all calls."
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 5,
+     "resources": 5,
+     "cash": 1
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총점 12점 중 1점(승리 확률 1점)과 5점(마감일, 자원, 현금) 모두 낮은 점수로 '아마도' 판정됨.",
+     "신청 마감일이 2026-11-27T23:59:00+01:00(현지 시간)까지 남아 있어 아직 충분히 여유가 있으나, 점수가 낮아 우선순위가 낮음.",
+     "팀의 강점(글쓰기, AI 이미지, 영상, 한국어+기본 영어, 빠른 처리량)과 제한사항(하드웨어 없음, 해외 여행 불가, 소규모 예산, 서명/결제 인력 1명) 때문에 제출 가능한 항목은 충족하나, 경쟁 우위가 약함."
+    ],
+    "blockers": [
+     "서명, 신원 확인, 결제, 최종 제출은 human-only로 처리돼야 함.",
+     "팀에 인력이 1명뿐이므로 모든 행정 절차를 혼자 수행해야 함."
+    ],
+    "plan": [
+     {
+      "date": "2026-10-28",
+      "task": "신청서 초안 작성 및 내부 검토",
+      "owner": "team"
+     },
+     {
+      "date": "2026-10-30",
+      "task": "예술가 성명/이력서(250자 이하)와 작품 설명(300자 이하) 작성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-01",
+      "task": "비디오·성능 문서(고해상도 이미지·동영상 링크) 준비",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-05",
+      "task": "포트폴리오/웹사이트 링크 확인 및 업로드",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-10",
+      "task": "서명, 신원 확인 및 결제 진행 (human-only)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-20",
+      "task": "최종 제출 전 검수 및 파일 업로드",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-27",
+      "task": "마감 전 최종 제출",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 669,
+     "prompt_tokens": 5492,
+     "total_tokens": 6161,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 595,
+     "prompt_tokens": 964,
+     "total_tokens": 1559,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-20-8",
    "found_at": "2026-10-20",
    "query": "AI short film competition 2026 deadline",
@@ -7511,94 +8055,6 @@
    ]
   },
   {
-   "id": "daily-2026-10-19-3",
-   "found_at": "2026-10-19",
-   "query": "AI 활용 아이디어 공모전 2026",
-   "title": "서강대, 생성형 AI 아이디어 공모전…10개 팀 수상 | 중앙일보",
-   "mode": "live",
-   "source": "https://www.joongang.co.kr/article/25467474",
-   "via": "direct",
-   "contest": {
-    "name": "2026 서강대학교 생성형 AI 기반 아이디어 공모전",
-    "organizer": "서강대학교",
-    "url": "https://www.joongang.co.kr/article/25467474",
-    "deadline": {
-     "iso": null,
-     "as_written": null,
-     "evidence": null
-    },
-    "eligibility": {
-     "summary": "학부·대학원생과 교직원이 1~5명 규모의 팀으로 참여",
-     "individuals_ok": false,
-     "online": false,
-     "countries": null,
-     "age": null,
-     "evidence": "학부·대학원생과 교직원이 1~5명 규모의 팀으로 참여했으며, 아이디어 기획 중심의 예선과 AI 서비스 개발 중심의 본선으로 진행됐다."
-    },
-    "prizes": {
-     "summary": "대상 1팀, 최우수상 1팀, 우수상 2팀, 현업 전문가 멘토링 및 개발지원비 제공",
-     "cash": true,
-     "top_amount": "30만원",
-     "winner_count": 10,
-     "evidence": "대상은 ‘비버(Beaver)’팀이 받았으며, 최우수상은 ‘마이에이아이레주메’팀, 우수상은 ‘renAIssance’팀과 ‘Haksa's Insight Lab’팀이 공동 수상했다. 현업 전문가의 일대일 멘토링과 중간 점검 등을 통해 아이디어를 실제 서비스로 구현하도록 지원했으며, 본선 진출팀에는 AI 개발 도구와 30만원 상당의 개발지원비를 제공했다."
-    },
-    "deliverables": [
-     {
-      "item": "AI 기반 서비스 기획 및 구현",
-      "evidence": "AI 서비스 개발 중심의 본선으로 진행됨"
-     },
-     {
-      "item": "멘토링 및 피드백",
-      "evidence": "현업 전문가의 일대일 멘토링과 중간 점검 제공"
-     }
-    ],
-    "judging": [
-     "AI 기반 아이디어 기획",
-     "서비스 구현 가능성",
-     "실제 적용 가치"
-    ],
-    "required_tech": [
-     "생성형 AI",
-     "AI 개발 도구"
-    ],
-    "language": "한국어",
-    "red_flags": [
-     "공모전 명칭에 '2026' 표기되어 있으나 현재는 2026년을 가리키는 것이 아니라 과거 보도 자료임"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 2,
-     "resources": 4,
-     "cash": 3
-    },
-    "total": 12,
-    "verdict": "skip",
-    "scored_by": "rules",
-    "why": [
-     "Individuals are not eligible",
-     "Deadline unknown",
-     "Scored by fixed rules (no AI call)"
-    ],
-    "blockers": [
-     "Individuals are not eligible"
-    ],
-    "plan": []
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 587,
-     "prompt_tokens": 4804,
-     "total_tokens": 5391,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
    "id": "daily-2026-10-21-1",
    "found_at": "2026-10-21",
    "query": "AI 활용 아이디어 공모전 2026",
@@ -8229,6 +8685,14 @@
   "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000006&nttId=130027": "2026-10-26",
   "https://www.threads.com/@reedo.dev/post/DeGUW5ZGt9c/%EC%83%81%EA%B8%88%EC%9D%80-5%EC%B2%9C%EB%A7%8C-%EC%9B%90%EC%9D%B8%EB%8D%B0%EC%B0%B8%EA%B0%80%EC%9E%90%EB%93%A4%EC%9D%B4-%EC%93%B0%EB%8A%94-%EB%8F%88%EC%9D%80-10%EC%96%B5-%EC%9B%90%EC%9D%B4%EB%9D%BC%EB%A9%B4ai-%EC%98%81%EC%83%81-%EA%B3%B5%EB%AA%A8%EC%A0%84%EB%88%84%EA%B0%80-%EC%A7%84%EC%A7%9C-%EC%88%98%ED%98%9C%EC%9E%90%EC%9D%BC%EA%B9%8C%EC%9A%94%EC%9A%94%EC%A6%98-%EC%98%81%EC%83%81%EC%9D%84-%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C-%EA%B3%B5%EB%AA%A8%EC%A0%84%EC%97%90%EB%8F%84-%EC%B0%B8%EC%97%AC%ED%95%B4-%EB%B3%B4%EB%A0%A4%EB%8B%A4%EA%B0%80-%EB%AC%B8": "2026-10-26",
   "https://www.kaggle.com/competitions": "2026-10-26",
-  "https://www.culture.go.kr/digicon": "2026-10-26"
+  "https://www.culture.go.kr/digicon": "2026-10-26",
+  "https://www.opencallartist.com/o/86820057-59f7-4f59-bcc7-49b48be4fac3/ai-art-award-next-art-ai-2026-ai-art-competition": "2026-10-27",
+  "https://onoffmix.com/event/348997": "2026-10-27",
+  "https://linkareer.com/activity/352795": "2026-10-27",
+  "https://citcoding.com/competitions/korean-contests-guide.html": "2026-10-27",
+  "https://www.hallym.ac.kr/bbs/hlsw/335/391019/artclView.do": "2026-10-27",
+  "https://internshala.com/competitions/paypal-ai-hackathon-2026": "2026-10-27",
+  "https://www.artworkarchive.com/call-for-entry/hoban-ai-art-award-next-art-ai-2026": "2026-10-27",
+  "https://www.transartists.org/en/call-artists": "2026-10-27"
  }
 }
