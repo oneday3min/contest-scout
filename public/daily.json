@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-10-29T01:30:55.089Z",
- "date": "2026-10-29",
+ "updated_at": "2026-10-30T01:32:36.273Z",
+ "date": "2026-10-30",
  "analyzed": 8,
  "failed": 0,
  "usage": {
   "month": "2026-10",
-  "tavily": 150,
-  "ai_tokens": 604968,
-  "analyses": 117,
-  "runs": 16
+  "tavily": 160,
+  "ai_tokens": 643666,
+  "analyses": 125,
+  "runs": 17
  },
  "items": [
   {
@@ -3347,159 +3347,6 @@
    ]
   },
   {
-   "id": "daily-2026-10-17-5",
-   "found_at": "2026-10-17",
-   "query": "숏폼 영상 공모전 2026 상금",
-   "title": "행사",
-   "mode": "live",
-   "source": "https://www.swu.ac.kr/swu/745/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGc3d1JTJGNTglMkYxMzg1OTElMkZhcnRjbFZpZXcuZG8lM0Y%3D",
-   "via": "direct",
-   "contest": {
-    "name": "2026 서울여자대학교 전공소개 홍보영상 공모전",
-    "organizer": "대외협력실",
-    "url": "https://www.swu.ac.kr/swu/745/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGc3d1JTJGNTglMkYxMzg1OTElMkZhcnRjbFZpZXcuZG8lM0Y%3D",
-    "deadline": {
-     "iso": "2026-10-29T23:59:59+09:00",
-     "as_written": "2026.10.29",
-     "evidence": "접수기간 2026.9.23.( 수 ) ~ 10.29( 목 )"
-    },
-    "eligibility": {
-     "summary": "재학생 (휴학생 포함) 개인 또는 팀 (2~4 명)",
-     "individuals_ok": true,
-     "online": true,
-     "countries": null,
-     "age": null,
-     "evidence": "참가대상 : 재학생 ( 휴학생 포함 ) 개인 또는 팀 (2~4 명 )"
-    },
-    "prizes": {
-     "summary": "수상작에 따라 현금 상금 지급",
-     "cash": true,
-     "top_amount": "100만원",
-     "winner_count": 1,
-     "evidence": "대상 1 팀 100 만원"
-    },
-    "deliverables": [
-     {
-      "item": "1분~2분 이내 영상",
-      "evidence": "영상길이 : 1 분 ~ 2 분 이내"
-     },
-     {
-      "item": "9:16 세로형 화면비율",
-      "evidence": "화면비율 : 9:16 세로형"
-     },
-     {
-      "item": "1080x1920px 이상 해상도",
-      "evidence": "해상도 : 1,080×1,920px 이상"
-     },
-     {
-      "item": "MP4 파일 형식",
-      "evidence": "파일형식 : MP4"
-     },
-     {
-      "item": "자막 포함 음성 내용",
-      "evidence": "주요 음성 내용 자막 필수"
-     },
-     {
-      "item": "서울여자대학교 로고·캐릭터 가이드라인 준수",
-      "evidence": "서울여자대학교 로고 및 캐릭터 활용 시 관련 가이드라인을 준수해야 함"
-     }
-    ],
-    "judging": [
-     "1 차심사 (40 점) : 학교 공식 유튜브 좋아요 집계 합산",
-     "2 차심사 (60 점) : 평가위원 (홍보위원회 + 학생대표) 평가",
-     "적합성, 창의성, 완성도, 활용성 각 25 점"
-    ],
-    "required_tech": [
-     "스마트폰 촬영 가능",
-     "대화·내레이션 포함 시 자막 필수"
-    ],
-    "language": "Korean",
-    "red_flags": [
-     "팀수상의 경우 포상금은 대표자에게 일괄 지급",
-     "적격 작품이 없을 경우 시상 규모 조정 가능",
-     "AI 활용 시 사용 도구 및 활용 범위 기재 필요",
-     "수상 후 확인 시 수상 취소 및 상금 환수 가능"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 3,
-     "resources": 4,
-     "cash": 4
-    },
-    "total": 14,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "총점 14점 중 3점이 win_odds로, 이는 낮은 경쟁력 점수입니다.",
-     "제한된 자원(1인, 소규모 예산, 하드웨어 없음)과 10시간 내 작업 가능 시간이 있어 제작 난이도가 높습니다.",
-     "제출 기한(2026-10-29)까지 12일이 남아 있으나, 1인 운영자와 제한된 기술·시간으로 완성도 높은 영상 제작이 불확실합니다."
-    ],
-    "blockers": [
-     "1인 팀으로 서류 접수, 인증, 결제, 최종 제출까지 모든 과정을 직접 수행해야 함(인간만 가능).",
-     "AI 도구 사용 범위와 사용 도구를 명시해야 하는 규정이 있으나, 구체적인 AI 활용 계획이 아직 없음."
-    ],
-    "plan": [
-     {
-      "date": "2026-10-18",
-      "task": "참가 신청 및 인증 절차 수행",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-19",
-      "task": "AI 이미지·영상 제작 및 초안 작성",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-20",
-      "task": "자막 작성 및 영상 편집",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-21",
-      "task": "서울여자대학교 로고·캐릭터 가이드라인 검토 및 적용",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-22",
-      "task": "최종 영상 검수 및 MP4 포맷 변환",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-23",
-      "task": "제출 파일 업로드 및 결제 완료",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-24",
-      "task": "최종 제출 확인 및 필요 시 수정",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 820,
-     "prompt_tokens": 5264,
-     "total_tokens": 6084,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 519,
-     "prompt_tokens": 1114,
-     "total_tokens": 1633,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
    "id": "daily-2026-10-18-1",
    "found_at": "2026-10-18",
    "query": "AI 활용 아이디어 공모전 2026",
@@ -5406,125 +5253,6 @@
    ]
   },
   {
-   "id": "daily-2026-10-22-3",
-   "found_at": "2026-10-22",
-   "query": "AI 활용 아이디어 공모전 2026",
-   "title": "2026 제 2회 데이터로 미래를 그리는 AI 아이디어 공모전 | 공모전 대외활동-링커리어",
-   "mode": "live",
-   "source": "https://linkareer.com/activity/357812",
-   "via": "tavily-extract",
-   "contest": {
-    "name": "2026 제 2회 데이터로 미래를 그리는 AI 아이디어 공모전",
-    "organizer": "한국능률협회 / AI캠퍼스",
-    "url": "https://contest-platform-taupe.vercel.app/admin",
-    "deadline": {
-     "iso": "2026-10-29T23:59:59+09:00",
-     "as_written": "2026.10.29",
-     "evidence": "마감일2026.10.29"
-    },
-    "eligibility": {
-     "summary": "대상 제한 없음",
-     "individuals_ok": true,
-     "online": true,
-     "countries": null,
-     "age": null,
-     "evidence": "참여대상\n:   대상 제한 없음"
-    },
-    "prizes": {
-     "summary": "총 180만 원",
-     "cash": true,
-     "top_amount": "50만원",
-     "winner_count": 1,
-     "evidence": "대상 한국능률협회장상 50만원 - 1팀"
-    },
-    "deliverables": [
-     {
-      "item": "아이디어 제안서",
-      "evidence": "공모분야\n:   * 기획/아이디어"
-     }
-    ],
-    "judging": [
-     "대상 한국능률협회장상 50만원 - 1팀",
-     "최우수상 한국능률협회장상 40만원 -1팀",
-     "우수상 한국능률협회장상 30만원 - 1팀",
-     "주)에이아이캠퍼스 대표상 30만원 -1팀",
-     "장려성 (주)에이AI캠퍼스 대표상 10만원 -3팀"
-    ],
-    "required_tech": [],
-    "language": "Korean",
-    "red_flags": [
-     "IE 서비스 종료 안내"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 3,
-     "resources": 4,
-     "cash": 3
-    },
-    "total": 13,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "총 점수 13점 중 3점이 win_odds로 할당되어 있어, 경쟁률이 높을 것으로 예상됩니다.",
-     "제출 기한이 7일 남겨져 있어, 짧은 시간 내에 고품질 제안서를 완성해야 합니다.",
-     "평가 항목에 기술 요구사항이 없고, 한국어로 작성만 하면 되므로 언어 장벽은 낮지만, 제안서 내용이 차별화되어야 합니다."
-    ],
-    "blockers": [
-     "IE 서비스 종료 안내로 인해 지원 과정에서 기술적 문제가 발생할 수 있습니다.",
-     "1인 스튜디오이므로 모든 서류 작성, 제출, 결제 등을 인간이 직접 수행해야 합니다."
-    ],
-    "plan": [
-     {
-      "date": "2026-10-23",
-      "task": "아이디어 기획 및 초안 작성",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-24",
-      "task": "제안서 디자인 및 영상 콘텐츠 제작",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-25",
-      "task": "제출 서류 검토 및 결제 완료",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-26",
-      "task": "최종 검토 및 제출",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-27",
-      "task": "제출 확인 및 추후 대응 계획 수립",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 477,
-     "prompt_tokens": 4265,
-     "total_tokens": 4742,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 388,
-     "prompt_tokens": 773,
-     "total_tokens": 1161,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
    "id": "daily-2026-10-23-4",
    "found_at": "2026-10-23",
    "query": "AI 이미지 그림 공모전 2026",
@@ -6156,6 +5884,144 @@
      "completion_tokens": 421,
      "prompt_tokens": 916,
      "total_tokens": 1337,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-30-4",
+   "found_at": "2026-10-30",
+   "query": "AI hackathon online 2026 prize deadline",
+   "title": "The Lee Family AI Prize Competition | Artificial Intelligence at Lehigh",
+   "mode": "live",
+   "source": "https://ai.lehigh.edu/lee-family-ai-prize-competition",
+   "via": "direct",
+   "contest": {
+    "name": "Lee Family AI Prize Competition",
+    "organizer": "Lehigh University",
+    "url": "https://ai.lehigh.edu/lee-family-ai-prize-competition",
+    "deadline": {
+     "iso": "2027-03-22T23:59:59-05:00",
+     "as_written": "March 22, 2027",
+     "evidence": "Final competition submissions are due by March 22, 2027."
+    },
+    "eligibility": {
+     "summary": "Open to all currently enrolled Lehigh undergraduate, master’s, and doctoral students.",
+     "individuals_ok": true,
+     "online": false,
+     "countries": null,
+     "age": null,
+     "evidence": "Eligibility: Open to all currently enrolled Lehigh undergraduate, master’s, and doctoral students."
+    },
+    "prizes": {
+     "summary": "$20,000 prize pool including $5,000 first prize and $2,000 second prize for undergraduate and graduate divisions, plus additional $6,000 in various categories.",
+     "cash": true,
+     "top_amount": "$5,000",
+     "winner_count": null,
+     "evidence": "Undergraduate First Prize: $5,000 \nUndergraduate Second Prize: $2,000 \nGraduate First Prize: $5,000 \nGraduate Second Prize: $2,000 \nAdditional Prizes (Various Categories): $6,000"
+    },
+    "deliverables": [
+     {
+      "item": "Working prototype or demonstrable solution (app, custom assistant, workflow, multimodal system, or no-code tool)",
+      "evidence": "Final submission must include: Working prototype or demonstrable solution (app, custom assistant, workflow, multimodal system, or no-code tool)"
+     },
+     {
+      "item": "3-minute project demonstration video",
+      "evidence": "Final submission must include: 3-minute project demonstration video"
+     },
+     {
+      "item": "3–5 page project brief",
+      "evidence": "Final submission must include: 3–5 page project brief"
+     },
+     {
+      "item": "Evidence/user-testing appendix",
+      "evidence": "Final submission must include: Evidence/user-testing appendix"
+     },
+     {
+      "item": "Responsible AI and AI use disclosure agreement",
+      "evidence": "Final submission must include: Responsible AI and AI use disclosure agreement"
+     },
+     {
+      "item": "Participant disclosure agreement",
+      "evidence": "Final submission must include: Participant disclosure agreement"
+     }
+    ],
+    "judging": [
+     "Meaningful Problem and User Need (20%)",
+     "Real-World Impact and Community Value (20%)",
+     "AI Fit & Functional Solution (20%)",
+     "Evidence, Testing and Experiential Learning (15%)",
+     "Responsible and Human-Centered Innovation (15%)",
+     "Execution, Collaboration and Path to Scale (10%)"
+    ],
+    "required_tech": [
+     "Anthropic Claude Enterprise",
+     "AI tools",
+     "prototype development tools"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Deadline is March 22, 2027 (future date)",
+     "Requires on-campus enrollment at Lehigh University",
+     "Limited to students (no non-students)"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 5,
+     "resources": 3,
+     "cash": 4
+    },
+    "total": 13,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "현재 점수는 13점 중 13점이지만, 실제 경쟁은 2027년 3월 22일까지 진행되며, Lehigh 대학에 재학 중인 학생이어야만 지원 가능하므로 우리 팀은 지원 자격이 없습니다.",
+     "제출 요구 사항은 프로토타입, 3분 시연 영상, 3~5 페이지의 프로젝트 개요, 증거/사용자 테스트 보고서, 책임 있는 AI 고백서, 참가자 고백서 등 6가지 항목을 모두 영문으로 제출해야 하며, 이는 우리 팀이 수행할 수 있는 범위를 넘어섭니다.",
+     "대회는 오프라인(캠퍼스 내) 참여를 요구하고, 팀은 학생이어야만 하므로 우리 팀은 'human-only'로 분류된 서명, 신원 확인, 결제, 최종 제출 단계에 참여할 수 없습니다."
+    ],
+    "blockers": [
+     "Lehigh 대학 재학생이어야만 지원 가능 (우리 팀은 비학생)",
+     "모든 제출 자료는 영문으로 요구 (우리 팀은 한국어 기반)",
+     "오프라인 참여 및 현장 프로토타입 구현 필요 (하드웨어/로봇 없음)",
+     "6가지 필수 제출 항목 모두 완료해야 함 (인력 부족)"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-31",
+      "task": "참가 자격 및 제출 요구 사항 검토 (영문 문서 번역 및 이해 확인)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-01",
+      "task": "팀 내 역할 분배 및 책임자 지정 (서명, 신원 확인, 결제, 최종 제출 담당)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-02",
+      "task": "추가 정보 확인을 위한 Lehigh 대학 연락 (지원 가능 여부 및 대체 방안 문의)",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 794,
+     "prompt_tokens": 1835,
+     "total_tokens": 2629,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 481,
+     "prompt_tokens": 1089,
+     "total_tokens": 1570,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     }
@@ -8467,6 +8333,133 @@
    ]
   },
   {
+   "id": "daily-2026-10-30-7",
+   "found_at": "2026-10-30",
+   "query": "AI short film competition 2026 deadline",
+   "title": "Short Shorts Film Festival & Asia 2026 Screening in Autumn",
+   "mode": "live",
+   "source": "https://www.shortshorts.org/2026autumn/en",
+   "via": "direct",
+   "contest": {
+    "name": "Short Shorts Film Festival & Asia 2026 Screening in Autumn",
+    "organizer": "Committee for Short Shorts Film Festival Asia",
+    "url": "https://www.shortshorts.org/2026autumn/en",
+    "deadline": {
+     "iso": null,
+     "as_written": null,
+     "evidence": null
+    },
+    "eligibility": {
+     "summary": "Short films from around the world",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": null,
+     "evidence": "Short films from around the world come together at the 2026 festival."
+    },
+    "prizes": {
+     "summary": "Grand Prix winner — the George Lucas Award",
+     "cash": true,
+     "top_amount": "null",
+     "winner_count": 1,
+     "evidence": "the Grand Prix winner — the George Lucas Award — announced at the June festival"
+    },
+    "deliverables": [
+     {
+      "item": "Short films",
+      "evidence": "Short films from around the world come together at the 2026 festival."
+     }
+    ],
+    "judging": [
+     "Grand Prix winner — the George Lucas Award"
+    ],
+    "required_tech": [
+     "AI"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Deadline not specified"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 2,
+     "resources": 5,
+     "cash": 3
+    },
+    "total": 11,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총점 11점 중 2점(마감일 미확정) → 마감일이 정확히 언제인지 확인 필요",
+     "심사 항목에 AI 요구가 명시돼 있어 AI 이미지·영상 제작 역량을 활용 가능",
+     "수상금 현금이 명시돼 있어 현금 수령은 인적 개입 필요"
+    ],
+    "blockers": [
+     "마감일이 미공개(unknown) → 정확한 일정이 필요",
+     "수상금 수령을 위한 인적 확인·지급 절차가 필요"
+    ],
+    "plan": [
+     {
+      "date": "2026-11-01",
+      "task": "공식 웹사이트 및 담당자에게서 마감일 확인",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-02",
+      "task": "AI 이미지·영상 제작 파이프라인 구축 및 시뮬레이션",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-03",
+      "task": "시나리오 작성 및 스토리보드 제작",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-04",
+      "task": "영상·편집 작업 및 AI 보조 콘텐츠 생성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-05",
+      "task": "최종 영상 검수 및 파일 포맷·길이 확인",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-06",
+      "task": "수상금 수령을 위한 신분증·계좌 등 인적 절차 진행",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-07",
+      "task": "공식 제출 포털에 최종 파일 업로드",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 326,
+     "prompt_tokens": 2074,
+     "total_tokens": 2400,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 482,
+     "prompt_tokens": 621,
+     "total_tokens": 1103,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-12-7",
    "found_at": "2026-10-12",
    "query": "AI short film competition 2026 deadline",
@@ -9278,6 +9271,241 @@
      "prompt_tokens_details": null
     }
    ]
+  },
+  {
+   "id": "daily-2026-10-30-6",
+   "found_at": "2026-10-30",
+   "query": "AI short film competition 2026 deadline",
+   "title": "AI for Good Film Festival 2026 screening - AI for Good",
+   "mode": "live",
+   "source": "https://aiforgood.itu.int/event/ai-for-good-film-festival-2026-screening",
+   "via": "direct",
+   "contest": {
+    "name": "AI for Good Film Festival 2026 screening",
+    "organizer": "International Telecommunication Union (ITU)",
+    "url": "https://aiforgood.itu.int/event/ai-for-good-film-festival-2026-screening",
+    "deadline": {
+     "iso": null,
+     "as_written": null,
+     "evidence": null
+    },
+    "eligibility": {
+     "summary": "Individuals and organizations interested in organizing the Robotics for Good Youth Challenge in their country or region.",
+     "individuals_ok": true,
+     "online": false,
+     "countries": "All countries listed in the application form (including developing and developed nations)",
+     "age": null,
+     "evidence": "Please fill in the form below\nOrganization*"
+    },
+    "prizes": {
+     "summary": "Awards for first, second, and third place films at the AI for Good Film Festival 2026 screening.",
+     "cash": true,
+     "top_amount": "Not specified",
+     "winner_count": 1,
+     "evidence": "The winning film, as well as second and third place awards, will be announced during the festival’s official award ceremony."
+    },
+    "deliverables": [
+     {
+      "item": "Screening of finalist AI-powered short films",
+      "evidence": "The AI for Good Film Festival 2026 will feature outstanding finalist filmmakers presenting their AI-powered short films in competition"
+     },
+     {
+      "item": "Award ceremony",
+      "evidence": "The winning film, as well as second and third place awards, will be announced during the festival’s official award ceremony."
+     }
+    ],
+    "judging": [
+     "Matthieu Lorrain",
+     "Orri Bogdan",
+     "Hans Ku",
+     "Michaela A. Ternasky-Holland",
+     "Frederic Werner",
+     "Jaden Xie",
+     "Saif Eldin Hamza Basher",
+     "Violeta M. Valcheva",
+     "Minwoo Park",
+     "Yoona Park",
+     "Sion Kim",
+     "Erika Taranto",
+     "Yuichi Ono",
+     "Wanchana Intrasombat (Vic)",
+     "Xuan Li"
+    ],
+    "required_tech": [
+     "AI-powered short films",
+     "Screening equipment",
+     "Live presentation tools"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Application deadline is 1 October 2026 for Robotics for Good Youth Challenge (not directly related to film festival)",
+     "Multiple forms and sections requiring completion (e.g., self-due diligence confirmation)"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 2,
+     "resources": 4,
+     "cash": 3
+    },
+    "total": 10,
+    "verdict": "skip",
+    "scored_by": "rules",
+    "why": [
+     "총점 10점 중 2점(마감일)과 4점(자원)만 확보돼 총점 6점이므로 탈락 기준인 7점 미달",
+     "신청 마감일이 2026-10-01로 이미 지난 시점(오늘은 2026-10-30)이며, 신청서 제출이 필요해 human-only 처리",
+     "수상작은 현지 상영 및 시상식 참석이 필요해 현장 참여가 필수적이지만, 팀은 원격·온라인만 가능하고 하드웨어·여행 제약이 있음"
+    ],
+    "blockers": [
+     "신청 마감일이 이미 지난 상태(2026-10-01)",
+     "수상 후 현지 상영 및 시상식 참석이 필요해 현장 참여가 요구됨",
+     "팀은 원격·온라인만 가능하고, 하드웨어·여행 제약이 있어 현장 참여가 불가능"
+    ],
+    "plan": [
+     {
+      "date": "2026-10-30",
+      "task": "신청서 제출 (human-only)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-01",
+      "task": "수상 여부 확인 및 시상식 참석 계획 수립 (human-only)",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 595,
+     "prompt_tokens": 7243,
+     "total_tokens": 7838,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 341,
+     "prompt_tokens": 890,
+     "total_tokens": 1231,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-10-30-3",
+   "found_at": "2026-10-30",
+   "query": "AI short film competition 2026 deadline",
+   "title": "2026 Sparknify Human vs. AI Film Festival - FilmFreeway",
+   "mode": "live",
+   "source": "https://filmfreeway.com/humanvsai",
+   "via": "tavily-extract",
+   "contest": {
+    "name": "2026 Sparknify Human vs. AI Film Festival",
+    "organizer": "Sparknify",
+    "url": "https://filmfreeway.com/humanvsai",
+    "deadline": {
+     "iso": "2026-10-30T23:59:59-07:00",
+     "as_written": "October 30, 2026",
+     "evidence": "Deadline: October 30, 2026"
+    },
+    "eligibility": {
+     "summary": "Open to global filmmakers; accepts traditional and AI-generated short films under 30 minutes.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "worldwide",
+     "age": null,
+     "evidence": "The festival is open to filmmakers worldwide."
+    },
+    "prizes": {
+     "summary": "Grand prize includes USD $3,000 cash and a trophy; also awards Best AI-Generated and Best Picture.",
+     "cash": true,
+     "top_amount": "USD $3,000",
+     "winner_count": 1,
+     "evidence": "Cash Prize: USD $3,000"
+    },
+    "deliverables": [
+     {
+      "item": "Short film under 30 minutes",
+      "evidence": "Films must be short under 30 minutes, including credits."
+     },
+     {
+      "item": "English subtitles for non-English films",
+      "evidence": "Films in languages other than English must include English subtitles."
+     }
+    ],
+    "judging": [
+     "Three-stage pipeline evaluating entries on technical quality, specialized categories, and blind comparative screening",
+     "Stage One: Technical jurors eliminate entries failing minimum standards",
+     "Stage Two: Grand Jury of Cinema and Grand Jury of AI Innovation evaluate separately",
+     "Stage Three: 200+ film school professors evaluate nominated films in blind screening"
+    ],
+    "required_tech": [
+     "Conventional video cameras and lighting equipment",
+     "Computer editing software",
+     "AI-generative tools (for AI-generated category)",
+     "CAD or 3D modeling software (discouraged for human category, generally not considered AI-generated)"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Strict prohibition of AI tools in human-produced category",
+     "Disqualification for false or misleading information",
+     "Category reassignment rights by festival",
+     "Non-refundable submission fees"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 1,
+     "resources": 3,
+     "cash": 4
+    },
+    "total": 9,
+    "verdict": "skip",
+    "scored_by": "rules",
+    "why": [
+     "2026 Sparknify Human vs. AI Film Festival is scheduled for October 30, 2026 (deadline: 2026-10-30T23:59:59-07:00) and is open to global filmmakers, including individuals.",
+     "The festival awards a USD $3,000 cash prize to the Grand Prize winner, which aligns with the team's cash score of 4 (highest among fixed scores).",
+     "The team's strengths in writing, AI images, short-form video, and fast turnaround match the contest's deliverables (short film under 30 minutes, English subtitles), and the total score of 9 (highest among contests) indicates strong fit."
+    ],
+    "blockers": [
+     "Deadline is October 30, 2026, which is 365 days from today (2026-10-30), but the team has only 10 hours per day and no hardware or offline travel capability, making timely production uncertain.",
+     "The contest prohibits AI tools in the human-produced category, but the team relies on AI agents for content creation, requiring careful compliance verification.",
+     "Submission fees are non-refundable and disqualification applies for false information, increasing risk without guaranteed entry."
+    ],
+    "plan": [
+     {
+      "date": "2026-10-30",
+      "task": "Submit short film under 30 minutes with English subtitles",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 565,
+     "prompt_tokens": 2909,
+     "total_tokens": 3474,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 353,
+     "prompt_tokens": 859,
+     "total_tokens": 1212,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
   }
  ],
  "seen": {
@@ -9442,6 +9670,14 @@
   "https://thinkcontest.com/mthinkgood/contest/view.do?querystr=_I2r2ZjZXpMPqyflcNFyAESRMZUARq0MGdiFryA5gN8": "2026-10-29",
   "https://dev.meta.ai/events/global-hackathon": "2026-10-29",
   "https://linkareer.com/activity/97683": "2026-10-29",
-  "https://cda.or.kr/Notice/read/1534": "2026-10-29"
+  "https://cda.or.kr/Notice/read/1534": "2026-10-29",
+  "https://blog.naver.com/thinku1125/224433197498": "2026-10-30",
+  "https://www.thedreamkorea.com/contests/26de0a31-e81d-4072-ae03-1018ed7248ff": "2026-10-30",
+  "https://filmfreeway.com/humanvsai": "2026-10-30",
+  "https://ai.lehigh.edu/lee-family-ai-prize-competition": "2026-10-30",
+  "https://chmbc.co.kr/board/cn5vT4b5XTN3UmfP2vYB/single/uptCseab2R": "2026-10-30",
+  "https://aiforgood.itu.int/event/ai-for-good-film-festival-2026-screening": "2026-10-30",
+  "https://www.shortshorts.org/2026autumn/en": "2026-10-30",
+  "https://www.momscareer.co.kr/news/articleView.html?idxno=6484": "2026-10-30"
  }
 }
