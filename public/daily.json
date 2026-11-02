@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-01T00:40:05.666Z",
- "date": "2026-11-01",
- "analyzed": 6,
+ "updated_at": "2026-11-02T01:13:10.575Z",
+ "date": "2026-11-02",
+ "analyzed": 8,
  "failed": 0,
  "usage": {
   "month": "2026-11",
-  "tavily": 7,
-  "ai_tokens": 47644,
-  "analyses": 6,
-  "runs": 1
+  "tavily": 16,
+  "ai_tokens": 92612,
+  "analyses": 14,
+  "runs": 2
  },
  "items": [
   {
@@ -559,143 +559,6 @@
      "total_tokens": 1116,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
-   "id": "daily-2026-10-10-7",
-   "found_at": "2026-10-10",
-   "query": "AI 활용 아이디어 공모전 2026",
-   "title": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
-   "mode": "live",
-   "source": "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=view&gp=6&ix=111299",
-   "via": "direct",
-   "contest": {
-    "name": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
-    "organizer": "제천시",
-    "url": "https://www.jecheon.go.kr/www/selectBbsNttView.do?key=5233&id=&&bbsNo=18&nttNo=404261&searchCtgry=&searchCnd=&searchKrwd=&pageIndex=1&integrDeptCode=",
-    "deadline": {
-     "iso": "2026-11-01T24:00:00+09:00",
-     "as_written": "2026-11-01",
-     "evidence": "접수기간 2026-09-28 ~ 2026-11-01"
-    },
-    "eligibility": {
-     "summary": "제천시에 관심 있는 전 국민",
-     "individuals_ok": true,
-     "online": true,
-     "countries": null,
-     "age": null,
-     "evidence": "지원 자격  제천시에 관심 있는 전 국민"
-    },
-    "prizes": {
-     "summary": "최우수 150만원, 우수 100만원, 장려 각 50만원",
-     "cash": true,
-     "top_amount": "150만원",
-     "winner_count": 1,
-     "evidence": "최우수: 1개(팀) 상장 및 150만원, 우수: 1개(팀) 상장 및 100만원, 장려: 3개(팀) 상장 및 각 50만원"
-    },
-    "deliverables": [
-     {
-      "item": "AI 기반 데이터 분석 아이디어",
-      "evidence": "공모 주제: 도시발전, 지역경제 등 제천시 현안 해결 및 시정 발전에 기여할 수 있는 자유 주제"
-     }
-    ],
-    "judging": [
-     "최우수, 우수, 장려"
-    ],
-    "required_tech": [
-     "AI",
-     "데이터 분석"
-    ],
-    "language": "Korean",
-    "red_flags": [
-     "본 정보의 사실 여부를 보증하지 않습니다."
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 4,
-     "resources": 4,
-     "cash": 5
-    },
-    "total": 16,
-    "verdict": "go",
-    "why": [
-     "전 국민 대상이나 수상팀 5개(최우수·우수·장려×3)로 경쟁 풀 중간 규모, 제천시 현안 한정 주제라 도메인 지식만 확보하면 승산 상승",
-     "마감까지 22일 남음, 아이디어 제안서 수준이라 10시간/주 투입으로 충분히 완료 가능",
-     "현금 상금(최우수 150만 원)이고 팀이 한국어·AI·글쓰기 강점 보유, 별도 하드웨어·출장 불필요"
-    ],
-    "blockers": [
-     "제천시 구체 현안·데이터 소스 파악 필요(공고문 외 추가 조사 필요)"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-11",
-      "task": "제천시 홈페이지·열린데이터포털·보도자료에서 주요 현안(인구감소, 지역경제, 관광, 교통 등) 5~7개 추출",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-12",
-      "task": "각 현안별 공개 데이터셋 존재 여부 확인, AI 분석 가능성 메모",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-13",
-      "task": "아이디어 3개 초안 작성(문제정의·데이터·AI접근·기대효과 1페이지씩)",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-14",
-      "task": "초안 검토·보완, 최종 1개 선정 및 제안서 양식에 맞춰 확장(최대 5~10쪽)",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-15",
-      "task": "제출용 PDF 변환, 파일명·형식 공고 요건 재확인",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-16",
-      "task": "공고문 상 접수처(이메일·홈페이지 폼) 확인, 필요 시 회원가입·본인인증",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-17",
-      "task": "최종 제출(마감 2주 전 조기 제출 권장)",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 533,
-     "prompt_tokens": 1601,
-     "total_tokens": 2134,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "score",
-     "model": "nvidia/Nemotron-3-Ultra-550b-a55b",
-     "completion_tokens": 1185,
-     "prompt_tokens": 974,
-     "total_tokens": 2159,
-     "completion_tokens_details": {
-      "accepted_prediction_tokens": null,
-      "audio_tokens": null,
-      "reasoning_tokens": 525,
-      "rejected_prediction_tokens": null
-     },
-     "prompt_tokens_details": {
-      "audio_tokens": null,
-      "cached_tokens": 0,
-      "multimodal_tokens": null
-     },
-     "prompt_cache_hit_tokens": 0,
-     "prompt_cache_miss_tokens": 974
     }
    ]
   },
@@ -2522,237 +2385,6 @@
    ]
   },
   {
-   "id": "daily-2026-10-18-1",
-   "found_at": "2026-10-18",
-   "query": "AI 활용 아이디어 공모전 2026",
-   "title": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
-   "mode": "live",
-   "source": "https://linkareer.com/activity/353386",
-   "via": "direct",
-   "contest": {
-    "name": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
-    "organizer": "제천시 스마트정보과 정보기획팀",
-    "url": "https://linkareer.com/activity/353386",
-    "deadline": {
-     "iso": "2026-11-01T24:00:00+09:00",
-     "as_written": "2026.11.01",
-     "evidence": "마감일 2026.11.01"
-    },
-    "eligibility": {
-     "summary": "제천시에 관심 있는 전 국민",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "전 국민",
-     "age": null,
-     "evidence": "대상 제한 없음"
-    },
-    "prizes": {
-     "summary": "최우수 1개(팀) 상장 및 150만원, 우수 1개(팀) 상장 및 100만원, 장려 3개(팀) 상장 및 각 50만원",
-     "cash": true,
-     "top_amount": "150만원",
-     "winner_count": 1,
-     "evidence": "최우수: 1개(팀) 상장 및 150만원, 우수: 1개(팀) 상장 및 100만원, 장려: 3개(팀) 상장 및 각 50만원"
-    },
-    "deliverables": [
-     {
-      "item": "AI를 활용 및 데이터 분석을 기반으로 시정 발전 아이디어 제안",
-      "evidence": "공모 내용: AI를 활용 및 데이터 분석을 기반으로 시정 발전 아이디어 제안"
-     }
-    ],
-    "judging": [
-     "최우수, 우수, 장려"
-    ],
-    "required_tech": [
-     "AI",
-     "데이터 분석"
-    ],
-    "language": "한국어",
-    "red_flags": [
-     "IE 지원 종료 안내"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 4,
-     "resources": 3,
-     "cash": 4
-    },
-    "total": 14,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "2026-11-01까지 14일 남았고, 총 점수 14점 중 3점이 win_odds이므로 'maybe' 판정",
-     "제한된 자원(하드웨어 없음, 해외 여행 불가, 소규모 예산)으로 인해 실현 가능성 낮음",
-     "단일 인공지능 스튜디오(한 명)와 10시간 가용 시간으로 제안서 작성·제출이 어려움"
-    ],
-    "blockers": [
-     "IE 지원 종료 안내(지원 종료 후 추가 지원 불가)",
-     "지원 종료일이 2026-11-01이지만, 신청·제출 절차에 시간이 소요될 수 있음",
-     "현금 상금과 상장 수령을 위한 실제 제출이 필요하나, 현재 인력·시간 부족으로 어려움"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-19",
-      "task": "아이디어 초안 작성 및 검토",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-20",
-      "task": "AI 기반 데이터 분석 모델 설계 및 프로토타입 구현",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-21",
-      "task": "제출 자료 최종 검토 및 업로드",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 491,
-     "prompt_tokens": 3016,
-     "total_tokens": 3507,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 348,
-     "prompt_tokens": 786,
-     "total_tokens": 1134,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
-   "id": "daily-2026-10-18-6",
-   "found_at": "2026-10-18",
-   "query": "AI 활용 아이디어 공모전 2026",
-   "title": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
-   "mode": "live",
-   "source": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609280004",
-   "via": "direct",
-   "contest": {
-    "name": "2026 제천시 AI 활용 데이터 분석 아이디어 공모전",
-    "organizer": "제천시",
-    "url": "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031410001&str_no=202609280004",
-    "deadline": {
-     "iso": "2026-11-01T23:59:59+09:00",
-     "as_written": "2026.11.01",
-     "evidence": "접수기간 2026.09.28 ~ 2026.11.01"
-    },
-    "eligibility": {
-     "summary": "전 국민, 유치원, 초등학생, 중학생, 고등학생, 대학생, 대학원생, 일반인, 외국인 누구나 참가 가능",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "전 국",
-     "age": null,
-     "evidence": "참가대상 누구나 , 유치원 , 초등학생 , 중학생 , 고등학생 , 대학생 , 대학원생 , 일반인 , 외국인"
-    },
-    "prizes": {
-     "summary": "총상금 400만원, 1위 150만원, 1위 100만원, 3위 50만원",
-     "cash": true,
-     "top_amount": "150만원",
-     "winner_count": 1,
-     "evidence": "시상내역 총상금 : 400만원 / 1위 : 150만원"
-    },
-    "deliverables": [
-     {
-      "item": "아이디어",
-      "evidence": "AI를 활용 및 데이터 분석을 기반으로 시정 발전 아이디어 제안"
-     },
-     {
-      "item": "건축",
-      "evidence": "AI를 활용 및 데이터 분석을 기반으로 시정 발전 아이디어 제안"
-     },
-     {
-      "item": "창업",
-      "evidence": "AI를 활용 및 데이터 분석을 기반으로 시정 발전 아이디어 제안"
-     }
-    ],
-    "judging": [
-     "제천시 공공데이터 1건 이상 활용",
-     "제출 시 PDF 형식 제출"
-    ],
-    "required_tech": [
-     "AI",
-     "데이터 분석"
-    ],
-    "language": "Korean",
-    "red_flags": [
-     "일정 변경 가능성"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 4,
-     "resources": 3,
-     "cash": 4
-    },
-    "total": 14,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "총점 14점 중 14점이지만 'maybe' 판정으로 인해 순위 보장이 없음",
-     "제출 기한이 2026-11-01까지로 14일 남았고, 1인 스튜디오가 10시간 내에 모든 작업을 완료해야 함",
-     "AI와 데이터 분석을 기반으로 한 시정 아이디어 제안이 필수이며, 한글 제출이 필요함"
-    ],
-    "blockers": [
-     "1인 스튜디오의 제한된 시간(10시간)과 기술·자원 부족으로 인해 모든 요구사항을 충족하기 어려움",
-     "일정 변경 가능성에 대한 불확실성"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-19",
-      "task": "아이디어 초안 작성 및 데이터 소스 조사",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-20",
-      "task": "AI 이미지 및 영상 콘텐츠 제작",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-21",
-      "task": "PDF 보고서 작성 및 최종 검수",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-22",
-      "task": "제출 파일 업로드 및 확인",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 595,
-     "prompt_tokens": 6802,
-     "total_tokens": 7397,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 347,
-     "prompt_tokens": 890,
-     "total_tokens": 1237,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
    "id": "daily-2026-10-21-2",
    "found_at": "2026-10-21",
    "query": "숏폼 영상 공모전 2026 상금",
@@ -3852,6 +3484,192 @@
    ]
   },
   {
+   "id": "daily-2026-11-02-8",
+   "found_at": "2026-11-02",
+   "query": "AI short film competition 2026 deadline",
+   "title": "AI Film Festivals 2026: Competitions, Prizes & Deadlines",
+   "mode": "live",
+   "source": "https://akool.com/blog-posts/ai-film-festivals-2026",
+   "via": "direct",
+   "contest": {
+    "name": "AKOOL AI Film Challenge",
+    "organizer": "AKOOL",
+    "url": "https://akool.com/blog-posts/ai-film-festivals-2026",
+    "deadline": {
+     "iso": "2026-11-20T23:59:59+00:00",
+     "as_written": "November 20, 2026",
+     "evidence": "Submissions close November 20, 2026."
+    },
+    "eligibility": {
+     "summary": "Open to creators worldwide; must use AKOOL meaningfully in final work.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": null,
+     "evidence": "The Challenge is open to creators worldwide; entries must meaningfully use AKOOL."
+    },
+    "prizes": {
+     "summary": "$500,000 in Creator Rewards; $100 per qualified entry.",
+     "cash": true,
+     "top_amount": "$500,000",
+     "winner_count": null,
+     "evidence": "Win Your Share Of $500,000 In Creator Rewards* + $100 For Every Qualified Entry*."
+    },
+    "deliverables": [
+     {
+      "item": "Original 30 to 90 second cinematic trailer (COMING NEVER)",
+      "evidence": "COMING NEVER asks filmmakers to create an original 30 to 90 second cinematic trailer for a movie that does not exist."
+     },
+     {
+      "item": "Complete AI-powered narrative short film (AI SHORT FILM)",
+      "evidence": "AI SHORT FILM is for complete AI powered stories."
+     },
+     {
+      "item": "Conceptual work demonstrating AI-enabled impossibilities (IMPOSSIBLE)",
+      "evidence": "IMPOSSIBLE focuses on concepts that could not realistically have been created before AI."
+     }
+    ],
+    "judging": [
+     "Story",
+     "Originality",
+     "Creative Execution",
+     "Use of AKOOL",
+     "I’d Watch That"
+    ],
+    "required_tech": [
+     "AKOOL AI Video Generator",
+     "Sora",
+     "Veo",
+     "Kling",
+     "Seedance"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Must use AKOOL meaningfully",
+     "Submission requires public posting and hashtags",
+     "Eligibility criteria and official rules apply"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 4,
+     "resources": 4,
+     "cash": 5
+    },
+    "total": 14,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총 상금 50만 달러(1등) + 100달러/참가작이 확정돼 있어, 1인 스튜디오가 현금 보상을 받을 수 있는 유일한 기회",
+     "데드라인 2026-11-20까지 18일이 남아 있어, 10시간/주 투입으로 3주 내 완료 가능",
+     "팀의 강점(글쓰기, AI 이미지, 영상, 한국어+기초 영어)이 영화 예고편 제작에 직접 매핑"
+    ],
+    "blockers": [
+     "1인 스튜디오라 서명·신원 확인, 결제, 최종 제출은 모두 human-only 처리 필요",
+     "AKOOL 외 필수 기술(Sora, Veo, Kling, Seedance) 접근이 제한될 수 있음",
+     "해시태그·공개 게시 요구사항을 충족하려면 사전 준비가 필요"
+    ],
+    "plan": [
+     {
+      "date": "2026-11-03",
+      "task": "초기 아이디어 스케치 및 스토리보드 작성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-04",
+      "task": "AKOOL API 테스트 및 영상/짧은 클립 생성 실험",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-05",
+      "task": "제작 일정 확정 및 리소스(영상·음악·효과) 확보",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-06",
+      "task": "1인 서명·신원 확인 서류 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-07",
+      "task": "AKOOL 기반 30~90초 트레일러 제작 초안 완성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-08",
+      "task": "AI 기반 내러티브 단편 영화 전체 제작",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-09",
+      "task": "IMPOSSIBLE 개념 제안서 작성 및 시각화",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-10",
+      "task": "세 작품 모두 최종 편집 및 자막(영어) 추가",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-11",
+      "task": "공개 게시용 해시태그 및 설명문구 작성",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-12",
+      "task": "1인 서명·신원 확인 서류 제출",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-13",
+      "task": "결제 정보 입력 및 참가비(해당 시) 결제",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-14",
+      "task": "모든 제출 파일 업로드 및 최종 검증",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-15",
+      "task": "해시태그와 함께 공개 게시",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-16",
+      "task": "최종 검수 후 제출 마감 전날 확인",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-17",
+      "task": "제출 완료 확인 및 기록 보관",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 586,
+     "prompt_tokens": 5516,
+     "total_tokens": 6102,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 931,
+     "prompt_tokens": 881,
+     "total_tokens": 1812,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-13-4",
    "found_at": "2026-10-13",
    "query": "AI 활용 아이디어 공모전 2026",
@@ -4014,122 +3832,6 @@
      },
      "prompt_cache_hit_tokens": 0,
      "prompt_cache_miss_tokens": 1166
-    }
-   ]
-  },
-  {
-   "id": "daily-2026-10-14-7",
-   "found_at": "2026-10-14",
-   "query": "AI art contest open call 2026 prize",
-   "title": "October Salon Art Prize Online Art Competition",
-   "mode": "live",
-   "source": "https://artdeadline.com/ops/pleinair",
-   "via": "direct",
-   "contest": {
-    "name": "October Salon Art Prize Online Art Competition",
-    "organizer": "PleinAir Magazine",
-    "url": "https://artdeadline.com/ops/pleinair",
-    "deadline": {
-     "iso": "2026-10-31T23:59:59-05:00",
-     "as_written": "October 31, 2026",
-     "evidence": "International Deadline: October 31, 2026"
-    },
-    "eligibility": {
-     "summary": "Open to residents of any state or country where acceptable by law; must be at least 18 years old; entries must be original compositions; paintings/drawings only; no photography, AI, digital, printed or painted over photographs.",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "any state or country where acceptable by law",
-     "age": "at least 18 years",
-     "evidence": "Competition is open to residents of any state or country where acceptable by law. All individuals entering must be at least 18 years of age to accept cash prizes."
-    },
-    "prizes": {
-     "summary": "Cash prizes ranging from $50 to $15,000; multiple categories; annual grand prize winners receive $15,000 and cover feature; monthly winners receive $2,250 total per year; additional $11,250 in cash prizes annually.",
-     "cash": true,
-     "top_amount": "$15,000",
-     "winner_count": 2,
-     "evidence": "Grand Prize Winners each receive $15,000—one featured on the cover of PleinAir Magazine and one on the cover of Fine Art Connoisseur."
-    },
-    "deliverables": [
-     {
-      "item": "paintings/drawings",
-      "evidence": "Open to paintings/drawings only: Photography, AI, digital, printed or painted over photographs are prohibitied."
-     }
-    ],
-    "judging": [
-     "jurors include top master artists, museum directors and gallery owners",
-     "August juror is Lance Rehs, a fourth-generation art dealer and director of Rehs Contemporary"
-    ],
-    "required_tech": [
-     "paintings",
-     "drawings"
-    ],
-    "language": "English",
-    "red_flags": [
-     "No participation fee mentioned but early bird discount exists; unclear if fee applies after discount",
-     "Requires submission of resume and cover letter; potential for personal data exposure"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 1,
-     "deadline": 4,
-     "resources": 3,
-     "cash": 5
-    },
-    "total": 13,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "1. 마감일이 2026-10-31(2026-10-14 기준 17일 남음)이며, 10일 이내에 제출해야 하는 조건이 명시되어 있어 아직 충분한 시간이 있습니다.",
-     "2. 점수 체계에서 'deadline' 항목이 4점(전체 13점)으로 가장 높은 비중을 차지하고 있어, 마감 관리가 핵심 성공 요소입니다.",
-     "3. 'resources' 항목이 3점(전체 13점)이며, 팀이 자체적으로 필요한 자원을 보유하고 있지 않아 외부 자원 확보가 필요합니다."
-    ],
-    "blockers": [
-     "1. 2026-10-31까지 17일 남았지만, 10일 이내 제출이 필요하므로 2026-10-21까지 완료해야 합니다.",
-     "2. 'resources' 점수(3점)는 외부 자원(예: 사진, 영상, 장비)이 필요함을 의미하지만, 팀은 하드웨어나 로봇 기술이 없으므로 외부 자원을 확보하기 어려운 상황입니다.",
-     "3. 'cash' 점수(5점)는 현금 상금이 존재하지만, 제출 조건에 'resume' 및 'cover letter' 제출이 요구되어 개인정보 노출 위험이 있습니다."
-    ],
-    "plan": [
-     {
-      "date": "2026-10-21",
-      "task": "작품 제작 및 제출 준비",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-22",
-      "task": "resume 및 cover letter 작성",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-23",
-      "task": "제출서류 검토 및 결제 확인",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-24",
-      "task": "온라인 제출 완료",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 580,
-     "prompt_tokens": 2917,
-     "total_tokens": 3497,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 493,
-     "prompt_tokens": 875,
-     "total_tokens": 1368,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
     }
    ]
   },
@@ -4377,120 +4079,6 @@
      "completion_tokens": 400,
      "prompt_tokens": 777,
      "total_tokens": 1177,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
-   "id": "daily-2026-10-22-1",
-   "found_at": "2026-10-22",
-   "query": "AI 활용 아이디어 공모전 2026",
-   "title": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전 | 공모전 대외활동 콘테스트 - 위비티",
-   "mode": "live",
-   "source": "http://www.wevity.com/?c=find&s=_university&gbn=viewok&gp=1&ix=111299",
-   "via": "direct",
-   "contest": {
-    "name": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
-    "organizer": "제천시",
-    "url": "https://www.jecheon.go.kr/www/selectBbsNttView.do?key=5233&id=&&bbsNo=18&nttNo=404261&searchCtgry=&searchCnd=&searchKrwd=&pageIndex=1&integrDeptCode=",
-    "deadline": {
-     "iso": "2026-11-01T24:00:00+09:00",
-     "as_written": "2026-09-28 ~ 2026-11-01 D-11",
-     "evidence": "접수기간: 2026. 9. 28.(월) ∼ 11. 1.(일) 24:00"
-    },
-    "eligibility": {
-     "summary": "제천시에 관심 있는 전 국민",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "전 국민",
-     "age": null,
-     "evidence": "지원 자격: 제천시에 관심 있는 전 국민"
-    },
-    "prizes": {
-     "summary": "최우수 1개(팀) 상장 및 150만원, 우수 1개(팀) 상장 및 100만원, 장려 3개(팀) 상장 및 각 50만원",
-     "cash": true,
-     "top_amount": "150만원",
-     "winner_count": 1,
-     "evidence": "최우수: 1개(팀) 상장 및 150만원, 우수: 1개(팀) 상장 및 100만원, 장려: 3개(팀) 상장 및 각 50만원"
-    },
-    "deliverables": [
-     {
-      "item": "제출 방법",
-      "evidence": "온라인접수: 담당자 이메일(jjh1286@korea.kr)로 제출"
-     },
-     {
-      "item": "공모 주제",
-      "evidence": "도시발전, 지역경제 등 제천시 현안 해결 및 시정 발전에 기여할 수 있는 자유 주제"
-     },
-     {
-      "item": "공모 내용",
-      "evidence": "AI를 활용 및 데이터 분석을 기반으로 시정 발전 아이디어 제안"
-     }
-    ],
-    "judging": [
-     "최우수",
-     "우수",
-     "장려"
-    ],
-    "required_tech": [
-     "AI",
-     "데이터 분석"
-    ],
-    "language": "Korean",
-    "red_flags": [
-     "본 정보의 사실 여부를 보증하지 않습니다."
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 3,
-     "resources": 3,
-     "cash": 4
-    },
-    "total": 13,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "2026-11-01까지 10일 남았고, 10시간만 작업 가능해 아이디어 구체화가 필요함",
-     "팀은 한 명이고 AI 도구만 사용해 콘텐츠 제작 가능하지만, 제안서 제출은 인간이 직접 해야 함",
-     "수상 가능성은 낮지만, 상금과 인지도를 얻을 수 있는 기회가 있음"
-    ],
-    "blockers": [
-     "제출 기한이 2026-11-01까지로 10일 남았고, 10시간만 작업 가능해 아이디어 구체화가 필요함",
-     "제출은 담당자 이메일로 온라인 제출이 필요해 human-only가 필요함",
-     "수상 가능성은 낮지만, 상금과 인지도를 얻을 수 있는 기회가 있음"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-22",
-      "task": "아이디어 초안 작성 및 검토",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-23",
-      "task": "제출 자료 준비 및 이메일 발송",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 664,
-     "prompt_tokens": 2518,
-     "total_tokens": 3182,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 288,
-     "prompt_tokens": 959,
-     "total_tokens": 1247,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     }
@@ -6145,6 +5733,243 @@
    ]
   },
   {
+   "id": "daily-2026-11-02-1",
+   "found_at": "2026-11-02",
+   "query": "AI 영상 공모전 2026 접수",
+   "title": "2026 광양시 매돌이 AI 영상 공모전 | 씽유",
+   "mode": "live",
+   "source": "https://thinkyou.co.kr/contest/67557",
+   "via": "direct",
+   "contest": {
+    "name": "2026 광양시 매돌이 AI 영상 공모전",
+    "organizer": "광양시",
+    "url": "https://thinkyou.co.kr/contest/67557",
+    "deadline": {
+     "iso": "2026-11-06T18:00:00+09:00",
+     "as_written": "2026-11-06 18:00",
+     "evidence": "접수기간 2026. 10. 26.(월) ~ 11. 6.(금) 18:00 * 마감일 18시(한국시간)까지 도착분에 한함"
+    },
+    "eligibility": {
+     "summary": "매돌이와 광양시에 관심 있는 국민 누구나(개인 또는 4인 이내 팀) - 참가자 1인당 1개 작품 출품, 미성년자는 법정대리인 동의 필요",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": null,
+     "evidence": "참가자 1인당 1개 작품 출품, 미성년자는 법정대리인 동의 필요"
+    },
+    "prizes": {
+     "summary": null,
+     "cash": null,
+     "top_amount": null,
+     "winner_count": null,
+     "evidence": null
+    },
+    "deliverables": [
+     {
+      "item": "영상",
+      "evidence": "세로형 영상(9:16), 1080×1920픽셀 이상, MP4, 30초 이상 60초 이내"
+     },
+     {
+      "item": "공식 표기",
+      "evidence": "시작 또는 종료 화면에 '본 영상은 생성형 AI를 활용해 제작되었습니다.' 표시"
+     }
+    ],
+    "judging": [
+     "심사 기준은 제공되지 않음"
+    ],
+    "required_tech": [
+     "생성형 AI"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "마감일이 2026-11-06T18:00:00+09:00이지만, 현재 날짜는 2026-11-02이므로 4일 남음",
+     "제출 마감일이 18:00(한국시간)까지 도착분에 한함"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 2,
+     "resources": 5,
+     "cash": 2
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "현재 날짜가 2026-11-02이므로, 2026-11-06 18:00까지 4일 남음으로 아직 참여 가능",
+     "심사 기준이 제공되지 않아 전략적 계획이 어려우나, 'maybe' 점수와 12점 만점의 중간 수준 점수로 인해 신중한 접근이 필요",
+     "제출 형식(세로형 9:16 영상, AI 사용 표기)과 기술 요구사항(생성형 AI)만 명시되어 있어 준비 가능성은 높음"
+    ],
+    "blockers": [
+     "심사 기준 미공개로 전략 수립이 어려움",
+     "제출 마감일이 2026-11-06 18:00(한국시간)으로 4일 남았으며, 18:00까지 도착분만 인정되어 시간 압박이 존재",
+     "제출 형식과 기술 요구사항만 명시되어 있어 구체적 준비가 가능하지만, 평가 기준이 없어 성공 가능성을 정확히 예측하기 어려움"
+    ],
+    "plan": [
+     {
+      "date": "2026-11-03",
+      "task": "초안 기획 및 스토리보드 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-04",
+      "task": "AI 영상 제작 및 편집",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-05",
+      "task": "최종 검수 및 AI 사용 표기 추가",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-06",
+      "task": "제출 마감 전 파일 업로드 및 확인",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 584,
+     "prompt_tokens": 2013,
+     "total_tokens": 2597,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 436,
+     "prompt_tokens": 879,
+     "total_tokens": 1315,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
+   "id": "daily-2026-11-02-3",
+   "found_at": "2026-11-02",
+   "query": "AI 이미지 그림 공모전 2026",
+   "title": "제주교육청, '모두의 노동 손그림 공모전' 개최 | 연합뉴스",
+   "mode": "live",
+   "source": "https://www.yna.co.kr/view/AKR20261019126800056",
+   "via": "direct",
+   "contest": {
+    "name": "모두의 노동 손그림 공모전",
+    "organizer": "제주도교육청",
+    "url": "https://www.yna.co.kr/view/AKR20261019126800056",
+    "deadline": {
+     "iso": "2026-11-06T23:59:59+09:00",
+     "as_written": "내달 6일까지",
+     "evidence": "접수 기간은 이날부터 내달 6일까지다."
+    },
+    "eligibility": {
+     "summary": "유치부, 초등부, 청소년부(중·고등학생)로 나눠 진행한다.",
+     "individuals_ok": true,
+     "online": false,
+     "countries": "제주도",
+     "age": null,
+     "evidence": "참가자는 유치부, 초등부, 청소년부(중·고등학생)로 나눠 진행한다."
+    },
+    "prizes": {
+     "summary": "각 부문 대상 수상자에게 제주도교육감 상장과 상금이 수여된다.",
+     "cash": true,
+     "top_amount": null,
+     "winner_count": null,
+     "evidence": "각 부문 대상 수상자에게는 제주도교육감 상장과 상금이 수여된다."
+    },
+    "deliverables": [
+     {
+      "item": "순수 손그림",
+      "evidence": "인공지능(AI)이나 디지털 기기, 컴퓨터 그래픽을 활용하지 않고 가족의 일과 일터를 자유롭게 그린 순수 손그림을 출품하면 된다."
+     },
+     {
+      "item": "제출 방법",
+      "evidence": "작품은 제주도노동권익센터로 우편으로 보내거나 직접 방문해 제출하면 된다."
+     }
+    ],
+    "judging": [
+     "미술·노동 분야 전문가 심사",
+     "축제 현장 관람객 투표"
+    ],
+    "required_tech": [
+     "인공지능(AI) 또는 디지털 기기 사용 금지",
+     "컴퓨터 그래픽 사용 금지"
+    ],
+    "language": "한국어",
+    "red_flags": [
+     "AI·디지털 배제",
+     "제출 기간 내 제출하지 않을 경우 탈락"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 2,
+     "resources": 4,
+     "cash": 3
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총점 12점 중 12점이지만 'maybe' 판정으로 인해 실제 당첨 가능성은 불확실함",
+     "AI·디지털 사용 금지 규칙으로 인해 AI 이미지 제작이 불가능해 강점(ai images)을 활용할 수 없음",
+     "제출 마감일이 2026-11-06이지만, 현재 2026-11-02이므로 남은 기간이 짧아 준비 시간이 부족함"
+    ],
+    "blockers": [
+     "AI·디지털 사용 금지 규칙",
+     "제출 기간 내 직접 우편·방문 제출이 필요함"
+    ],
+    "plan": [
+     {
+      "date": "2026-11-03",
+      "task": "작품 아이디어 스케치 및 초안 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-04",
+      "task": "손그림 완성 및 스캔",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-05",
+      "task": "작품 포장 및 제주도노동권익센터에 우편 발송",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-06",
+      "task": "제출 확인 및 최종 점검",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 549,
+     "prompt_tokens": 5282,
+     "total_tokens": 5831,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 342,
+     "prompt_tokens": 844,
+     "total_tokens": 1186,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-20-8",
    "found_at": "2026-10-20",
    "query": "AI short film competition 2026 deadline",
@@ -6511,130 +6336,6 @@
      "completion_tokens": 503,
      "prompt_tokens": 868,
      "total_tokens": 1371,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
-   "id": "daily-2026-10-22-4",
-   "found_at": "2026-10-22",
-   "query": "AI 활용 아이디어 공모전 2026",
-   "title": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전 | 요즘것들",
-   "mode": "live",
-   "source": "https://www.allforyoung.com/posts/88114",
-   "via": "direct",
-   "contest": {
-    "name": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
-    "organizer": "제천시",
-    "url": "https://www.allforyoung.com/posts/88114",
-    "deadline": {
-     "iso": "2026-11-01T24:00:00+09:00",
-     "as_written": "2026년 11월 01일",
-     "evidence": "접수기간 : 2026. 9. 28.(월) ∼ 11. 1.(일) 24:00"
-    },
-    "eligibility": {
-     "summary": "제천시에 관심 있는 전 국민",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "전 국민",
-     "age": null,
-     "evidence": "참가자격 : 제천시에 관심 있는 전 국민"
-    },
-    "prizes": {
-     "summary": null,
-     "cash": null,
-     "top_amount": null,
-     "winner_count": null,
-     "evidence": null
-    },
-    "deliverables": [
-     {
-      "item": "제출서류 및 공모일정",
-      "evidence": "제출서류 및 공모일정"
-     }
-    ],
-    "judging": [
-     "AI를 활용 및 데이터 분석을 기반으로 시정 발전 아이디어 제안"
-    ],
-    "required_tech": [
-     "AI",
-     "데이터 분석"
-    ],
-    "language": "Korean",
-    "red_flags": [
-     "사기? 거르고 고르는 방법"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 3,
-     "resources": 3,
-     "cash": 2
-    },
-    "total": 11,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "2026-11-01까지 9일 남았고, 10시간만 할당 가능해 작업량 대비 시간 부족",
-     "AI 기반 데이터 분석 아이디어 제안이 필수인 규칙에 부합하지만, 실제 데이터 소스 부재",
-     "한 사람 스튜디오 특성상 서류 작성·제출·결제 등 모든 절차를 인간이 직접 수행해야 함"
-    ],
-    "blockers": [
-     "데이터 소스 확보 미확인",
-     "AI 모델 구현 및 검증 단계 부재",
-     "제출서류 양식 및 평가 기준 미해석"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-23",
-      "task": "참가 자격 및 제출 서류 양식 확인",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-24",
-      "task": "제천시 공개 데이터셋 탐색 및 데이터베이스 구축",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-25",
-      "task": "AI 기반 분석 모델 프로토타입 개발 (텍스트·이미지 기반)",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-26",
-      "task": "시정 아이디어 초안 작성 및 검토",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-27",
-      "task": "제출서류 작성 및 검수",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-28",
-      "task": "지불 및 최종 제출",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 389,
-     "prompt_tokens": 1140,
-     "total_tokens": 1529,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 424,
-     "prompt_tokens": 684,
-     "total_tokens": 1108,
      "completion_tokens_details": null,
      "prompt_tokens_details": null
     }
@@ -7276,6 +6977,121 @@
    ]
   },
   {
+   "id": "daily-2026-11-02-2",
+   "found_at": "2026-11-02",
+   "query": "AI 활용 아이디어 공모전 2026",
+   "title": "공모결과 - 사업공모 - 알림소식 - 한국 ...",
+   "mode": "live",
+   "source": "https://kcdf.or.kr/brd/board/338/L/menu/285?brdType=R&bbIdx=9237",
+   "via": "direct",
+   "contest": {
+    "name": "2026 공예 온라인 유통 및 AI 활용 역량 강화 교육프로그램",
+    "organizer": "한국공예·디자인문화진흥원",
+    "url": "https://kcdf.or.kr/brd/board/338/L/menu/285?brdType=R&bbIdx=9237",
+    "deadline": {
+     "iso": null,
+     "as_written": null,
+     "evidence": null
+    },
+    "eligibility": {
+     "summary": "전통문화·공예 분야 예비창업자 및 청년 지원자",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": null,
+     "evidence": "전통문화·공예 분야 예비창업자 및 청년 지원자"
+    },
+    "prizes": {
+     "summary": "선발된 30명에게 교육 프로그램 제공",
+     "cash": false,
+     "top_amount": null,
+     "winner_count": 30,
+     "evidence": "총 30 명 선발"
+    },
+    "deliverables": [
+     {
+      "item": "교육 프로그램",
+      "evidence": "2026 공예 온라인 유통 및 AI 활용 역량 강화 교육프로그램"
+     }
+    ],
+    "judging": [
+     "AI 오프라인 실습 과정"
+    ],
+    "required_tech": [
+     "AI"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "선정 결과는 개별 메일로만 안내, 결과 확인 방법이 복잡함"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 4,
+     "deadline": 2,
+     "resources": 4,
+     "cash": 1
+    },
+    "total": 11,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총 점수 11점 중 4점이 win_odds 로, 이는 낮은 경쟁 가능성을 의미합니다.",
+     "deadline 점수 2점은 마감일이 아직 정해지지 않아 일정이 불확실합니다.",
+     "resources 점수 4점은 AI 기반 온라인 교육이므로 기술적 요구가 맞지만, 제한된 자원(하드웨어 없음)으로 완전 수행이 어려울 수 있습니다.",
+     "cash 점수 1점은 현금 보상이 없으므로 재정적 인센티브가 부족합니다.",
+     "전체적으로 점수가 낮은 편이지만, 교육 프로그램 제공이라는 명확한 결과물이 존재해 참여가 가능합니다."
+    ],
+    "blockers": [
+     "선정 결과는 개별 메일로만 안내되어 확인 방법이 복잡합니다.",
+     "마감일이 아직 확정되지 않아 일정 계획이 어렵습니다.",
+     "한 사람만 서명·신청·결제·최출품을 처리할 수 있어 인적 부담이 큽니다."
+    ],
+    "plan": [
+     {
+      "date": "2026-11-05",
+      "task": "신청서 초안 작성 및 AI 이미지·영상 제작",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-07",
+      "task": "신청서 검토 및 필요 서류 체크리스트 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-09",
+      "task": "결과 확인 방법 조사 및 메일 템플릿 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-12",
+      "task": "최종 신청서 제출 (서명·결제 포함)",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 384,
+     "prompt_tokens": 5624,
+     "total_tokens": 6008,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 432,
+     "prompt_tokens": 678,
+     "total_tokens": 1110,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-12-7",
    "found_at": "2026-10-12",
    "query": "AI short film competition 2026 deadline",
@@ -7704,261 +7520,6 @@
    ]
   },
   {
-   "id": "daily-2026-10-25-4",
-   "found_at": "2026-10-25",
-   "query": "AI 활용 아이디어 공모전 2026",
-   "title": "공지사항 > 세종소식 > 세종소개",
-   "mode": "live",
-   "source": "https://www.sejong.go.kr/shrUrl/is0Y78m4ah.do",
-   "via": "direct",
-   "contest": {
-    "name": "2026 세종 청년의 내일, 일자리 아이디어 공모전",
-    "organizer": "세종일자리경제진흥원 세종청년희망내일센터",
-    "url": "https://www.sejong.go.kr/shrUrl/is0Y78m4ah.do",
-    "deadline": {
-     "iso": "2026-11-06T16:00:00+09:00",
-     "as_written": "10.08.(목) 10:00 ~ 11.06.(금) 16:00",
-     "evidence": "모집기간 10.08.(목) 10:00 ~ 11.06.(금) 16:00"
-    },
-    "eligibility": {
-     "summary": "19세 이상 ~ 39세 이하 세종시 거주 청년 (1986.1.1. ~ 2007.12.31. 출생자)",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "대한민국",
-     "age": "19~39세",
-     "evidence": "공모대상 19세 이상 ~ 39세 이하 세종시 거주 청년 (1986.1.1. ~ 2007.12.31. 출생자)"
-    },
-    "prizes": {
-     "summary": "대상(1건) : 노트북, 최우수상(1건) : 태블릿PC, 우수상(3건) : 스마트워치, 장려상(3건) : 스마트이어폰",
-     "cash": false,
-     "top_amount": "노트북",
-     "winner_count": 1,
-     "evidence": "시상내용 - 대상(1건) : 노트북 - 최우수상(1건) : 태블릿PC - 우수상(3건) : 스마트워치 - 장려상(3건) : 스마트이어폰"
-    },
-    "deliverables": [
-     {
-      "item": "아이디어 제안서",
-      "evidence": "제출 서류 ① 신청서 ② 요약서 및 제안서 ③ 개인정보 동의서 ④ 서약서"
-     },
-     {
-      "item": "사업 신청",
-      "evidence": "제출 서류 ① 신청서 ② 요약서 및 제안서 ③ 개인정보 동의서 ④ 서약서 ⑤ 주민등록 초본"
-     }
-    ],
-    "judging": [
-     "AI·신기술을 활용한 청년 일자리 아이디어",
-     "청년이 취업 과정에서 겪는 어려움을 해소할 수 있는 일자리 정책 아이디어",
-     "세종시 *전략산업과 청년 일자리 연계방안 및 아이디어",
-     "전략사업 : 반도체, AI·로보틱스, 바이오헬스, 지식서비스, 디지털콘텐츠",
-     "세종시 행사·회의·전시를 활용(연계)한 청년 일자리 창출 아이디어"
-    ],
-    "required_tech": [
-     "AI",
-     "신기술"
-    ],
-    "language": "한국어",
-    "red_flags": [
-     "제출 서류 ⑤ 주민등록 초본"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 3,
-     "deadline": 3,
-     "resources": 3,
-     "cash": 1
-    },
-    "total": 10,
-    "verdict": "skip",
-    "scored_by": "rules",
-    "why": [
-     "2026-11-06T16:00:00+09:00 deadline is 12 days away, within 14-day window",
-     "1-person studio with 10 hours available fits the 10-hour limit",
-     "Eligibility matches: 19~39세 South Korean resident, online submission allowed"
-    ],
-    "blockers": [
-     "주민등록 초본 제출 필요 (red flag) – requires human to obtain and upload",
-     "신청서·요약서·제안서·동의서·서약서 등 서류 준비 – human-only for identity verification",
-     "AI·신기술 활용 아이디어 제작 – human-only to create content"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-26",
-      "task": "수집된 규칙 확인 및 주민등록 초본 준비",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-27",
-      "task": "아이디어 초안 작성 및 AI 이미지 생성",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-28",
-      "task": "제출 서류 작성 및 서약서 서명",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-29",
-      "task": "제출서류 스캔 및 온라인 신청 완료",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 792,
-     "prompt_tokens": 3721,
-     "total_tokens": 4513,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 364,
-     "prompt_tokens": 1086,
-     "total_tokens": 1450,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
-   "id": "daily-2026-10-25-6",
-   "found_at": "2026-10-25",
-   "query": "AI hackathon online 2026 prize deadline",
-   "title": "High School AI Hackathon 2026 | Free Online International Student Competition | AcademicQuests",
-   "mode": "live",
-   "source": "https://academicquests.com/veritas-hackathon",
-   "via": "direct",
-   "contest": {
-    "name": "Veritas AI International High School Hackathon 2026",
-    "organizer": "Veritas AI",
-    "url": "https://academicquests.com/veritas-hackathon",
-    "deadline": {
-     "iso": "2026-11-15T23:59:59-05:00",
-     "as_written": "November 15 11:59 PM ET",
-     "evidence": "Hackathon kickoff\nNovember 14 12:00 AM ET\nSubmission deadline\nNovember 15 11:59 PM ET"
-    },
-    "eligibility": {
-     "summary": "Open worldwide to high school students enrolled on November 14, 2026, solo or in teams of up to three.",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "worldwide",
-     "age": null,
-     "evidence": "If you’re enrolled in high school on November 14, 2026 , you’re eligible.\nOpen worldwide Teams of 1–3 Fully online Completely free No previous AI experience required"
-    },
-    "prizes": {
-     "summary": "$75,000+ prize pool including scholarships and a working internship at a healthcare AI startup.",
-     "cash": false,
-     "top_amount": "$75,000+",
-     "winner_count": 1,
-     "evidence": "Compete for a share of a $75,000+ prize pool, including scholarships and a working internship at a healthcare AI startup."
-    },
-    "deliverables": [
-     {
-      "item": "Working code through Google Colab or GitHub",
-      "evidence": "Submit 1 Working code through Google Colab or GitHub"
-     },
-     {
-      "item": "One-page project write-up",
-      "evidence": "Submit 2 A one-page project write-up"
-     },
-     {
-      "item": "2-minute demo video",
-      "evidence": "Submit 3 A 2-minute demo video"
-     }
-    ],
-    "judging": [
-     "Finalists will pitch their projects live to an expert judging panel",
-     "KB",
-     "Kareema Batool",
-     "Niranjani Prasad",
-     "Abdulla Kerimov"
-    ],
-    "required_tech": [
-     "Google Colab",
-     "GitHub"
-    ],
-    "language": "English",
-    "red_flags": [
-     "No prior AI experience required",
-     "No cash prizes mentioned",
-     "Scholarships described as percentages without clear monetary values"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 1,
-     "deadline": 4,
-     "resources": 4,
-     "cash": 1
-    },
-    "total": 10,
-    "verdict": "skip",
-    "scored_by": "rules",
-    "why": [
-     "2026-10-25 기준 현재 20일 남음, 2026-11-15 23:59:59 ET 마감 (2026-11-16 04:59:59 UTC) → 20일 내 완료 가능",
-     "팀은 1인 스튜디오, 10시간/주, 한국어+기본 영어 가능, AI 이미지·영상 제작 역량 보유 → 2분 데모 영상 및 1페이지 서술은 충분히 제작 가능",
-     "코드 제출은 Google Colab 또는 GitHub으로 가능, 사전 AI 경험 불필요 → 제한사항에 부합"
-    ],
-    "blockers": [
-     "데모 영상 제작을 위한 영상 촬영·편집 능력 및 장비(카메라, 마이크) 필요 → 현재 보유 여부 불확실",
-     "GitHub 계정 생성·코드 푸시 절차 체험 필요 → 아직 시도해보지 않아 불확실",
-     "참가 신청·이메일 인증·결제(수수료 없음) 절차가 필요하나, 신규 계정 생성·인증 단계에서 막힐 수 있음"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-26",
-      "task": "데모 영상 스크립트 작성 및 촬영 준비 (스토리보드, 촬영 장비 점검)",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-27",
-      "task": "영상 촬영 및 2분 분량 편집",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-28",
-      "task": "GitHub 계정 생성 및 프로젝트 코드 업로드 (Google Colab 연동)",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-29",
-      "task": "1페이지 프로젝트 서술문 작성",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-30",
-      "task": "모든 자료 검수 및 최종 제출 준비",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 601,
-     "prompt_tokens": 2704,
-     "total_tokens": 3305,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 538,
-     "prompt_tokens": 896,
-     "total_tokens": 1434,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
    "id": "daily-2026-10-30-6",
    "found_at": "2026-10-30",
    "query": "AI short film competition 2026 deadline",
@@ -8267,6 +7828,14 @@
   "https://www.aktupyq.com/blog/paypal-ai-hackathon-2026": "2026-11-01",
   "https://aifilmcontests.com/topics/free-ai-film-contests-2026": "2026-11-01",
   "https://www.kajimelo.com/ai-film-festivals": "2026-11-01",
-  "https://reconscribe.com/meta-global-ai-developer-hackathon-2026": "2026-11-01"
+  "https://reconscribe.com/meta-global-ai-developer-hackathon-2026": "2026-11-01",
+  "https://thinkyou.co.kr/contest/67557": "2026-11-02",
+  "https://kcdf.or.kr/brd/board/338/L/menu/285?brdType=R&bbIdx=9237": "2026-11-02",
+  "https://www.yna.co.kr/view/AKR20261019126800056": "2026-11-02",
+  "https://blog.naver.com/uiseong-good/224443508055?fromRss=true&trackingCode=rss": "2026-11-02",
+  "https://myairforcelife.com/art-photo-contest": "2026-11-02",
+  "https://www.teravarna.com": "2026-11-02",
+  "https://www.sa.gov/Directory/Initiatives/MLK/Scholarships-and-Contests/Art-Contest": "2026-11-02",
+  "https://akool.com/blog-posts/ai-film-festivals-2026": "2026-11-02"
  }
 }
