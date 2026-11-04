@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-03T03:18:06.222Z",
- "date": "2026-11-03",
+ "updated_at": "2026-11-04T01:53:28.242Z",
+ "date": "2026-11-04",
  "analyzed": 8,
  "failed": 0,
  "usage": {
   "month": "2026-11",
-  "tavily": 24,
-  "ai_tokens": 128722,
-  "analyses": 22,
-  "runs": 3
+  "tavily": 33,
+  "ai_tokens": 169203,
+  "analyses": 30,
+  "runs": 4
  },
  "items": [
   {
@@ -3949,6 +3949,165 @@
    ]
   },
   {
+   "id": "daily-2026-11-04-1",
+   "found_at": "2026-11-04",
+   "query": "AI hackathon online 2026 prize deadline",
+   "title": "PayPal AI Hackathon 2026: $67,500 Cash, Rules and Deadline",
+   "mode": "live",
+   "source": "https://reconscribe.com/paypal-ai-hackathon-2026",
+   "via": "direct",
+   "contest": {
+    "name": "PayPal AI Hackathon 2026",
+    "organizer": "PayPal Inc. (administered by Devpost)",
+    "url": "https://reconscribe.com/paypal-ai-hackathon-2026",
+    "deadline": {
+     "iso": "2026-11-12T12:00:00-08:00",
+     "as_written": "Thursday 12 November 2026, 12:00 pm Pacific Time (PST)",
+     "evidence": "Entries close on Thursday 12 November 2026 at 12:00 pm Pacific Time, which is 20:00 UTC"
+    },
+    "eligibility": {
+     "summary": "Open to adults in most countries worldwide; excludes Brazil, Quebec, Russia, Crimea, Cuba, Iran, North Korea, and OFAC-sanctioned places.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "All countries and territories except Brazil, Quebec, Russia, Crimea, Cuba, Iran, North Korea, and OFAC-sanctioned places",
+     "age": "Age of majority where you live",
+     "evidence": "You must have reached the age of majority where you live at the time you enter. The rules give no fixed age, so it depends on the law of your country or state; in most US states, for example, it is 18, so check the age that applies where you live. You can enter as an individual, as a team of eligible individuals, or as an organisation such as a company, nonprofit, LLC or partnership that already exists when you enter. The hackathon is open to all countries and territories except standard exceptions, which is how the overview sidebar puts it. You cannot enter if you live in, or your organisation is based in, a place where US or local law prohibits taking part or receiving a prize. The rules say that includes Brazil, Quebec, Russia, Crimea, Cuba, Iran and North Korea, plus any country under comprehensive sanctions from the US Treasury's Office of Foreign Assets Control (OFAC), the US agency that runs trade sanctions."
+    },
+    "prizes": {
+     "summary": "$67,500 cash across 20 cash prizes, plus 3 Render prizes paid in $2,250 of Render credits (total $69,750 headline).",
+     "cash": true,
+     "top_amount": "$12,000",
+     "winner_count": 20,
+     "evidence": "$67,500 cash across 20 cash prizes, led by a $12,000 first place, plus 3 Render prizes paid in $2,250 of Render credits."
+    },
+    "deliverables": [
+     {
+      "item": "Public open source repository URL",
+      "evidence": "A public repository URL on GitHub, GitLab or Bitbucket containing all source code, assets and instructions needed to make the project work, with an open source licence file that is detectable and visible in the About section at the top of the repo page."
+     },
+     {
+      "item": "Demo video (YouTube, <3 minutes)",
+      "evidence": "A demo video that should be less than three minutes, shows the project working on the device it was built for, is uploaded publicly to YouTube and is linked on the submission form, with no third-party trademarks or copyrighted music used without permission."
+     },
+     {
+      "item": "Text description of features and functionality",
+      "evidence": "A text description that explains the project's features and functionality."
+     },
+     {
+      "item": "Tools statement naming AI tools used",
+      "evidence": "A tools statement that names every AI tool, model or service you used and explains how you used each one."
+     },
+     {
+      "item": "Functional demo access link or hosted URL",
+      "evidence": "A functional demo judges can actually run or use: either clear, complete setup and run instructions in the repository or a hosted demo URL."
+     }
+    ],
+    "judging": [
+     "Pass/fail fit check of theme and PayPal integration",
+     "Technological Implementation",
+     "Design",
+     "Potential Impact",
+     "Innovation/Idea",
+     "Presentation"
+    ],
+    "required_tech": [
+     "PayPal sandbox account",
+     "AI tool or platform of choice",
+     "Public repository (GitHub, GitLab, Bitbucket)"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Deadline shows Friday 13 November local time for UTC+4+ zones, which may cause confusion",
+     "Prize payment may involve tax withholding and fees for non-US winners",
+     "Render prizes are paid in credits, not cash"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 2,
+     "deadline": 3,
+     "resources": 4,
+     "cash": 5
+    },
+    "total": 14,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총 점수 14점 중 14점이므로 'maybe' 판정은 변동 가능성이 낮아 보임",
+     "팀은 한 명인 크리에이터 스튜디오로, 제한된 자원(하드웨어 없음, 예산 소액)으로 경기에 참여해야 함",
+     "주요 요구 항목(리포지토리, 데모 영상, 설명, 도구 명시, 실행 가능한 데모 URL)을 모두 충족하려면 인적·시간적 제약이 존재"
+    ],
+    "blockers": [
+     "데드라인: 2026-11-12 12:00 PST (UTC 20:00)까지 제출해야 함. 현재 2026-11-04이므로 남은 시간이 적음",
+     "수상 후 현지 세금·수수료 문제(비-US 우승자)는 팀이 직접 처리해야 함",
+     "Render 크레딧은 현금이 아니므로 실제 현금 수령이 어려울 수 있음",
+     "한 명인 팀은 모든 서류·제출을 직접 수행해야 하므로 인적 부담이 큼"
+    ],
+    "plan": [
+     {
+      "date": "2026-11-05",
+      "task": "아이디어 스케치 및 기능 정의",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-06",
+      "task": "GitHub 리포지토리 생성 및 초기 코드베이스 설정",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-07",
+      "task": "AI 도구 선택 및 사용법 정리 (툴 문구 작성)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-08",
+      "task": "데모 영상 촬영 및 업로드 (3분 이하)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-09",
+      "task": "기능 데모 URL 준비 (호스팅 또는 실행 가이드 작성)",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-10",
+      "task": "전체 제출 자료 검토 및 최종 체크리스트 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-11",
+      "task": "제출 양식에 링크와 설명 입력 후 제출",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-12",
+      "task": "데드라인 전 최종 확인 및 제출 완료",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 1058,
+     "prompt_tokens": 7745,
+     "total_tokens": 8803,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 655,
+     "prompt_tokens": 1353,
+     "total_tokens": 2008,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-13-4",
    "found_at": "2026-10-13",
    "query": "AI 활용 아이디어 공모전 2026",
@@ -5456,6 +5615,144 @@
    ]
   },
   {
+   "id": "daily-2026-11-04-3",
+   "found_at": "2026-11-04",
+   "query": "AI 활용 아이디어 공모전 2026",
+   "title": "인공지능대학 출범 기념 구성원 아이디어 공모전 안내",
+   "mode": "live",
+   "source": "https://www.inu.ac.kr/bbs/inu/2611/432574/artclView.do",
+   "via": "direct",
+   "contest": {
+    "name": "인공지능대학 출범 기념 구성원 아이디어 공모전",
+    "organizer": "정보기술대학 교학실",
+    "url": "https://www.inu.ac.kr/bbs/inu/2611/432574/artclView.do",
+    "deadline": {
+     "iso": "2026-11-13T18:00:00+09:00",
+     "as_written": "2026. 10. 15.( 목 ) ~ 11. 13.( 금 ) 18:00",
+     "evidence": "공고 및 접수 기간 : 2026. 10. 15.( 목 ) ~ 11. 13.( 금 ) 18:00"
+    },
+    "eligibility": {
+     "summary": "인천대학교 구성원 (개인 또는 팀)",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "한국",
+     "age": null,
+     "evidence": "참가 대상 : 인천대학교 구성원 ( 개인 또는 팀 참가 가능 / 팀 대표자 1 인 지정 )"
+    },
+    "prizes": {
+     "summary": "총 7 작품 시상, 200만원 상당",
+     "cash": true,
+     "top_amount": "50만원",
+     "winner_count": 1,
+     "evidence": "대상 ( 전 분야 통합 1 작품 ): 아이패드 A16 또는 50 만원 상당 물품"
+    },
+    "deliverables": [
+     {
+      "item": "캐치프레이즈",
+      "evidence": "캐치프레이즈 : 인공지능대학의 비전과 정체성을 표현하는 국문 또는 영문 문구 (A4 1 쪽 이내 , PDF 제출)"
+     },
+     {
+      "item": "상징 디자인",
+      "evidence": "상징 디자인 : 심볼 , 캐릭터 , 그래픽 모티프 등 인공지능대학을 상징하는 디자인 (이미지 1 건 및 작품 설명 A4 1 쪽 이내 제출)"
+     },
+     {
+      "item": "AI Creative",
+      "evidence": "AI Creative : 생성형 AI 로 표현한 ' 내가 생각하는 인공지능대학 ' (이미지 또는 30~60 초 숏폼 영상 및 작품 설명 /AI 활용 내역 제출)"
+     }
+    ],
+    "judging": [
+     "정체성 & 상징성",
+     "창의성",
+     "활용 가능성",
+     "완성도"
+    ],
+    "required_tech": [
+     "생성형 AI",
+     "이미지 제작",
+     "영상 편집"
+    ],
+    "language": "Korean",
+    "red_flags": [
+     "제출 기한이 2026-11-13T18:00:00+09:00 로 명시되어 있으나, 현재 날짜가 2026-11-04이므로 남은 시간이 적음",
+     "시상 규모가 조정될 수 있음"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 3,
+     "deadline": 3,
+     "resources": 4,
+     "cash": 3
+    },
+    "total": 13,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "현재 날짜가 2026-11-04이므로 남은 제출 기한이 9일뿐이며, 1인 스튜디오가 모든 작업을 짧은 기간 내 완료해야 함",
+     "총 점수 13점 중 3점이 win_odds 로, 경쟁률이 높고 승산이 낮음",
+     "제출 항목이 캐치프레이즈, 상징 디자인, AI Creative 3가지이며, 각각 이미지·영상 제작·설명 작성·제출이 필요해 작업량과 기술 요구가 큼"
+    ],
+    "blockers": [
+     "제출 기한이 2026-11-13T18:00:00+09:00 로 이미 임박하여 작업 일정 조정이 필요",
+     "AI Creative 항목은 영상 30~60초 제작이 요구되지만, 팀에 영상 편집 인력이 없음",
+     "캐시 흐름이 3점(총 13점) 으로, 상금 50만원 수령 가능성은 낮음",
+     "제출 시 필요한 서류(예: 신분 확인, 결제 등)가 human-only 로 지정되어 있어, 실제 제출을 위한 인적 개입이 필요"
+    ],
+    "plan": [
+     {
+      "date": "2026-11-05",
+      "task": "아이디어 브레인스토밍 및 캐치프레이즈 초안 작성",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-06",
+      "task": "상징 디자인 콘셉트 스케치 및 디지털 초안 제작",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-07",
+      "task": "AI 이미지 생성 및 AI Creative 영상 콘텐츠 제작",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-08",
+      "task": "작품 설명문(A4 1쪽 이내) 작성 및 전체 파일 정리",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-09",
+      "task": "전체 제출 파일 검수 및 최종 업로드 준비",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-10",
+      "task": "제출 전 최종 확인 및 공식 제출",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 732,
+     "prompt_tokens": 1769,
+     "total_tokens": 2501,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 593,
+     "prompt_tokens": 1027,
+     "total_tokens": 1620,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-17-8",
    "found_at": "2026-10-17",
    "query": "AI short film competition 2026 deadline",
@@ -6818,6 +7115,126 @@
    ]
   },
   {
+   "id": "daily-2026-11-04-4",
+   "found_at": "2026-11-04",
+   "query": "AI short film competition 2026 deadline",
+   "title": "AI Film Festival Africa - FilmFreeway",
+   "mode": "live",
+   "source": "https://filmfreeway.com/AIFilmFestivalAfrica",
+   "via": "tavily-extract",
+   "contest": {
+    "name": "AI Film Festival Africa",
+    "organizer": "LeCinema",
+    "url": "https://filmfreeway.com/AIFilmFestivalAfrica",
+    "deadline": {
+     "iso": "2026-11-30T23:59:00+03:00",
+     "as_written": "November 30, 2026, at 11:59 PM Antananarivo time",
+     "evidence": "All entries must be received by November 30, 2026, at 11:59 PM Antananarivo time."
+    },
+    "eligibility": {
+     "summary": "Open to filmmakers and creators everywhere, including individuals, teams, students, studios, and first-time filmmakers; film must meaningfully explore Africa, its people, cultures, or possible futures.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": null,
+     "age": null,
+     "evidence": "AIFFA 2026 is open to filmmakers and creators everywhere, including individuals, teams, students, studios, and first-time filmmakers. You do not need to live in Africa, but your film must meaningfully explore Africa, its people, cultures, or possible futures."
+    },
+    "prizes": {
+     "summary": "Prizes will be awarded to the top three selected films during the event.",
+     "cash": true,
+     "top_amount": null,
+     "winner_count": 3,
+     "evidence": "Prizes will be awarded to the top three selected films during the event."
+    },
+    "deliverables": [
+     {
+      "item": "Original film created with AI or emerging tools",
+      "evidence": "Films must be original works created with artificial intelligence or other emerging filmmaking tools used meaningfully in production."
+     },
+     {
+      "item": "Public YouTube video with #SpecialForLeCinema tag and @lecinemafilms mention",
+      "evidence": "The completed film must be publicly available on YouTube. Add #SpecialForLeCinema to the YouTube video title or description. Include @lecinemafilms in the YouTube video description."
+     }
+    ],
+    "judging": [
+     "storytelling",
+     "originality",
+     "emotional impact",
+     "creative vision",
+     "relevance to the festival challenge",
+     "thoughtful use of AI or emerging filmmaking tools"
+    ],
+    "required_tech": [
+     "artificial intelligence",
+     "emerging filmmaking tools"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Must submit on YouTube and keep it public throughout selection and festival",
+     "Must include official festival tag #SpecialForLeCinema and tag @lecinemafilms",
+     "Must disclose AI/tools used if asked"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 4,
+     "resources": 4,
+     "cash": 3
+    },
+    "total": 12,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "총점 12점 중 12점이지만 심사 기준(스토리텔링, 창의성, AI 활용 등)에 부합하는 작품 제작이 아직 미확정",
+     "제출 마감일이 2026-11-30이지만, 현재 10시간만 남아 있어 제작·업로드 일정이 매우 타이트함",
+     "팀은 1인 스튜디오로 하드웨어·오프라인 촬영이 불가능하고, 신청·결제·최종 제출은 모두 인간 담당자만 가능하므로 자원 한계가 존재"
+    ],
+    "blockers": [
+     "제작 시간 부족 – 남은 10시간 내에 AI 도구로 영상 제작·편집·YouTube 업로드까지 완료해야 함",
+     "YouTube에 #SpecialForLeCinema 태그와 @lecinemafilms 언급을 반드시 포함해야 함",
+     "AI 사용 내역을 공개할 준비가 되어 있어야 함"
+    ],
+    "plan": [
+     {
+      "date": "2026-11-04",
+      "task": "아이디어 스토리보드 작성 및 AI 이미지/영상素材 수집",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-04",
+      "task": "AI 기반 영상 제작 및 편집",
+      "owner": "human-only"
+     },
+     {
+      "date": "2026-11-04",
+      "task": "YouTube에 영상 업로드 및 #SpecialForLeCinema, @lecinemafilms 태그 추가",
+      "owner": "human-only"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 643,
+     "prompt_tokens": 1906,
+     "total_tokens": 2549,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 393,
+     "prompt_tokens": 938,
+     "total_tokens": 1331,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-20-8",
    "found_at": "2026-10-20",
    "query": "AI short film competition 2026 deadline",
@@ -7940,6 +8357,115 @@
    ]
   },
   {
+   "id": "daily-2026-11-04-2",
+   "found_at": "2026-11-04",
+   "query": "AI hackathon online 2026 prize deadline",
+   "title": "Global AI Hackathon 2026 — ₹32.2L Prize Pool | startupfunds.in",
+   "mode": "live",
+   "source": "https://startupfunds.in/funding/global-ai-hackathon",
+   "via": "direct",
+   "contest": {
+    "name": "Global AI Hackathon",
+    "organizer": "Hack-Nation",
+    "url": "https://internshala.com/competitions/global-ai-hackathon/",
+    "deadline": {
+     "iso": null,
+     "as_written": "20 Jun 2026",
+     "evidence": "Registration closes June 20, 2026"
+    },
+    "eligibility": {
+     "summary": "Open globally to developers, data scientists, AI enthusiasts and students; Indian participants explicitly welcome; no incorporation or DPIIT/MSME requirement.",
+     "individuals_ok": true,
+     "online": true,
+     "countries": "Worldwide",
+     "age": null,
+     "evidence": "Entry is open globally, with Indian participants explicitly welcome alongside entrants from every other country."
+    },
+    "prizes": {
+     "summary": "Cash prize pool of $35,000 (₹32.2L) for competition winners; no equity taken.",
+     "cash": true,
+     "top_amount": "₹32.2L",
+     "winner_count": null,
+     "evidence": "Total prize pool : $35,000 , which comes to about ₹32,20,000 ."
+    },
+    "deliverables": [
+     {
+      "item": "End-to-end AI application",
+      "evidence": "Participants must build and submit an end-to-end AI application"
+     }
+    ],
+    "judging": [
+     "Not specified"
+    ],
+    "required_tech": [
+     "AI application"
+    ],
+    "language": "English",
+    "red_flags": [
+     "Deadline has passed (20 Jun 2026)",
+     "Prize distribution details not published",
+     "Event is closed"
+    ]
+   },
+   "score": {
+    "scores": {
+     "win_odds": 1,
+     "deadline": 2,
+     "resources": 3,
+     "cash": 5
+    },
+    "total": 11,
+    "verdict": "maybe",
+    "scored_by": "rules",
+    "why": [
+     "2026-11-04 기준, 대회 마감일이 2026-06-20이 이미 지난 상태여서 참여 불가",
+     "대회가 종료된 상태이므로 신청, 정체 확인, 결제, 최종 제출 등 모든 단계가 human-only 로 분류됨",
+     "팀이 하드웨어·로봇 없음, 예산·인력이 제한적이며, 이미 종료된 대회에 참여해도 무효"
+    ],
+    "blockers": [
+     "대회 마감일이 이미 지난 상태(2026-06-20) → 참여 불가",
+     "신규 신청, 정체 확인, 결제, 최종 제출은 모두 human-only 로 처리되어 자동 참여 불가"
+    ],
+    "plan": [
+     {
+      "date": "2026-11-04",
+      "task": "현재 진행 중인 프로젝트 또는 다른 대회 탐색",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-05",
+      "task": "과거 대회 결과 분석 및 향후 목표 설정",
+      "owner": "team"
+     },
+     {
+      "date": "2026-11-06",
+      "task": "팀 포트폴리오 및 성과 정리",
+      "owner": "team"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "step": "extract",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 408,
+     "prompt_tokens": 3025,
+     "total_tokens": 3433,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    },
+    {
+     "step": "explain",
+     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
+     "completion_tokens": 314,
+     "prompt_tokens": 703,
+     "total_tokens": 1017,
+     "completion_tokens_details": null,
+     "prompt_tokens_details": null
+    }
+   ]
+  },
+  {
    "id": "daily-2026-10-12-7",
    "found_at": "2026-10-12",
    "query": "AI short film competition 2026 deadline",
@@ -8692,6 +9218,14 @@
   "https://www.aitimes.kr/news/articleView.html?idxno=42239": "2026-11-03",
   "https://www.allforyoung.com/posts/88819": "2026-11-03",
   "https://www.ilovecon.com/bbs/board.php?bo_table=contest&wr_id=15875": "2026-11-03",
-  "https://aifilmcontests.com/contests/berlin-ai-film-festival-2026": "2026-11-03"
+  "https://aifilmcontests.com/contests/berlin-ai-film-festival-2026": "2026-11-03",
+  "https://reconscribe.com/paypal-ai-hackathon-2026": "2026-11-04",
+  "https://startupfunds.in/funding/global-ai-hackathon": "2026-11-04",
+  "https://www.inu.ac.kr/bbs/inu/2611/432574/artclView.do": "2026-11-04",
+  "https://filmfreeway.com/AIFilmFestivalAfrica": "2026-11-04",
+  "https://digitaloriginal.app/article-digital-artist-open-calls": "2026-11-04",
+  "https://www.tccp.org/generate2026": "2026-11-04",
+  "https://app.pixverse.ai/challenge/pixlight": "2026-11-04",
+  "https://aicainternational.news/agora/2026/10/4/results-incentive-prize-for-art-critics-2026": "2026-11-04"
  }
 }
