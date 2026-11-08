@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-07T01:35:48.957Z",
- "date": "2026-11-07",
- "analyzed": 8,
- "failed": 0,
+ "updated_at": "2026-11-08T01:01:55.668Z",
+ "date": "2026-11-08",
+ "analyzed": 0,
+ "failed": 1,
  "usage": {
   "month": "2026-11",
-  "tavily": 61,
+  "tavily": 69,
   "ai_tokens": 264559,
   "analyses": 52,
-  "runs": 7
+  "runs": 8
  },
  "items": [
   {
@@ -10838,6 +10838,7 @@
   "https://bce.pusan.ac.kr/bbs/bce/220/1471294/artclView.do": "2026-11-07",
   "https://ai.ncsa.illinois.edu/illinois-students-invited-to-form-teams-and-build-ai-solutions-on-a-global-stage": "2026-11-07",
   "https://blog.naver.com/mskee/224450878962": "2026-11-07",
-  "https://gcontest.co.kr/front/m/comp/view/38212?active=C001": "2026-11-07"
+  "https://gcontest.co.kr/front/m/comp/view/38212?active=C001": "2026-11-07",
+  "https://reconscribe.com/hackathons": "2026-11-08"
  }
 }
