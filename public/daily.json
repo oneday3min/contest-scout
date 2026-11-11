@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-10T03:56:52.502Z",
- "date": "2026-11-10",
+ "updated_at": "2026-11-11T01:41:36.909Z",
+ "date": "2026-11-11",
  "analyzed": 0,
  "failed": 1,
  "usage": {
   "month": "2026-11",
-  "tavily": 85,
+  "tavily": 93,
   "ai_tokens": 264559,
   "analyses": 52,
-  "runs": 10
+  "runs": 11
  },
  "items": [
   {
@@ -9848,6 +9848,7 @@
   "https://gcontest.co.kr/front/m/comp/view/38212?active=C001": "2026-11-07",
   "https://reconscribe.com/hackathons": "2026-11-08",
   "https://thinkcontest.com/thinkgood/common/filedown.do?file_key=4943178C84D34E42A53999E13B654710": "2026-11-09",
-  "https://www.startupgrantsindia.com/competitions/paypal-ai-hackathon-2026-2": "2026-11-10"
+  "https://www.startupgrantsindia.com/competitions/paypal-ai-hackathon-2026-2": "2026-11-10",
+  "https://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000001307/selectBoardArticle.do?nttId=487171&pageIndex=1&mno=sitemap_12&searchCnd=&searchWrd=": "2026-11-11"
  }
 }
