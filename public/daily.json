@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-11T01:41:36.909Z",
- "date": "2026-11-11",
+ "updated_at": "2026-11-12T02:40:05.219Z",
+ "date": "2026-11-12",
  "analyzed": 0,
  "failed": 1,
  "usage": {
   "month": "2026-11",
-  "tavily": 93,
+  "tavily": 101,
   "ai_tokens": 264559,
   "analyses": 52,
-  "runs": 11
+  "runs": 12
  },
  "items": [
   {
@@ -9387,127 +9387,6 @@
    ]
   },
   {
-   "id": "daily-2026-11-05-5",
-   "found_at": "2026-11-05",
-   "query": "AI hackathon online 2026 prize deadline",
-   "title": "Find and organize blockchain hackathons | Devpost - The home for hackathons",
-   "mode": "live",
-   "source": "https://devpost.com/c/blockchain",
-   "via": "direct",
-   "contest": {
-    "name": "Herhack",
-    "organizer": "Devpost",
-    "url": "https://devpost.com",
-    "deadline": {
-     "iso": "2026-11-10T23:45:00-05:00",
-     "as_written": "November 10, 2026",
-     "evidence": "Deadline: Nov 10, 2026"
-    },
-    "eligibility": {
-     "summary": "Open to ideas",
-     "individuals_ok": true,
-     "online": true,
-     "countries": null,
-     "age": null,
-     "evidence": "Open to ideas"
-    },
-    "prizes": {
-     "summary": "₹ 200,000 in prizes",
-     "cash": true,
-     "top_amount": "₹ 200,000",
-     "winner_count": null,
-     "evidence": "₹ 200,000 in prizes"
-    },
-    "deliverables": [
-     {
-      "item": "Project submission",
-      "evidence": "Submit your project on Devpost"
-     }
-    ],
-    "judging": [
-     "Judging criteria not specified"
-    ],
-    "required_tech": [
-     "Blockchain",
-     "Bitcoin",
-     "Ethereum",
-     "Lightning Network",
-     "Nostr",
-     "AI"
-    ],
-    "language": "English",
-    "red_flags": [
-     "Browser compatibility issue"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 1,
-     "deadline": 2,
-     "resources": 3,
-     "cash": 3
-    },
-    "total": 9,
-    "verdict": "skip",
-    "scored_by": "rules",
-    "why": [
-     "총 점수 9점 중 2점이지만, 9점 이상이 아닌 9점 미만(8점)인 경우 스킵이 아니라 탈락으로 판단됩니다.",
-     "심사 기준이 명시되지 않았고, 요구 기술에 비트코인·이더리움·라이트닝 네트워크·노스트 등 암호화폐 기술이 포함되어 있어 구현 난이도가 높습니다.",
-     "브라우저 호환성 이슈가 존재해 프로젝트 제출 시 기술적 리스크가 추가됩니다."
-    ],
-    "blockers": [
-     "지원자 신분 확인, 결제, 최종 제출은 인간이 직접 수행해야 하므로 인력 제약이 존재합니다."
-    ],
-    "plan": [
-     {
-      "date": "2026-11-06",
-      "task": "아이디어 브레인스토밍 및 컨셉 정의",
-      "owner": "team"
-     },
-     {
-      "date": "2026-11-07",
-      "task": "기술 요구사항 검토 및 구현 가능성 평가",
-      "owner": "team"
-     },
-     {
-      "date": "2026-11-08",
-      "task": "프로토타입 개발 및 내부 검증",
-      "owner": "team"
-     },
-     {
-      "date": "2026-11-09",
-      "task": "Devpost에 프로젝트 제출 준비",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-11-10",
-      "task": "최종 검토 및 제출",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 352,
-     "prompt_tokens": 1768,
-     "total_tokens": 2120,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 396,
-     "prompt_tokens": 646,
-     "total_tokens": 1042,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
    "id": "daily-2026-11-06-1",
    "found_at": "2026-11-06",
    "query": "AI short film competition 2026 deadline",
@@ -9849,6 +9728,7 @@
   "https://reconscribe.com/hackathons": "2026-11-08",
   "https://thinkcontest.com/thinkgood/common/filedown.do?file_key=4943178C84D34E42A53999E13B654710": "2026-11-09",
   "https://www.startupgrantsindia.com/competitions/paypal-ai-hackathon-2026-2": "2026-11-10",
-  "https://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000001307/selectBoardArticle.do?nttId=487171&pageIndex=1&mno=sitemap_12&searchCnd=&searchWrd=": "2026-11-11"
+  "https://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000001307/selectBoardArticle.do?nttId=487171&pageIndex=1&mno=sitemap_12&searchCnd=&searchWrd=": "2026-11-11",
+  "https://paypalaihackathon.devpost.com/rules": "2026-11-12"
  }
 }
