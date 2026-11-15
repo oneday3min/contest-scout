@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-14T01:57:37.054Z",
- "date": "2026-11-14",
+ "updated_at": "2026-11-15T01:29:44.926Z",
+ "date": "2026-11-15",
  "analyzed": 0,
  "failed": 1,
  "usage": {
   "month": "2026-11",
-  "tavily": 117,
+  "tavily": 125,
   "ai_tokens": 264559,
   "analyses": 52,
-  "runs": 14
+  "runs": 15
  },
  "items": [
   {
@@ -6977,6 +6977,7 @@
   "https://paypalaihackathon.devpost.com/rules": "2026-11-12",
   "https://www.semyung.ac.kr/cop/bbs/BBSMSTR_000000001521/selectBoardArticle.do?nttId=487742": "2026-11-13",
   "https://www.contestkorea.com/sub/view.php?Txt_gbn=1&Txt_bcode=031210001&str_no=202610300036": "2026-11-13",
-  "https://www.jwu.ac.kr/boards/notice/765": "2026-11-14"
+  "https://www.jwu.ac.kr/boards/notice/765": "2026-11-14",
+  "http://www.wevity.com/index_university.php?c=find&s=_university&gub=1&cidx=1&gbn=viewok&gp=1&ix=110855": "2026-11-15"
  }
 }
