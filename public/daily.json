@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-16T01:32:47.716Z",
- "date": "2026-11-16",
+ "updated_at": "2026-11-17T04:18:02.932Z",
+ "date": "2026-11-17",
  "analyzed": 0,
  "failed": 1,
  "usage": {
   "month": "2026-11",
-  "tavily": 133,
+  "tavily": 141,
   "ai_tokens": 264559,
   "analyses": 52,
-  "runs": 16
+  "runs": 17
  },
  "items": [
   {
@@ -4957,138 +4957,6 @@
    ]
   },
   {
-   "id": "daily-2026-10-21-8",
-   "found_at": "2026-10-21",
-   "query": "AI art contest open call 2026 prize",
-   "title": "Call for Artists: 2026 Space to Create Gift Card Design Contest – Huntsville Art Supplies",
-   "mode": "live",
-   "source": "https://huntsvilleartsupplies.com/pages/call-for-artists",
-   "via": "direct",
-   "contest": {
-    "name": "2nd Annual Gift Card Design Contest",
-    "organizer": "Huntsville Art Supplies",
-    "url": "https://huntsvilleartsupplies.com/pages/call-for-artists",
-    "deadline": {
-     "iso": "2026-11-15T23:59:59-05:00",
-     "as_written": "November 15, 2026",
-     "evidence": "Submission Deadline: November 15, 2026"
-    },
-    "eligibility": {
-     "summary": "Artists age 16 and older who live in or around Huntsville, Alabama",
-     "individuals_ok": true,
-     "online": true,
-     "countries": "United States",
-     "age": "16 and older",
-     "evidence": "Eligibility: The contest is open to artists age 16 and older who live in or around Huntsville, Alabama."
-    },
-    "prizes": {
-     "summary": "1st Place: $300 gift card and featured artwork; People’s Choice: $100 gift card",
-     "cash": true,
-     "top_amount": "$300",
-     "winner_count": 1,
-     "evidence": "1st Place – Featured Gift Card Design $300 Huntsville Art Supplies Gift Card"
-    },
-    "deliverables": [
-     {
-      "item": "Original artwork inspired by the theme \"Space to Create\"",
-      "evidence": "Create your \"Space To Create\"-inspired artwork."
-     },
-     {
-      "item": "High-resolution image (JPEG or PNG) at 300 DPI minimum",
-      "evidence": "Save it as a high-resolution image (JPEG or PNG). Resolution: 300 DPI minimum."
-     },
-     {
-      "item": "Submission via official Google Forms application",
-      "evidence": "All entries must be submitted through the official Space to Create Gift Card Design Contest submission form."
-     }
-    ],
-    "judging": [
-     "Creativity",
-     "Originality",
-     "Composition",
-     "Connection to the theme",
-     "Suitability for the horizontal gift-card format"
-    ],
-    "required_tech": [
-     "JPEG or PNG file format",
-     "300 DPI resolution"
-    ],
-    "language": "English",
-    "red_flags": [
-     "AI-generated artwork is not eligible",
-     "Contest is location-restricted to Huntsville, Alabama area"
-    ]
-   },
-   "score": {
-    "scores": {
-     "win_odds": 1,
-     "deadline": 4,
-     "resources": 3,
-     "cash": 3
-    },
-    "total": 11,
-    "verdict": "maybe",
-    "scored_by": "rules",
-    "why": [
-     "총점 11점 중 4점이 'deadline' 항목에 할당되어 있어, 제출 마감이 2026-11-15(현지시간)까지라는 점에 기반해 시간 부족 위험이 존재합니다.",
-     "심판 기준 중 'Creativity'와 'Originality'가 높은 비중을 차지하지만, 팀의 강점인 AI 이미지 생성은 'AI-generated artwork is not eligible' red flag에 의해 금지되어 있어 지원 불가",
-     "지역 제한('location-restricted to Huntsville, Alabama area')과 'Artists age 16 and older who live in or around Huntsville, Alabama' 조건을 충족하기 어렵습니다."
-    ],
-    "blockers": [
-     "AI 생성 이미지 사용 금지",
-     "현지 거주 요건(허츠빌, 앨라배마 인근 거주자) 미충족 가능성",
-     "1인 스튜디오이므로 서류 작성·제출을 'human-only'로 처리해야 함"
-    ],
-    "plan": [
-     {
-      "date": "2026-10-22",
-      "task": "지역 거주 확인 및 지원 자격 검증 (human-only)",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-23",
-      "task": "주제 'Space to Create'에 맞는 원본 아트 콘셉트 기획 (team)",
-      "owner": "team"
-     },
-     {
-      "date": "2026-10-24",
-      "task": "수작업으로 최종 이미지 제작 및 300 DPI JPEG/PNG 파일 변환 (human-only)",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-25",
-      "task": "공식 구글 폼 제출 링크 확인 및 서류 업로드 (human-only)",
-      "owner": "human-only"
-     },
-     {
-      "date": "2026-10-26",
-      "task": "제출 마감 전 최종 검토 및 확인 (human-only)",
-      "owner": "human-only"
-     }
-    ]
-   },
-   "usage": [
-    {
-     "step": "extract",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 573,
-     "prompt_tokens": 3109,
-     "total_tokens": 3682,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    },
-    {
-     "step": "explain",
-     "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B",
-     "completion_tokens": 503,
-     "prompt_tokens": 868,
-     "total_tokens": 1371,
-     "completion_tokens_details": null,
-     "prompt_tokens_details": null
-    }
-   ]
-  },
-  {
    "id": "daily-2026-10-25-1",
    "found_at": "2026-10-25",
    "query": "AI short film competition 2026 deadline",
@@ -6469,6 +6337,7 @@
   "https://www.contestkorea.com/sub/view.php?Txt_gbn=1&Txt_bcode=031210001&str_no=202610300036": "2026-11-13",
   "https://www.jwu.ac.kr/boards/notice/765": "2026-11-14",
   "http://www.wevity.com/index_university.php?c=find&s=_university&gub=1&cidx=1&gbn=viewok&gp=1&ix=110855": "2026-11-15",
-  "https://www.code-c.kr/newsroom/1582": "2026-11-16"
+  "https://www.code-c.kr/newsroom/1582": "2026-11-16",
+  "https://www.screenweaver.ai/unreal-ai-film-festival-turin": "2026-11-17"
  }
 }
