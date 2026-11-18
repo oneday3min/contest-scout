@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-17T04:18:02.932Z",
- "date": "2026-11-17",
+ "updated_at": "2026-11-18T03:17:50.327Z",
+ "date": "2026-11-18",
  "analyzed": 0,
  "failed": 1,
  "usage": {
   "month": "2026-11",
-  "tavily": 141,
+  "tavily": 149,
   "ai_tokens": 264559,
   "analyses": 52,
-  "runs": 17
+  "runs": 18
  },
  "items": [
   {
@@ -6338,6 +6338,7 @@
   "https://www.jwu.ac.kr/boards/notice/765": "2026-11-14",
   "http://www.wevity.com/index_university.php?c=find&s=_university&gub=1&cidx=1&gbn=viewok&gp=1&ix=110855": "2026-11-15",
   "https://www.code-c.kr/newsroom/1582": "2026-11-16",
-  "https://www.screenweaver.ai/unreal-ai-film-festival-turin": "2026-11-17"
+  "https://www.screenweaver.ai/unreal-ai-film-festival-turin": "2026-11-17",
+  "https://www.cobrand.co.kr/index.php?c=find&s=_university&gbn=view&gp=1&ix=112153": "2026-11-18"
  }
 }
