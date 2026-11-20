@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-19T02:55:05.129Z",
- "date": "2026-11-19",
+ "updated_at": "2026-11-20T02:48:22.232Z",
+ "date": "2026-11-20",
  "analyzed": 0,
  "failed": 1,
  "usage": {
   "month": "2026-11",
-  "tavily": 157,
+  "tavily": 165,
   "ai_tokens": 264559,
   "analyses": 52,
-  "runs": 19
+  "runs": 20
  },
  "items": [
   {
@@ -6186,6 +6186,7 @@
   "https://www.code-c.kr/newsroom/1582": "2026-11-16",
   "https://www.screenweaver.ai/unreal-ai-film-festival-turin": "2026-11-17",
   "https://www.cobrand.co.kr/index.php?c=find&s=_university&gbn=view&gp=1&ix=112153": "2026-11-18",
-  "https://www.jungle.co.kr/contest/209803": "2026-11-19"
+  "https://www.jungle.co.kr/contest/209803": "2026-11-19",
+  "https://www.allforyoung.com/posts/90080": "2026-11-20"
  }
 }
