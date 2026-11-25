@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-24T05:43:28.167Z",
- "date": "2026-11-24",
+ "updated_at": "2026-11-25T04:45:16.498Z",
+ "date": "2026-11-25",
  "analyzed": 0,
  "failed": 1,
  "usage": {
   "month": "2026-11",
-  "tavily": 197,
+  "tavily": 205,
   "ai_tokens": 264559,
   "analyses": 52,
-  "runs": 24
+  "runs": 25
  },
  "items": [
   {
@@ -3903,16 +3903,6 @@
   }
  ],
  "seen": {
-  "https://superookie.com/activities/6a97d4a5484fd64fe11240d5": "2026-10-10",
-  "https://nebiusglobalaihackathon.devpost.com/rules": "2026-10-10",
-  "https://www.thedreamkorea.com/contests/be5ed716-45d3-42d6-a5b3-108c9a8e1767": "2026-10-10",
-  "https://artinfoland.com/opportunities/ai-art-award-next-art-ai-2026": "2026-10-10",
-  "https://blog.naver.com/PostView.naver?blogId=diledile&logNo=224429085185&redirect=Dlog": "2026-10-10",
-  "https://aifilmcontests.com/contests/csfcca-intl-ai-film-festival-2026": "2026-10-10",
-  "https://www.indieshortsmag.com/news/2026/10/tropfest-2027-domain-ai-rules-submissions": "2026-10-10",
-  "https://yoill.com/event-efcbd2a967": "2026-10-10",
-  "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=view&gp=6&ix=111299": "2026-10-10",
-  "https://www.linkedin.com/pulse/october-2026-hackathon-list-70-events-deadlines-links-who-ibjgf": "2026-10-10",
   "https://gcontest.co.kr/front/m/comp/view/36364": "2026-10-11",
   "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228182&menuNo=200104&sSort=2&pageIndex=1": "2026-10-11",
   "https://gcontest.co.kr/front/m/comp/view/36487": "2026-10-11",
@@ -4152,6 +4142,7 @@
   "https://thinkyou.co.kr/contest/67128": "2026-11-21",
   "https://blog.naver.com/PostView.naver?blogId=na_yull&logNo=224467555051": "2026-11-22",
   "https://linkareer.com/activity/362093": "2026-11-23",
-  "https://contestkorea.tistory.com/entry/%EC%98%81%EC%83%81-%EA%B3%B5%EB%AA%A8%EC%A0%84-2026-%EA%B2%BD%EC%82%B0%EC%8B%9C-AI-%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BD%98%ED%85%90%EC%B8%A0-%EA%B3%B5%EB%AA%A8%EC%A0%84-%E3%80%8CAI%C2%B7%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%8F%84%EC%8B%9C%C2%B7YOUR-STORY%E3%80%8D": "2026-11-24"
+  "https://contestkorea.tistory.com/entry/%EC%98%81%EC%83%81-%EA%B3%B5%EB%AA%A8%EC%A0%84-2026-%EA%B2%BD%EC%82%B0%EC%8B%9C-AI-%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BD%98%ED%85%90%EC%B8%A0-%EA%B3%B5%EB%AA%A8%EC%A0%84-%E3%80%8CAI%C2%B7%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%8F%84%EC%8B%9C%C2%B7YOUR-STORY%E3%80%8D": "2026-11-24",
+  "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=viewok&gp=6&ix=111615": "2026-11-25"
  }
 }
