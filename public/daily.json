@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-25T04:45:16.498Z",
- "date": "2026-11-25",
+ "updated_at": "2026-11-26T03:55:02.230Z",
+ "date": "2026-11-26",
  "analyzed": 0,
  "failed": 1,
  "usage": {
   "month": "2026-11",
-  "tavily": 205,
+  "tavily": 213,
   "ai_tokens": 264559,
   "analyses": 52,
-  "runs": 25
+  "runs": 26
  },
  "items": [
   {
@@ -3903,14 +3903,6 @@
   }
  ],
  "seen": {
-  "https://gcontest.co.kr/front/m/comp/view/36364": "2026-10-11",
-  "https://www.culture.go.kr/portal/cltBnf/cltSup/view.do?viewTp=2&rcrtSn=228182&menuNo=200104&sSort=2&pageIndex=1": "2026-10-11",
-  "https://gcontest.co.kr/front/m/comp/view/36487": "2026-10-11",
-  "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=view&gp=7&ix=111223": "2026-10-11",
-  "https://festhome.com/en/festival/the-next-ai-film-festival": "2026-10-11",
-  "https://ai-arts.org/competition": "2026-10-11",
-  "https://developer.paypal.com/community/blog/PayPal_AI_Hackathon": "2026-10-11",
-  "https://www.threads.com/@namino0/post/DdlTOFKEtrE/ai-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%88%8F%ED%8F%BC-%EA%B3%B5%EB%AA%A8%EC%A0%84-2026-ai-%ED%99%9C%EC%9A%A9-%EC%A0%80%EC%9E%91%EA%B6%8C-%EC%BD%98%ED%85%90%EC%B8%A0-%EA%B3%B5%EB%AA%A8%EC%A0%84-%EB%8C%80%EC%83%81-100%EB%A7%8C-%EC%9B%90%EC%A0%9C%EC%B6%9C-%EA%B7%9C%EA%B2%A9-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EA%B5%AD%EB%AF%BC-%EB%88%84%EA%B5%AC%EB%82%98-%EA%B0%9C%EC%9D%B8-%EB%98%90%EB%8A%94-%ED%8C%80-%EC%B9%B4%EB%93%9C%EB%89%B4%EC%8A%A4-%EB%A7%8C%ED%99%94-": "2026-10-11",
   "https://alphaavenue.ai/en/magazine/event/ia-en-corto-2026-ai-short-film-competition": "2026-10-12",
   "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202607200008": "2026-10-12",
   "https://www.entrythingy.com/blog/digital-art-open-calls": "2026-10-12",
@@ -4143,6 +4135,7 @@
   "https://blog.naver.com/PostView.naver?blogId=na_yull&logNo=224467555051": "2026-11-22",
   "https://linkareer.com/activity/362093": "2026-11-23",
   "https://contestkorea.tistory.com/entry/%EC%98%81%EC%83%81-%EA%B3%B5%EB%AA%A8%EC%A0%84-2026-%EA%B2%BD%EC%82%B0%EC%8B%9C-AI-%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BD%98%ED%85%90%EC%B8%A0-%EA%B3%B5%EB%AA%A8%EC%A0%84-%E3%80%8CAI%C2%B7%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%8F%84%EC%8B%9C%C2%B7YOUR-STORY%E3%80%8D": "2026-11-24",
-  "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=viewok&gp=6&ix=111615": "2026-11-25"
+  "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=viewok&gp=6&ix=111615": "2026-11-25",
+  "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=view&gp=2&ix=110334": "2026-11-26"
  }
 }
