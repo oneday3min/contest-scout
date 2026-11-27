@@ -1,14 +1,14 @@
 {
- "updated_at": "2026-11-26T03:55:02.230Z",
- "date": "2026-11-26",
+ "updated_at": "2026-11-27T03:55:02.819Z",
+ "date": "2026-11-27",
  "analyzed": 0,
- "failed": 1,
+ "failed": 2,
  "usage": {
   "month": "2026-11",
-  "tavily": 213,
+  "tavily": 221,
   "ai_tokens": 264559,
   "analyses": 52,
-  "runs": 26
+  "runs": 27
  },
  "items": [
   {
@@ -3903,14 +3903,6 @@
   }
  ],
  "seen": {
-  "https://alphaavenue.ai/en/magazine/event/ia-en-corto-2026-ai-short-film-competition": "2026-10-12",
-  "https://www.contestkorea.com/sub/view.php?int_gbn=1&Txt_bcode=031210001&str_no=202607200008": "2026-10-12",
-  "https://www.entrythingy.com/blog/digital-art-open-calls": "2026-10-12",
-  "https://www.koreadaily.com/article/20261005230450463": "2026-10-12",
-  "https://cda.or.kr/Notice/read/1529": "2026-10-12",
-  "https://blog.naver.com/pobain/224410956036": "2026-10-12",
-  "https://impossiblefilmfest.com/ai-film-festival": "2026-10-12",
-  "https://aikive.com/event": "2026-10-12",
   "https://linkareer.com/activity/353649": "2026-10-13",
   "https://holaworld.io/hola-it/6aa751d3847411b719e2e531": "2026-10-13",
   "https://events.vtools.ieee.org/m/568203": "2026-10-13",
@@ -4136,6 +4128,8 @@
   "https://linkareer.com/activity/362093": "2026-11-23",
   "https://contestkorea.tistory.com/entry/%EC%98%81%EC%83%81-%EA%B3%B5%EB%AA%A8%EC%A0%84-2026-%EA%B2%BD%EC%82%B0%EC%8B%9C-AI-%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BD%98%ED%85%90%EC%B8%A0-%EA%B3%B5%EB%AA%A8%EC%A0%84-%E3%80%8CAI%C2%B7%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%8F%84%EC%8B%9C%C2%B7YOUR-STORY%E3%80%8D": "2026-11-24",
   "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=viewok&gp=6&ix=111615": "2026-11-25",
-  "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=view&gp=2&ix=110334": "2026-11-26"
+  "https://www.wevity.com/index_university.php?c=find&s=_university&gbn=view&gp=2&ix=110334": "2026-11-26",
+  "https://www.all-con.co.kr/view/contest/544999": "2026-11-27",
+  "https://campung.com/posts/24695/2026-%EA%B4%91%EC%96%91%EC%8B%9C-%EB%A7%A4%EB%8F%8C%EC%9D%B4-ai-%EC%98%81%EC%83%81-%EA%B3%B5%EB%AA%A8%EC%A0%84": "2026-11-27"
  }
 }
